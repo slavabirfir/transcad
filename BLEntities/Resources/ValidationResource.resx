@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Longitude_0" xml:space="preserve">
+    <value>Longitude לא מוגד</value>
+  </data>
+  <data name="Longitude_0_N" xml:space="preserve">
+    <value>ערך של שדה Longitude עבור הזזה לא מוגדר</value>
+  </data>
+  <data name="Latitude_0_N" xml:space="preserve">
+    <value>ערך של שדה Longitude עבור הזזה לא מוגדר</value>
+  </data>
+  <data name="IdStationType_0" xml:space="preserve">
+    <value>פעילות בתחנה לא מוגדר</value>
+  </data>
+  <data name="Latitude_0" xml:space="preserve">
+    <value>Latitude לא מוגד</value>
+  </data>
+  <data name="Route_ID_0" xml:space="preserve">
+    <value>לא מוגדר קו ששייך לתחנה</value>
+  </data>
+  <data name="Horada_0" xml:space="preserve">
+    <value>לא מוגדרת תחנת הורדה</value>
+  </data>
+  <data name="CentralStationFloorAndPlatformNotDefined" xml:space="preserve">
+    <value>לא הוגדרו רציף וקומה לתחנה</value>
+  </data>
+
+  <data name="Milepost_0" xml:space="preserve">
+    <value>לא הוגדר מרחק בין שני תחנות</value>
+  </data>
+  <data name="Physical_Stop_ID_0" xml:space="preserve">
+    <value>לא הוגדרה תחנה פיזית אליה שייכת תחנה בקו</value>
+  </data>
+  <data name="StationCatalog_Empty" xml:space="preserve">
+    <value>מקט תחנה לא מוגדר</value>
+  </data>
+  <data name="Stop_Name_Empty" xml:space="preserve">
+    <value>שם תחנה בקו לא הוגדר</value>
+  </data>
+  <data name="Route_Name_Empty" xml:space="preserve">
+    <value>שם קו לא מוגדר</value>
+  </data>
+  <data name="Signpost_Empty" xml:space="preserve">
+    <value>שילוט של מוגדר</value>
+  </data>
+  <data name="Operator_0" xml:space="preserve">
+    <value>מספר מפעיל לא מוגדר</value>
+  </data>
+  <data name="Var_Empty" xml:space="preserve">
+    <value>חלופה לא מוגדרת</value>
+  </data>
+  <data name="Dir_Empty" xml:space="preserve">
+    <value>כיוון לא מוגדר</value>
+  </data>
+  <data name="Company_Empty" xml:space="preserve">
+    <value>שם מפעיל לא מוגדר</value>
+  </data>
+  <data name="Cluster_0" xml:space="preserve">
+    <value>מספר אשכול לא מוגדר</value>
+  </data>
+
+  <data name="StationStatus_0" xml:space="preserve">
+    <value>סטטוס תחנה לא מוגדר</value>
+  </data>
+  <data name="StationType_0" xml:space="preserve">
+    <value>מטיפוס תחנה לא מוגדר</value>
+  </data>
+  
+
+  <data name="Branch_Name_Empty" xml:space="preserve">
+    <value>שם אשכול לא מוגדר</value>
+  </data>
+  <data name="Route_Type_Empty" xml:space="preserve">
+    <value>מסלול לא מוגדר</value>
+  </data>
+  <data name="Service_Type_Empty" xml:space="preserve">
+    <value>סוג שרות לא מוגדר</value>
+  </data>
+  
+  <data name="ExclusivityLine_Type_Empty" xml:space="preserve">
+    <value>עונתיות לא מוגדרת</value>
+  </data>
+  <data name="AccountingGroupID_Type_Empty" xml:space="preserve">
+    <value>קבוצת התחשבנות לא מוגדרת</value>
+  </data>
+
+  <data name="MAKAT_Empty" xml:space="preserve">
+    <value>מקט לא מוגדר</value>
+  </data>
+  <data name="MAKAT_0" xml:space="preserve">
+    <value>מקט לא יכול להיות 0</value>
+  </data>
+
+  <data name="Route_Type_0" xml:space="preserve">
+    <value>סוג קו לא מוגדר</value>
+  </data>
+
+  <data name="Seasonal_Empty" xml:space="preserve">
+    <value>שם עונה לא מוגדר</value>
+  </data>
+  <data name="RoadDescription_Empty" xml:space="preserve">
+    <value>תיאור דרך לא מוגדר</value>
+  </data>
+  <data name="RoadDescriptionLength" xml:space="preserve">
+    <value>אורך של שדה חייב להיות לא יותר מי 20 תווים</value>
+  </data>
+  <data name="Mahoz_Roshi_Empty" xml:space="preserve">
+    <value>מחוז ראשי לא מוגדר</value>
+  </data>
+  <data name="B_56_Empty" xml:space="preserve">
+    <value>ב 56 לא מוגדר</value>
+  </data>
+  <data name="RouteNumber_Empty" xml:space="preserve">
+    <value>מספר קו לא מוגדר</value>
+  </data>
+  <data name="RouteNumber_0" xml:space="preserve">
+    <value>מספר קו לא יכול להיות 0</value>
+  </data>
+  <data name="Mahoz_Mishne_Empty" xml:space="preserve">
+    <value>מחוז משנה לא מוגדר</value>
+  </data>
+  <data name="Vehicle_Size_Empty" xml:space="preserve">
+    <value>גודל אוטובוס לא מוגדר</value>
+  </data>
+  <data name="PhysicalStop_Name_Empty" xml:space="preserve">
+    <value>שם תחנה לא מוגדר</value>
+  </data>
+  <data name="PhysicalStop_Direction_NOT_IN_Domain" xml:space="preserve">
+    <value>כיוון של תחנה לא מוגדר נכון</value>
+  </data>
+  <data name="ID_0" xml:space="preserve">
+    <value>מזהה רשומה לא מוגדר</value>
+  </data>
+  <data name="ValidationResultString" xml:space="preserve">
+    <value>{1} - {0}</value>
+  </data>
+  <data name="RouteLine_Foreign_Not_Found" xml:space="preserve">
+    <value>קו לא נמצא במאגר של קוים</value>
+  </data>
+  <data name="Physical_Stop_ID_Foreign_Not_Found" xml:space="preserve">
+    <value>תחנה לא נמצאת במאגר של תחנות</value>
+  </data>
+  <data name="Name_Empty" xml:space="preserve">
+    <value>שם של ישות לא מוגדר</value>
+  </data>
+  <data name="WorkspaceNotDefined" xml:space="preserve">
+    <value>ללא workspace</value>
+  </data>
+  <data name="ConvertWasNotCompleted" xml:space="preserve">
+    <value>עדיין לא עבר תהליך ההמרה</value>
+  </data>
+</root>

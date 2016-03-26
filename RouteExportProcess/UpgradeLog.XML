@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="RouteExportProcess">
+</Property><Property Name="Solution File" Value="C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\RouteExportProcess.sln">
+</Property><Property Name="Date" Value="Wednesday, February 23, 2011">
+</Property><Property Name="Time" Value="16:21 PM">
+</Property></Properties><Event ErrorLevel="4" Project="RouteExportProcess" Source="http://go.microsoft.com/fwlink/?LinkId=159919" Description="Warning: this project requires Crystal Reports, which is no longer included with Visual Studio. Please click here for more information.">
+</Event><Event ErrorLevel="0" Project="RouteExportProcess" Source="RouteExportProcess.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="RouteExportProcess" Source="RouteExportProcess.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BLEntities" Source="..\BLEntities\BLEntities.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BLEntities" Source="..\BLEntities\BLEntities.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BLManager" Source="..\BLManager\BLManager.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BLManager" Source="..\BLManager\BLManager.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="IBLManager" Source="..\IBLManager\IBLManager.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="IBLManager" Source="..\IBLManager\IBLManager.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DAL" Source="..\DAL\DAL.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DAL" Source="..\DAL\DAL.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="IDAL" Source="..\IDAL\IDAL.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="IDAL" Source="..\IDAL\IDAL.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Utilities" Source="..\Utilities\Utilities.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Utilities" Source="..\Utilities\Utilities.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ExportConfiguration" Source="..\ExportConfiguration\ExportConfiguration.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ExportConfiguration" Source="..\ExportConfiguration\ExportConfiguration.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Logger" Source="..\Logger\Logger.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Logger" Source="..\Logger\Logger.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="GUIBase" Source="..\GUIBase\GUIBase.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="GUIBase" Source="..\GUIBase\GUIBase.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TvunaExport" Source="..\TvunaExport\TvunaExport.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TvunaExport" Source="..\TvunaExport\TvunaExport.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="RouteExportProcess.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="RouteExportProcess.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BLEntities" Source="..\BLEntities\BLEntities.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Utilities" Source="..\Utilities\Utilities.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ExportConfiguration" Source="..\ExportConfiguration\ExportConfiguration.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="Logger" Source="..\Logger\Logger.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="BLManager" Source="..\BLManager\BLManager.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="IBLManager" Source="..\IBLManager\IBLManager.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="DAL" Source="..\DAL\DAL.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="IDAL" Source="..\IDAL\IDAL.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="RouteExportProcess" Source="RouteExportProcess.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="RouteExportProcess" Source="RouteExportProcess.csproj" Description="References to Microsoft.VisualBasic.PowerPacks.Vs were updated to Microsoft.VisualBasic.PowerPacks.Vs 10.0.">
+</Event><Event ErrorLevel="0" Project="GUIBase" Source="..\GUIBase\GUIBase.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="TvunaExport" Source="..\TvunaExport\TvunaExport.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

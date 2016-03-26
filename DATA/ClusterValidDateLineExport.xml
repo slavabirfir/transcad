@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Operators>
+  <Operator>
+    <IdOperator>18</IdOperator>
+    <Clusters>
+      <Cluster>
+        <IdCluster>208</IdCluster>
+        <ValidExportDate></ValidExportDate>
+      </Cluster>
+    </Clusters>
+  </Operator>
+  <Operator>
+    <IdOperator>16</IdOperator>
+    <Clusters>
+      <Cluster>
+        <IdCluster>157</IdCluster>
+        <ValidExportDate></ValidExportDate>
+      </Cluster>
+    </Clusters>
+  </Operator>
+  <Operator>
+    <IdOperator>25</IdOperator>
+    <Clusters>
+      <Cluster>
+        <IdCluster>190</IdCluster>
+        <ValidExportDate></ValidExportDate>
+      </Cluster>
+    </Clusters>
+  </Operator>
+  <Operator>
+    <IdOperator>254</IdOperator>
+    <Clusters>
+      <Cluster>
+        <IdCluster>252</IdCluster>
+        <ValidExportDate></ValidExportDate>
+      </Cluster>
+      <Cluster>
+        <IdCluster>156</IdCluster>
+        <ValidExportDate>01/01/2014</ValidExportDate>
+      </Cluster>
+    </Clusters>
+  </Operator>
+</Operators>

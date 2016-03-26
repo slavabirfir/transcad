@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DAL.InternalBaseDAL">
+    <Position X="2" Y="1.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAQAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>InternalBaseDAL.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DAL.TransCadFetchDataDAL">
+    <Position X="5.5" Y="1.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>ACAAAQAAAABAAAAAAAAAAAgAAAAAAgAQAAIAAAAAAAA=</HashCode>
+      <FileName>TransCadFetchDataDAL.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

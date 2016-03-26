@@ -1,0 +1,48 @@
+﻿Use TvunaTraffic
+DELETE FROM import.StationImport      
+DELETE FROM import.JunctionImport
+DELETE FROM import.CityImport
+DELETE FROM import.ImportControlInfrastructure
+
+SELECT * FROM import.ImportControlInfrastructure
+SELECT * FROM import.StationImport      
+SELECT * FROM import.JunctionImport
+SELECT * FROM import.CityImport
+-----------------------------------
+
+DELETE FROM import.LineDetailStationImport
+DELETE FROM import.LineDetailJunctionImport
+DELETE FROM import.LineDetailImport
+
+DELETE FROM import.ImportControlOperator
+
+SELECT * FROM import.ImportControlOperator
+SELECT * FROM import.LineDetailStationImport
+SELECT * FROM import.LineDetailJunctionImport
+SELECT * FROM import.LineDetailImport
+
+========================================
+Use TrafficLicensing
+DELETE FROM import.StationImport      
+DELETE FROM import.JunctionImport
+DELETE FROM import.CityImport
+DELETE FROM import.ImportControlInfrastructure
+
+SELECT * FROM import.ImportControlInfrastructure
+SELECT * FROM import.StationImport      
+SELECT * FROM import.JunctionImport
+SELECT * FROM import.CityImport
+-----------------------------------
+
+DELETE FROM dbo.LineDetailChangeForApproveTemp
+DELETE FROM dbo.LineDetailTemp
+DELETE FROM import.LineDetailStationImport
+DELETE FROM import.LineDetailJunctionImport
+DELETE FROM import.LineDetailImport
+
+DELETE FROM import.ImportControlOperator
+
+SELECT * FROM import.ImportControlOperator
+SELECT * FROM import.LineDetailStationImport
+SELECT * FROM import.LineDetailJunctionImport
+SELECT * FROM import.LineDetailImport

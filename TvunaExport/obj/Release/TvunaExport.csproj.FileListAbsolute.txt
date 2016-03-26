@@ -1,0 +1,8 @@
+C:\Slava\ADL\Code\RoutesExportSQLServer\TvunaExport\bin\Release\TvunaExport.exe
+C:\Slava\ADL\Code\RoutesExportSQLServer\TvunaExport\bin\Release\TvunaExport.pdb
+C:\Slava\ADL\Code\RoutesExportSQLServer\TvunaExport\obj\Release\ResolveAssemblyReference.cache
+C:\Slava\ADL\Code\RoutesExportSQLServer\TvunaExport\obj\Release\TvunaExport.frmMain.resources
+C:\Slava\ADL\Code\RoutesExportSQLServer\TvunaExport\obj\Release\TvunaExport.Properties.Resources.resources
+C:\Slava\ADL\Code\RoutesExportSQLServer\TvunaExport\obj\Release\TvunaExport.csproj.GenerateResource.Cache
+C:\Slava\ADL\Code\RoutesExportSQLServer\TvunaExport\obj\Release\TvunaExport.exe
+C:\Slava\ADL\Code\RoutesExportSQLServer\TvunaExport\obj\Release\TvunaExport.pdb

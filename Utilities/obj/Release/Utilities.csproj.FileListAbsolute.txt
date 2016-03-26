@@ -1,0 +1,7 @@
+C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\bin\Release\Ionic.Zip.dll
+C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\bin\Release\Utilities.dll
+C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\bin\Release\Utilities.pdb
+C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\bin\Release\ICSharpCode.SharpZipLib.dll
+C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\obj\Release\ResolveAssemblyReference.cache
+C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\obj\Release\Utilities.dll
+C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\obj\Release\Utilities.pdb

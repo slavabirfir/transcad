@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{234500DD-B816-4876-9D8F-33FA0A8FF844}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BLManager</RootNamespace>
+    <AssemblyName>BLManager</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bin\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Validation, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bin\Microsoft.Practices.EnterpriseLibrary.Validation.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdministrationBL.cs" />
+    <Compile Include="BaseTablePresentation.cs" />
+    <Compile Include="BLClusterValidExportDateManage.cs" />
+    <Compile Include="BLComparePriceAreaOfStation.cs" />
+    <Compile Include="BLCreateNewCatalog.cs" />
+    <Compile Include="BLExportClusters.cs" />
+    <Compile Include="BlLinkedMunicipalityStations.cs" />
+    <Compile Include="BLLinkStationToCity.cs" />
+    <Compile Include="BLLoginsManager.cs" />
+    <Compile Include="BlPriceAreaToStationManager.cs" />
+    <Compile Include="BLSharedUtils.cs" />
+    <Compile Include="BLZoneImportAreaChanged.cs" />
+    <Compile Include="ChooseCatalogBLManager.cs" />
+    <Compile Include="ClusterToZoneManagerBL.cs" />
+    <Compile Include="BlExportPriceAreaOfStationForAllOperators.cs" />
+    <Compile Include="EnablePriceListPolygonBL.cs" />
+    <Compile Include="FastSearchBLManagerPresenterCatalog.cs" />
+    <Compile Include="DataSearchAndManipulateBLManager.cs" />
+    <Compile Include="EgedBLManager.cs" />
+    <Compile Include="EgedExportDataSQLBLManager.cs" />
+    <Compile Include="ExportDataSQLBLManager.cs" />
+    <Compile Include="ExportBaseToSQLBL.cs" />
+    <Compile Include="LoadEgedMapBL.cs" />
+    <Compile Include="OperatorSelectBLManager.cs" />
+    <Compile Include="PerformenseMonitorBL.cs" />
+    <Compile Include="PriceListPolygonBL.cs" />
+    <Compile Include="SQLExportManager.cs" />
+    <Compile Include="FastSearchBLManagerPresenter.cs" />
+    <Compile Include="LayerManagerBL.cs" />
+    <Compile Include="LineDetailsPresenter.cs" />
+    <Compile Include="ListBoxBLManager.cs" />
+    <Compile Include="PresentationRouteMainForm.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ReportInfoBLManager.cs" />
+    <Compile Include="Resources\BLManagerResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BLManagerResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="RouteStopDetailPresenter.cs" />
+    <Compile Include="TransCadBLManager.cs" />
+    <Compile Include="Web References\RishuyAD\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="XMLMetaDataLoader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLEntities\BLEntities.csproj">
+      <Project>{FD5265BE-424C-41FD-A622-E3909D191D2A}</Project>
+      <Name>BLEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{5F231A52-0BC4-4A52-B9D4-451DE15AB8C4}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExportConfiguration\ExportConfiguration.csproj">
+      <Project>{5EED2E6B-F9EE-4A25-818F-70D9AF4C262C}</Project>
+      <Name>ExportConfiguration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IBLManager\IBLManager.csproj">
+      <Project>{AB15B5D8-D2C4-4945-A41F-4793C978CE65}</Project>
+      <Name>IBLManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IDAL\IDAL.csproj">
+      <Project>{F11DCA75-1FA9-4C1B-9CD7-FCC423EBED90}</Project>
+      <Name>IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logger\Logger.csproj">
+      <Project>{2478924E-DC90-4892-AABA-E2203C4BB3C9}</Project>
+      <Name>Logger</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{D9FFA388-ECC7-426F-99D3-792B54779658}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\BLManagerResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>BLManagerResource.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagramBLManager.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\RishuyAD\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\RishuyAD\RishuyAD.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="C:\Users\Slava\Dropbox\Ada\ADA_CURRENT\RishuyAD.ASMX">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\RishuyAD\</RelPath>
+      <UpdateFromURL>C:\Users\Slava\Dropbox\Ada\ADA_CURRENT\RishuyAD.ASMX</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>BLManager_RishuyAD_RishuyAD</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

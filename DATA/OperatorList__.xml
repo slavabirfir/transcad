@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OperatorList>
+   <!-- Operators without Clusters -->  
+  <Operator>
+    <IdMofil>3</IdMofil>
+    <MofilName>אגד</MofilName>
+    <TransCadStatus>1</TransCadStatus>
+   <Group>Operator</Group>
+   <Clusters>
+   	  <Cluster>
+	   <ClusterId>-1</ClusterId>
+	   <PathToRSTFile>D:\Users\egged\Transcad\RouteSystemRishuy\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\egged\Transcad\RouteSystemRishuy\eged.wrk</PathToRSTWorkSpace>
+	   <PriceListLayer>D:\Users\egged\Transcad\PriceList\area.dbd</PriceListLayer>
+	  </Cluster>
+   </Clusters>
+  </Operator>
+
+   <Operator>
+    <IdMofil>4</IdMofil>
+    <MofilName>אגד תעבורה</MofilName>
+    <TransCadStatus>1</TransCadStatus>
+   <Group>Operator</Group>
+   <Clusters>
+   	  <Cluster>
+	   <ClusterId>-1</ClusterId>
+	   <PathToRSTFile>D:\Users\eggedt\TransCad\RouteSystemRishuy\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\eggedt\TransCad\RouteSystemRishuy\egedt.wrk</PathToRSTWorkSpace>
+	   <PriceListLayer>D:\Users\eggedt\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+	  </Cluster>
+   </Clusters>
+  </Operator>
+  
+  <Operator>
+    <IdMofil>11</IdMofil>
+    <MofilName>עילית</MofilName>
+    <TransCadStatus>1</TransCadStatus>
+   <Group>Operator</Group>
+   <Clusters>
+   	  <Cluster>
+	   <ClusterId>-1</ClusterId>
+	   <PathToRSTFile>D:\Users\ilit\TransCad\RouteSystemRishuy\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\ilit\TransCad\RouteSystemRishuy\ilit.wrk</PathToRSTWorkSpace>
+	   <PriceListLayer/>
+	  </Cluster>
+   </Clusters>
+  </Operator>
+ 
+  <!-- Planning Firms without Clusters --> 
+ 
+  <Operator>
+    <IdMofil>252</IdMofil>
+    <MofilName>מתי</MofilName>
+    <TransCadStatus>1</TransCadStatus>
+   <Group>PlanningFirm</Group>
+   <Clusters>
+   	  <Cluster>
+	   <ClusterId>-1</ClusterId>
+	    <PathToRSTFile>D:\Users\Mati\TransCad\RouteSystemRishuy\RouteSystem.rts</PathToRSTFile>
+        <PathToRSTWorkSpace>D:\Users\Mati\TransCad\RouteSystemRishuy\mati.wrk</PathToRSTWorkSpace>
+	    <PriceListLayer>D:\Users\Mati\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+	  </Cluster>
+   </Clusters>
+  </Operator>
+  
+  <Operator>
+     <IdMofil>99</IdMofil>
+    <MofilName>מינהלת</MofilName>
+    <TransCadStatus>1</TransCadStatus>
+   <Group>PlanningFirm</Group>
+   <Clusters>
+   	  <Cluster>
+	   <ClusterId>-1</ClusterId>
+	    <PathToRSTFile>D:\Users\minhelet\TransCad\RouteSystemRishuy\RouteSystem.rts</PathToRSTFile>
+        <PathToRSTWorkSpace>D:\Users\minhelet\TransCad\RouteSystemRishuy\minelet.wrk</PathToRSTWorkSpace>
+	    <PriceListLayer>D:\Users\minhelet\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+	  </Cluster>
+   </Clusters>
+  </Operator>
+
+  <Operator>
+    <IdMofil>253</IdMofil>
+    <MofilName>פי ג'י אל</MofilName>
+    <TransCadStatus>1</TransCadStatus>
+   <Group>PlanningFirm</Group>
+   <Clusters>
+   	  <Cluster>
+	   <ClusterId>-1</ClusterId>
+	    <PathToRSTFile>D:\Users\PGL\TransCad\RouteSystemRishuy\RouteSystem.rts</PathToRSTFile>
+        <PathToRSTWorkSpace>D:\Users\PGL\TransCad\RouteSystemRishuy\pgl.wrk</PathToRSTWorkSpace>
+	    <PriceListLayer>D:\Users\PGL\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+	  </Cluster>
+   </Clusters>
+  </Operator>
+  
+  <Operator>
+    <IdMofil>254</IdMofil>
+    <MofilName>גל</MofilName>
+    <TransCadStatus>1</TransCadStatus>
+   <Group>PlanningFirm</Group>
+   <Clusters>
+   	  <Cluster>
+	   <ClusterId>-1</ClusterId>
+	    <PathToRSTFile>D:\Users\GAL\TransCad\RouteSystemRishuy\RouteSystem.rts</PathToRSTFile>
+        <PathToRSTWorkSpace>D:\Users\GAL\TransCad\RouteSystemRishuy\Gal_Tihnun.wrk</PathToRSTWorkSpace>
+	    <PriceListLayer>D:\Users\GAL\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+	  </Cluster>
+   </Clusters>
+  </Operator>
+   
+  <Operator>
+    <IdMofil>255</IdMofil>
+    <MofilName>אמ טי פי</MofilName>
+    <TransCadStatus>1</TransCadStatus>
+   <Group>PlanningFirm</Group>
+   <Clusters>
+   	  <Cluster>
+	   <ClusterId>-1</ClusterId>
+	    <PathToRSTFile>D:\Users\MTP\TransCad\RouteSystemRishuy\RouteSystem.rts</PathToRSTFile>
+        <PathToRSTWorkSpace>D:\Users\MTP\TransCad\RouteSystemRishuy\mtp.wrk</PathToRSTWorkSpace>
+	    <PriceListLayer>D:\Users\MTP\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+	  </Cluster>
+   </Clusters>
+  </Operator> 
+   
+  <!-- Operators with Clusters --> 
+  
+<Operator>
+    <IdMofil>25</IdMofil>
+    <MofilName>אפיקים</MofilName>
+    <Group>Operator</Group>
+    <TransCadStatus>1</TransCadStatus>
+    <Clusters>
+	  <Cluster>
+	   <ClusterId>158</ClusterId>
+	   <PriceListLayer>D:\Users\afikim\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\afikim\TransCad\RouteSystemRishuy\Clusters\158\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\afikim\TransCad\RouteSystemRishuy\Clusters\158\Afifkim_158.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+	  <Cluster>
+	   <ClusterId>171</ClusterId>
+	   <PriceListLayer>D:\Users\afikim\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\afikim\TransCad\RouteSystemRishuy\Clusters\171\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\afikim\TransCad\RouteSystemRishuy\Clusters\171\Afifkim_171.wrk</PathToRSTWorkSpace>
+  	  </Cluster>
+  	  <Cluster>
+	   <ClusterId>190</ClusterId>
+	   <PriceListLayer>D:\Users\afikim\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\afikim\TransCad\RouteSystemRishuy\Clusters\190\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\afikim\TransCad\RouteSystemRishuy\Clusters\190\Afifkim_190.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+ 	  <Cluster>
+	   <ClusterId>202</ClusterId>
+	   <PriceListLayer>D:\Users\afikim\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\afikim\TransCad\RouteSystemRishuy\Clusters\202\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\afikim\TransCad\RouteSystemRishuy\Clusters\202\Afifkim_202.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+    </Clusters>
+</Operator>
+<Operator>
+    <IdMofil>5</IdMofil>
+    <MofilName>דן</MofilName>
+    <Group>Operator</Group>
+    <TransCadStatus>1</TransCadStatus>
+    <Clusters>
+	  <Cluster>
+	   <ClusterId>11</ClusterId>
+	   <PriceListLayer>D:\Users\Dan\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\Dan\TransCad\RouteSystemRishuy\Clusters\11\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\Dan\TransCad\RouteSystemRishuy\Clusters\11\Dan_11.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+	  <Cluster>
+	   <ClusterId>12</ClusterId>
+	   <PriceListLayer>D:\Users\Dan\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\Dan\TransCad\RouteSystemRishuy\Clusters\12\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\Dan\TransCad\RouteSystemRishuy\Clusters\12\Dan_12.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+	  <Cluster>
+	   <ClusterId>13</ClusterId>
+	   <PriceListLayer>D:\Users\Dan\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\Dan\TransCad\RouteSystemRishuy\Clusters\13\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\Dan\TransCad\RouteSystemRishuy\Clusters\13\Dan_13.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+	  <Cluster>
+	   <ClusterId>14</ClusterId>
+	   <PriceListLayer>D:\Users\Dan\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\Dan\TransCad\RouteSystemRishuy\Clusters\14\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\Dan\TransCad\RouteSystemRishuy\Clusters\14\Dan_14.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+	  <Cluster>
+	   <ClusterId>15</ClusterId>
+	   <PriceListLayer>D:\Users\Dan\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\Dan\TransCad\RouteSystemRishuy\Clusters\15\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\Dan\TransCad\RouteSystemRishuy\Clusters\15\Dan_15.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+	  <Cluster>
+	   <ClusterId>16</ClusterId>
+	   <PriceListLayer>D:\Users\Dan\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\Dan\TransCad\RouteSystemRishuy\Clusters\16\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\Dan\TransCad\RouteSystemRishuy\Clusters\16\Dan_16.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+	  <Cluster>
+	   <ClusterId>17</ClusterId>
+	   <PriceListLayer>D:\Users\Dan\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\Dan\TransCad\RouteSystemRishuy\Clusters\17\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\Dan\TransCad\RouteSystemRishuy\Clusters\17\Dan_17.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+	  <Cluster>
+	   <ClusterId>18</ClusterId>
+	   <PriceListLayer>D:\Users\Dan\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\Dan\TransCad\RouteSystemRishuy\Clusters\18\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\Dan\TransCad\RouteSystemRishuy\Clusters\18\Dan_18.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+	  <Cluster>
+	   <ClusterId>19</ClusterId>
+	   <PriceListLayer>D:\Users\Dan\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\Dan\TransCad\RouteSystemRishuy\Clusters\19\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\Dan\TransCad\RouteSystemRishuy\Clusters\19\Dan_19.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+    </Clusters>
+</Operator>
+<Operator>
+    <IdMofil>4</IdMofil>
+    <MofilName>אגד תעבורה</MofilName>
+    <Group>Operator</Group>
+    <TransCadStatus>1</TransCadStatus>
+    <Clusters>
+	  <Cluster>
+	   <ClusterId>141</ClusterId>
+	   <PriceListLayer>D:\Users\eggedt\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\eggedt\TransCad\RouteSystemRishuy\Clusters\141\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\eggedt\TransCad\RouteSystemRishuy\Clusters\141\EggedT_141.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+	  <Cluster>
+	   <ClusterId>151</ClusterId>
+	   <PriceListLayer>D:\Users\eggedt\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\eggedt\TransCad\RouteSystemRishuy\Clusters\151\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\eggedt\TransCad\RouteSystemRishuy\Clusters\151\EggedT_151.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+	  <Cluster>
+	   <ClusterId>176</ClusterId>
+	   <PriceListLayer>D:\Users\eggedt\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\eggedt\TransCad\RouteSystemRishuy\Clusters\176\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\eggedt\TransCad\RouteSystemRishuy\Clusters\176\EggedT_176.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+	  <Cluster>
+	   <ClusterId>204</ClusterId>
+	   <PriceListLayer>D:\Users\eggedt\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\eggedt\TransCad\RouteSystemRishuy\Clusters\204\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\eggedt\TransCad\RouteSystemRishuy\Clusters\204\EggedT_204.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+	  <Cluster>
+	   <ClusterId>205</ClusterId>
+	   <PriceListLayer>D:\Users\eggedt\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\eggedt\TransCad\RouteSystemRishuy\Clusters\205\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\eggedt\TransCad\RouteSystemRishuy\Clusters\205\EggedT_205.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+    </Clusters>
+</Operator>
+<Operator>
+    <IdMofil>8</IdMofil>
+    <MofilName>גי.בי.טורס</MofilName>
+    <Group>Operator</Group>
+    <TransCadStatus>1</TransCadStatus>
+    <Clusters>
+	  <Cluster>
+	   <ClusterId>132</ClusterId>
+	   <PriceListLayer>D:\Users\GB\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\GB\TransCad\RouteSystemRishuy\Clusters\132\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\GB\TransCad\RouteSystemRishuy\Clusters\132\GB_132.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+    </Clusters>
+</Operator>
+
+
+<Operator>
+    <IdMofil>41</IdMofil>
+    <MofilName>מזרח ירושלים</MofilName>
+    <Group>Operator</Group>
+    <TransCadStatus>1</TransCadStatus>
+    <Clusters>
+	  <Cluster>
+	   <ClusterId>180</ClusterId>
+	   <PriceListLayer>D:\Users\JerusE\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\JerusE\TransCad\RouteSystemRishuy\Clusters\180\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\JerusE\TransCad\RouteSystemRishuy\Clusters\180\JerusE_180.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+    </Clusters>
+</Operator>
+
+<Operator>
+    <IdMofil>18</IdMofil>
+    <MofilName>קווים</MofilName>
+    <Group>Operator</Group>
+    <TransCadStatus>1</TransCadStatus>
+    <Clusters>
+	  <Cluster>
+	   <ClusterId>1</ClusterId>
+	   <PriceListLayer>D:\Users\kavim\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\kavim\TransCad\RouteSystemRishuy\Clusters\1\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\kavim\TransCad\RouteSystemRishuy\Clusters\1\Kavim_1.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+	   <Cluster>
+	   <ClusterId>150</ClusterId>
+	   <PriceListLayer>D:\Users\kavim\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\kavim\TransCad\RouteSystemRishuy\Clusters\150\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\kavim\TransCad\RouteSystemRishuy\Clusters\150\Kavim_150.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+	   <Cluster>
+	   <ClusterId>152</ClusterId>
+	   <PriceListLayer>D:\Users\kavim\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\kavim\TransCad\RouteSystemRishuy\Clusters\152\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\kavim\TransCad\RouteSystemRishuy\Clusters\152\Kavim_152.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+	   <Cluster>
+	   <ClusterId>155</ClusterId>
+	   <PriceListLayer>D:\Users\kavim\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\kavim\TransCad\RouteSystemRishuy\Clusters\155\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\kavim\TransCad\RouteSystemRishuy\Clusters\155\Kavim_155.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+	  <Cluster>
+	   <ClusterId>208</ClusterId>
+	   <PriceListLayer>D:\Users\kavim\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\kavim\TransCad\RouteSystemRishuy\Clusters\208\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\kavim\TransCad\RouteSystemRishuy\Clusters\208\Kavim_208.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+    </Clusters>
+</Operator>
+<Operator>
+    <IdMofil>19</IdMofil>
+    <MofilName>מטרודן</MofilName>
+    <Group>Operator</Group>
+    <TransCadStatus>1</TransCadStatus>
+    <Clusters>
+	  <Cluster>
+	   <ClusterId>201</ClusterId>
+	   <PriceListLayer>D:\Users\metrodan\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\metrodan\TransCad\RouteSystemRishuy\Clusters\201\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\metrodan\TransCad\RouteSystemRishuy\Clusters\201\MetroDan_201.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+    </Clusters>
+</Operator>
+
+<Operator>
+    <IdMofil>39</IdMofil>
+    <MofilName>דן צפון</MofilName>
+    <Group>Operator</Group>
+    <TransCadStatus>1</TransCadStatus>
+    <Clusters>
+	  <Cluster>
+	   <ClusterId>215</ClusterId>
+	   <PriceListLayer/>
+       <PathToRSTFile>D:\Users\Metronit\TransCad\RouteSystemRishuy\Clusters\215\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\Metronit\TransCad\RouteSystemRishuy\Clusters\215\Metronit_215.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+    </Clusters>
+</Operator>
+
+<Operator>
+    <IdMofil>15</IdMofil>
+    <MofilName>מטרופולין</MofilName>
+    <Group>Operator</Group>
+    <TransCadStatus>1</TransCadStatus>
+    <Clusters>
+	  <Cluster>
+	   <ClusterId>195</ClusterId>
+	   <PriceListLayer>D:\Users\Metropoline\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\Metropoline\TransCad\RouteSystemRishuy\Clustes\195\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\Metropoline\TransCad\RouteSystemRishuy\Clustes\195\Metropoline_195.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+	  
+	  <Cluster>
+	   <ClusterId>222</ClusterId>
+	   <PriceListLayer>D:\Users\Metropoline\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\Metropoline\TransCad\RouteSystemRishuy\Clustes\222\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\Metropoline\TransCad\RouteSystemRishuy\Clustes\222\Metropoline_222.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+	  
+    </Clusters>
+</Operator>
+<Operator>
+    <IdMofil>23</IdMofil>
+    <MofilName>גלים</MofilName>
+    <Group>Operator</Group>
+    <TransCadStatus>1</TransCadStatus>
+    <Clusters>
+	  <Cluster>
+	   <ClusterId>143</ClusterId>
+	   <PriceListLayer>D:\Users\Narkis\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\Narkis\TransCad\RouteSystemRishuy\Clusters\143\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\Narkis\TransCad\RouteSystemRishuy\Clusters\143\Narkis_143.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+    </Clusters>
+</Operator>
+
+<Operator>
+    <IdMofil>14</IdMofil>
+    <MofilName>נתיב אקספרס</MofilName>
+    <Group>Operator</Group>
+    <TransCadStatus>1</TransCadStatus>
+    <Clusters>
+	  <Cluster>
+	   <ClusterId>127</ClusterId>
+	   <PriceListLayer>D:\Users\NativeExpress\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\NativeExpress\TransCad\RouteSystemRishuy\Clusters\127\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\NativeExpress\TransCad\RouteSystemRishuy\Clusters\127\NativExpress_127.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+	  <Cluster>
+	   <ClusterId>128</ClusterId>
+	   <PriceListLayer>D:\Users\NativeExpress\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\NativeExpress\TransCad\RouteSystemRishuy\Clusters\128\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\NativeExpress\TransCad\RouteSystemRishuy\Clusters\128\NativExpress_128.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+	  <Cluster>
+	   <ClusterId>160</ClusterId>
+	   <PriceListLayer>D:\Users\NativeExpress\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\NativeExpress\TransCad\RouteSystemRishuy\Clusters\160\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\NativeExpress\TransCad\RouteSystemRishuy\Clusters\160\NativExpress_160.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+	</Clusters> 
+  </Operator>
+  
+
+  <Operator>
+    <IdMofil>7</IdMofil>
+    <MofilName>נסיעות ותיירות</MofilName>
+    <Group>Operator</Group>
+    <TransCadStatus>1</TransCadStatus>
+    <Clusters>
+	  <Cluster>
+	   <ClusterId>122</ClusterId>
+	   <PriceListLayer>D:\Users\NesiotTayarut\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\NesiotTayarut\TransCad\RouteSystemRishuy\Clusters\122\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\NesiotTayarut\TransCad\RouteSystemRishuy\Clusters\122\NesiotTayarut_122.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+   </Clusters> 
+  </Operator>
+  
+
+  <Operator>
+    <IdMofil>2</IdMofil>
+    <MofilName>רכבת ישראל</MofilName>
+    <Group>Operator</Group>
+    <TransCadStatus>1</TransCadStatus>
+    <Clusters>
+	  <Cluster>
+	   <ClusterId>50</ClusterId>
+	   <PriceListLayer>D:\Users\RakevetIsrael\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\RakevetIsrael\TransCad\RouteSystemRishuy\Clusters\50\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\RakevetIsrael\TransCad\RouteSystemRishuy\Clusters\50\RakevetIsrael_50.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+   </Clusters> 
+  </Operator>
+  
+  
+<Operator>
+    <IdMofil>21</IdMofil>
+    <MofilName>סיטי פס</MofilName>
+    <Group>Operator</Group>
+    <TransCadStatus>1</TransCadStatus>
+    <Clusters>
+	  <Cluster>
+	   <ClusterId>210</ClusterId>
+	   <PriceListLayer>D:\Users\RakevetKalaJerusalim\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\RakevetKalaJerusalim\TransCad\RouteSystemRishuy\Clusters\210\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\RakevetKalaJerusalim\TransCad\RouteSystemRishuy\Clusters\210\RakevetKalaJerusalim_210.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+   </Clusters> 
+  </Operator>
+  
+  
+
+  <Operator>
+    <IdMofil>24</IdMofil>
+    <MofilName>מועצה אזורית גולן</MofilName>
+    <Group>Operator</Group>
+    <TransCadStatus>1</TransCadStatus>
+    <Clusters>
+	  <Cluster>
+	   <ClusterId>130</ClusterId>
+	   <PriceListLayer>D:\Users\Rama\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\Rama\TransCad\RouteSystemRishuy\Clusters\130\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\Rama\TransCad\RouteSystemRishuy\Clusters\130\Rama_130.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+   </Clusters> 
+  </Operator>
+   
+  <Operator>
+    <IdMofil>6</IdMofil>
+    <MofilName>ש.א.מ</MofilName>
+    <Group>Operator</Group>
+    <TransCadStatus>1</TransCadStatus>
+    <Clusters>
+	  <Cluster>
+	   <ClusterId>123</ClusterId>
+	   <PriceListLayer>D:\Users\Shaam\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\Shaam\TransCad\RouteSystemRishuy\Clusters\123\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\Shaam\TransCad\RouteSystemRishuy\Clusters\123\Shaam_123.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+   </Clusters> 
+  </Operator>
+ 
+<Operator>
+    <IdMofil>16</IdMofil>
+    <MofilName>סופרבוס</MofilName>
+    <Group>Operator</Group>
+    <TransCadStatus>1</TransCadStatus>
+    <Clusters>
+	  <Cluster>
+	   <ClusterId>170</ClusterId>
+	   <PriceListLayer>D:\Users\Superbus\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>D:\Users\Superbus\TransCad\RouteSystemRishuy\Clusters\170\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>D:\Users\Superbus\TransCad\RouteSystemRishuy\Clusters\170\Superbus_170.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+   </Clusters> 
+  </Operator>
+  
+ </OperatorList>

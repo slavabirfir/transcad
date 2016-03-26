@@ -1,0 +1,4233 @@
+----------------------------------------
+General Information: 1 : Timestamp: 06/10/2015 2:58:32 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 512
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:3528
+Extended Properties: Message - Cannot bulk load because the file "D:\TranscadSystem\AdminProg\RubbishData.log" could not be opened. Operating system error code 21(The device is not ready.).
+Cannot bulk load because the file "D:\TranscadSystem\AdminProg\RubbishData.log.Error.Txt" could not be opened. Operating system error code 21(The device is not ready.).
+[dbo].[EgedBulkInsert]
+C:\Slava\ADL\DATA\GIS\Eged\Set2\dataEged.txt
+dbo.LineNodeRaw
+DAL =>    at DAL.SQLServerDAL.EgedBulkInsertDAL.BulkInsert(String fileName, String tableName, SqlConnection connection, SqlTransaction transaction) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\SQLServerDAL\EgedBulkInsertDAL.cs:line 39
+   at BLManager.LoadEgedMapBL.LoadMap() in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\LoadEgedMapBL.cs:line 93
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/10/2015 2:58:39 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 512
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:3528
+Extended Properties: Message - Access to the path 'lineDetailStationTranscad.txt' is denied.
+mscorlib =>    at System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive)
+   at System.IO.Directory.Delete(String path, Boolean recursive)
+   at Utilities.IOHelper.DeleteFolder(String folder, Boolean isRecurcive) in C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\IOHelper.cs:line 107
+   at BLManager.LoadEgedMapBL.LoadMap() in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\LoadEgedMapBL.cs:line 133
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/10/2015 3:01:30 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 512
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:3528
+Extended Properties: Message - Cannot bulk load because the file "D:\TranscadSystem\AdminProg\RubbishData.log" could not be opened. Operating system error code 21(The device is not ready.).
+Cannot bulk load because the file "D:\TranscadSystem\AdminProg\RubbishData.log.Error.Txt" could not be opened. Operating system error code 21(The device is not ready.).
+[dbo].[EgedBulkInsert]
+C:\Slava\ADL\DATA\GIS\Eged\Set2\dataEged.txt
+dbo.LineNodeRaw
+DAL =>    at DAL.SQLServerDAL.EgedBulkInsertDAL.BulkInsert(String fileName, String tableName, SqlConnection connection, SqlTransaction transaction) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\SQLServerDAL\EgedBulkInsertDAL.cs:line 39
+   at BLManager.LoadEgedMapBL.LoadMap() in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\LoadEgedMapBL.cs:line 144
+   at RouteExportProcess.frmRouteExportProccess.SubmLoadEgedMapClick(Object sender, EventArgs e) in C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\frmRouteExportProccess.cs:line 1914
+   at System.Windows.Forms.MenuItem.OnClick(EventArgs e)
+   at System.Windows.Forms.MenuItem.MenuItemData.Execute()
+   at System.Windows.Forms.Command.Invoke()
+   at System.Windows.Forms.Command.DispatchID(Int32 id)
+   at System.Windows.Forms.Control.WmCommand(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/10/2015 3:05:52 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7668
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:4920
+Extended Properties: Message - תהליך קליטת קובצי אגד נכשל בגלל בעיות בנתונים. ראה דוח 
+BLManager =>    at BLManager.LoadEgedMapBL.LoadMap() in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\LoadEgedMapBL.cs:line 119
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/10/2015 3:05:52 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7668
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:4920
+Extended Properties: Message - Access to the path 'lineDetailStationTranscad.txt' is denied.
+mscorlib =>    at System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive)
+   at System.IO.Directory.Delete(String path, Boolean recursive)
+   at Utilities.IOHelper.DeleteFolder(String folder, Boolean isRecurcive) in C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\IOHelper.cs:line 107
+   at BLManager.LoadEgedMapBL.LoadMap() in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\LoadEgedMapBL.cs:line 133
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/10/2015 3:06:29 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7668
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:4920
+Extended Properties: Message - תהליך קליטת קובצי אגד נכשל בגלל בעיות בנתונים. ראה דוח 
+BLManager =>    at BLManager.LoadEgedMapBL.LoadMap() in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\LoadEgedMapBL.cs:line 144
+   at RouteExportProcess.frmRouteExportProccess.SubmLoadEgedMapClick(Object sender, EventArgs e) in C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\frmRouteExportProccess.cs:line 1914
+   at System.Windows.Forms.MenuItem.OnClick(EventArgs e)
+   at System.Windows.Forms.MenuItem.MenuItemData.Execute()
+   at System.Windows.Forms.Command.Invoke()
+   at System.Windows.Forms.Command.DispatchID(Int32 id)
+   at System.Windows.Forms.Control.WmCommand(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/10/2015 3:19:35 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 6736
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7656
+Extended Properties: Message - תהליך קליטת קובצי אגד נכשל בגלל בעיות בנתונים. ראה דוח 
+BLManager =>    at BLManager.LoadEgedMapBL.LoadMap() in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\LoadEgedMapBL.cs:line 119
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/10/2015 3:19:45 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 6736
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7656
+Extended Properties: Message - Access to the path 'lineDetailStationTranscad.txt' is denied.
+mscorlib =>    at System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive)
+   at System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive)
+   at System.IO.Directory.Delete(String path, Boolean recursive)
+   at Utilities.IOHelper.DeleteFolder(String folder, Boolean isRecurcive) in C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\IOHelper.cs:line 107
+   at BLManager.LoadEgedMapBL.LoadMap() in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\LoadEgedMapBL.cs:line 133
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/10/2015 3:19:58 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 6736
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7656
+Extended Properties: Message - תהליך קליטת קובצי אגד נכשל בגלל בעיות בנתונים. ראה דוח 
+BLManager =>    at BLManager.LoadEgedMapBL.LoadMap() in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\LoadEgedMapBL.cs:line 144
+   at RouteExportProcess.frmRouteExportProccess.SubmLoadEgedMapClick(Object sender, EventArgs e) in C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\frmRouteExportProccess.cs:line 1914
+   at System.Windows.Forms.MenuItem.OnClick(EventArgs e)
+   at System.Windows.Forms.MenuItem.MenuItemData.Execute()
+   at System.Windows.Forms.Command.Invoke()
+   at System.Windows.Forms.Command.DispatchID(Int32 id)
+   at System.Windows.Forms.Control.WmCommand(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 14/10/2015 5:44:06 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 6548
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5632
+Extended Properties: Message - לא ניתן להפעיל קובץ C:\Slava\ADL\DATA\GIS\RS_AFIKIM\afikim.wrk כי הוא נעול על ידי משתמש Slava, נסה מאוחר יותר.
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 14/10/2015 6:05:50 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 6984
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8068
+Extended Properties: Message - Invoke or BeginInvoke cannot be called on a control until the window handle has been created.
+RouteExportProcess =>    at RouteExportProcess.frmRouteExportProccess.BtnCreateTextFilesClick(Object sender, EventArgs e) in C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\frmRouteExportProccess.cs:line 1023
+   at System.Windows.Forms.MenuItem.OnClick(EventArgs e)
+   at System.Windows.Forms.MenuItem.MenuItemData.Execute()
+   at System.Windows.Forms.Command.Invoke()
+   at System.Windows.Forms.Command.DispatchID(Int32 id)
+   at System.Windows.Forms.Control.WmCommand(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 14/10/2015 6:14:40 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 2380
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6556
+Extended Properties: Message - לא ניתן להפעיל קובץ C:\Slava\ADL\DATA\GIS\RS_AFIKIM\afikim.wrk כי הוא נעול על ידי משתמש Slava, נסה מאוחר יותר.
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/11/2015 3:07:42 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7220
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5484
+Extended Properties: Message - Cannot find one or more of the fields listed in GisdkDataAdapter.ViewFieldNames for view Physical Stops
+DAL =>    at DAL.TransCadMunipulationDataDAL.FillData(String[] filedNames, String layer, String sentance) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadMunipulationDataDAL.cs:line 187
+   at DAL.TransCadMunipulationDataDAL.GetPhysicalStopsRawDataDictionary() in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadMunipulationDataDAL.cs:line 461
+   at BLManager.TransCadBlManager.BuildModelData(List`1 selectedList) in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\TransCadBLManager.cs:line 434
+   at RouteExportProcess.frmRouteExportProccess.ShowDataFromStorage() in C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\frmRouteExportProccess.cs:line 76
+   at RouteExportProcess.frmRouteExportProccess.RouteExportProccess_Load(Object sender, EventArgs e) in C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\frmRouteExportProccess.cs:line 214
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/11/2015 3:08:00 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7220
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5484
+Extended Properties: Message - Cannot find one or more of the fields listed in GisdkDataAdapter.ViewFieldNames for view Physical Stops
+DAL =>    at DAL.TransCadMunipulationDataDAL.FillData(String[] filedNames, String layer, String sentance) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadMunipulationDataDAL.cs:line 187
+   at DAL.TransCadMunipulationDataDAL.GetPhysicalStopsRawDataDictionary() in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadMunipulationDataDAL.cs:line 461
+   at BLManager.TransCadBlManager.BuildModelData(List`1 selectedList) in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\TransCadBLManager.cs:line 434
+   at RouteExportProcess.frmRouteExportProccess.ShowDataFromStorage() in C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\frmRouteExportProccess.cs:line 76
+   at RouteExportProcess.frmRouteExportProccess.RouteExportProccess_Load(Object sender, EventArgs e) in C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\frmRouteExportProccess.cs:line 226
+   at System.EventHandler.Invoke(Object sender, EventArgs e)
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/11/2015 3:19:50 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 4200
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7164
+Extended Properties: Message - CaliperForm.Connection.DoMacro("updPhysicalStops","C:\Slava\ADL\Macros\UpdatePhysicalStops\updatephysicalstops.dbd", ... ) threw an exception. There was an macro error encountered during the running of the macro "updPhysicalStops". The connection has been closed.
+CaliperForm =>    at CaliperForm.Connection.DoMacro(String MacroName, String UIDatabase, Object[] Arguments)
+   at DAL.TransCadMunipulationDataDAL.RunExportMacro(String macroName, String uiFile, List`1 parameters) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadMunipulationDataDAL.cs:line 2763
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/11/2015 3:41:00 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 2220
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7352
+Extended Properties: Message - CaliperForm.Connection.DoMacro("updPhysicalStops","C:\Slava\ADL\Macros\UpdatePhysicalStops\updatephysicalstops.dbd", ... ) threw an exception. There was an macro error encountered during the running of the macro "updPhysicalStops". The connection has been closed.
+CaliperForm =>    at CaliperForm.Connection.DoMacro(String MacroName, String UIDatabase, Object[] Arguments)
+   at DAL.TransCadMunipulationDataDAL.RunExportMacro(String macroName, String uiFile, List`1 parameters) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadMunipulationDataDAL.cs:line 2763
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/11/2015 4:09:41 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 5972
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7424
+Extended Properties: Message - Route System לא נמצא
+DAL =>    at DAL.TransCadMunipulationDataDAL.GetTransCadCurrentEnvoromnetInfo() in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadMunipulationDataDAL.cs:line 739
+   at BLManager.TransCadBlManager.IsValidTransCadEnvironment(String& errorString) in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\TransCadBLManager.cs:line 93
+   at RouteExportProcess.frmRouteExportProccess.RouteExportProccess_Load(Object sender, EventArgs e) in C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\frmRouteExportProccess.cs:line 204
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/11/2015 4:12:40 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3372
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:1308
+Extended Properties: Message - CaliperForm.Connection.DoMacro("e","C:\Slava\ADL\Macros\UpdateEndPoints\updateendpoints.dbd", ... ) threw an exception. There was an macro error encountered during the running of the macro "e". The connection has been closed.
+CaliperForm =>    at CaliperForm.Connection.DoMacro(String MacroName, String UIDatabase, Object[] Arguments)
+   at DAL.TransCadMunipulationDataDAL.RunExportMacro(String macroName, String uiFile, List`1 parameters) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadMunipulationDataDAL.cs:line 2763
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/11/2015 4:34:43 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 164
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5584
+Extended Properties: Message - End Point Has Empty City Or TypeDavid
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/11/2015 4:36:46 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 164
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5584
+Extended Properties: Message - ישנם מוקדים שלא עברו עדכון של רחובות. נא, הרץ עדכון שכבת הרחובות
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/11/2015 4:41:52 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 164
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5584
+Extended Properties: Message - CaliperForm.Connection.DoFunction("SetLayer" , ... ) threw an exception. Cannot find layer "Endpoints". The connection has been closed.
+CaliperForm =>    at CaliperForm.Connection.DoFunction(String FunctionName, Object[] Arguments)
+   at DAL.TransCadMunipulationDataDAL.IsEndPointHasEmptyCityOrTypeDavid(String endPoints_layer) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadMunipulationDataDAL.cs:line 2818
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/11/2015 4:41:52 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 164
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5584
+Extended Properties: Message - End Point Has Empty City Or TypeDavid
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/11/2015 4:42:00 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 164
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5584
+Extended Properties: Message - ישנם מוקדים שלא עברו עדכון של רחובות. נא, הרץ עדכון שכבת הרחובות
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/11/2015 4:43:25 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7076
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7620
+Extended Properties: Message - Loading process faild for user Slava for operator נתיב אקספרס
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/11/2015 4:43:25 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7076
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7620
+Extended Properties: Message - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_StationImport_StationType". The conflict occurred in database "TrafficLicensingPlanning", table "dbo.StationType", column 'StationTypeId'.
+The statement has been terminated.
+Class StationImport
+StationId = 20253
+StationName = תחנה מרכזית הרצליה/רציפים
+StationShortName = ת. מרכזית הרצליה
+Lat = 32.164059
+Long = 34.843365
+CityId = 6400
+StreetName = 
+HouseNumber = 
+B56Heb = 
+B56Eng = 
+LinkId = 35753
+StationCatalog = 20253
+LatDifferrent = 32.164065
+LongDifferrent = 34.843312
+AreaOperatorId = 
+StationStatusId = 1
+StationTypeId = 8
+UpdateDate = 06/11/2015 6:43:13 PM
+System.Data.SqlClient.SqlException: The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_StationImport_StationType". The conflict occurred in database "TrafficLicensingPlanning", table "dbo.StationType", column 'StationTypeId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Utilities.SQLServerHelper.ExecuteQuery(String spName, Dictionary`2 inputParameter, SqlConnection connection, SqlTransaction transaction) in C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\SQLServerHelper.cs:line 441
+   at Utilities.SQLServerHelper.ExecuteQuery(String spName, Dictionary`2 inputParameter, SqlConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\SQLServerHelper.cs:line 410
+   at DAL.SQLServerDAL.StationImportDAL.Save(StationImport entity, DbConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\SQLServerDAL\StationImportDAL.cs:line 35
+DAL =>    at DAL.SQLServerDAL.StationImportDAL.Save(StationImport entity, DbConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\SQLServerDAL\StationImportDAL.cs:line 39
+   at DAL.ExportBaseToSqldal.<>c__DisplayClass10.<InsertStations>b__d(StationImport c) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportBaseToSQLDAL.cs:line 80
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at DAL.ExportBaseToSqldal.InsertStations(List`1 lstStations, SqlConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportBaseToSQLDAL.cs:line 78
+   at DAL.ExportBaseToSqldal.ExportInfrasructureDataByOperGroup(List`1 lstCities, List`1 lstJunctions, List`1 lstStations, String& message, EnmOperatorGroup oprGroup) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportBaseToSQLDAL.cs:line 210
+   at DAL.ExportBaseToSqldal.ExportInfrasructureData(List`1 lstCities, List`1 lstJunctions, List`1 lstStations, String& message) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportBaseToSQLDAL.cs:line 228
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/11/2015 4:43:26 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7076
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7620
+Extended Properties: Message - Loading process faild for user Slava for operator נתיב אקספרס
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/11/2015 4:43:26 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7076
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7620
+Extended Properties: Message - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_StationImport_StationType". The conflict occurred in database "TrafficLicensingPlanning", table "dbo.StationType", column 'StationTypeId'.
+The statement has been terminated.
+Class StationImport
+StationId = 20253
+StationName = תחנה מרכזית הרצליה/רציפים
+StationShortName = ת. מרכזית הרצליה
+Lat = 32.164059
+Long = 34.843365
+CityId = 6400
+StreetName = 
+HouseNumber = 
+B56Heb = 
+B56Eng = 
+LinkId = 35753
+StationCatalog = 20253
+LatDifferrent = 32.164065
+LongDifferrent = 34.843312
+AreaOperatorId = 
+StationStatusId = 1
+StationTypeId = 8
+UpdateDate = 06/11/2015 6:43:13 PM
+System.Data.SqlClient.SqlException: The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_StationImport_StationType". The conflict occurred in database "TrafficLicensingPlanning", table "dbo.StationType", column 'StationTypeId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Utilities.SQLServerHelper.ExecuteQuery(String spName, Dictionary`2 inputParameter, SqlConnection connection, SqlTransaction transaction) in C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\SQLServerHelper.cs:line 441
+   at Utilities.SQLServerHelper.ExecuteQuery(String spName, Dictionary`2 inputParameter, SqlConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\SQLServerHelper.cs:line 410
+   at DAL.SQLServerDAL.StationImportDAL.Save(StationImport entity, DbConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\SQLServerDAL\StationImportDAL.cs:line 35
+DAL =>    at DAL.SQLServerDAL.StationImportDAL.Save(StationImport entity, DbConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\SQLServerDAL\StationImportDAL.cs:line 39
+   at DAL.ExportBaseToSqldal.<>c__DisplayClass10.<InsertStations>b__d(StationImport c) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportBaseToSQLDAL.cs:line 80
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at DAL.ExportBaseToSqldal.InsertStations(List`1 lstStations, SqlConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportBaseToSQLDAL.cs:line 78
+   at DAL.ExportBaseToSqldal.ExportInfrasructureDataByOperGroup(List`1 lstCities, List`1 lstJunctions, List`1 lstStations, String& message, EnmOperatorGroup oprGroup) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportBaseToSQLDAL.cs:line 210
+   at DAL.ExportBaseToSqldal.ExportInfrasructureData(List`1 lstCities, List`1 lstJunctions, List`1 lstStations, String& message) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportBaseToSQLDAL.cs:line 228
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/11/2015 4:47:16 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7076
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7620
+Extended Properties: Message - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_StationImport_StationType". The conflict occurred in database "TrafficLicensingPlanning", table "dbo.StationType", column 'StationTypeId'.
+The statement has been terminated.
+Class StationImport
+StationId = 20253
+StationName = תחנה מרכזית הרצליה/רציפים
+StationShortName = ת. מרכזית הרצליה
+Lat = 32.164059
+Long = 34.843365
+CityId = 6400
+StreetName = 
+HouseNumber = 
+B56Heb = 
+B56Eng = 
+LinkId = 35753
+StationCatalog = 20253
+LatDifferrent = 32.164065
+LongDifferrent = 34.843312
+AreaOperatorId = 
+StationStatusId = 1
+StationTypeId = 8
+UpdateDate = 06/11/2015 6:43:13 PM
+System.Data.SqlClient.SqlException: The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_StationImport_StationType". The conflict occurred in database "TrafficLicensingPlanning", table "dbo.StationType", column 'StationTypeId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Utilities.SQLServerHelper.ExecuteQuery(String spName, Dictionary`2 inputParameter, SqlConnection connection, SqlTransaction transaction) in C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\SQLServerHelper.cs:line 441
+   at Utilities.SQLServerHelper.ExecuteQuery(String spName, Dictionary`2 inputParameter, SqlConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\SQLServerHelper.cs:line 410
+   at DAL.SQLServerDAL.StationImportDAL.Save(StationImport entity, DbConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\SQLServerDAL\StationImportDAL.cs:line 35
+DAL =>    at DAL.SQLServerDAL.StationImportDAL.Save(StationImport entity, DbConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\SQLServerDAL\StationImportDAL.cs:line 39
+   at DAL.ExportBaseToSqldal.<>c__DisplayClass10.<InsertStations>b__d(StationImport c) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportBaseToSQLDAL.cs:line 80
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at DAL.ExportBaseToSqldal.InsertStations(List`1 lstStations, SqlConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportBaseToSQLDAL.cs:line 78
+   at DAL.ExportBaseToSqldal.ExportInfrasructureDataByOperGroup(List`1 lstCities, List`1 lstJunctions, List`1 lstStations, String& message, EnmOperatorGroup oprGroup) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportBaseToSQLDAL.cs:line 210
+   at DAL.ExportBaseToSqldal.ExportInfrasructureData(List`1 lstCities, List`1 lstJunctions, List`1 lstStations, String& message) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportBaseToSQLDAL.cs:line 242
+   at BLManager.ExportBaseToSQLBL.ExportBaseData(String& message) in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\ExportBaseToSQLBL.cs:line 235
+   at RouteExportProcess.frmRouteExportProccess.btnExportBase_Click(Object sender, EventArgs e) in C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\frmRouteExportProccess.cs:line 1290
+   at System.Windows.Forms.MenuItem.OnClick(EventArgs e)
+   at System.Windows.Forms.MenuItem.MenuItemData.Execute()
+   at System.Windows.Forms.Command.Invoke()
+   at System.Windows.Forms.Command.DispatchID(Int32 id)
+   at System.Windows.Forms.Control.WmCommand(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/11/2015 4:48:24 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 8088
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6728
+Extended Properties: Message - Loading process faild for user Slava for operator נתיב אקספרס
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/11/2015 4:48:24 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 8088
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6728
+Extended Properties: Message - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_StationImport_StationType". The conflict occurred in database "TrafficLicensingPlanning", table "dbo.StationType", column 'StationTypeId'.
+The statement has been terminated.
+Class StationImport
+StationId = 20348
+StationName = דרך נמיר/ז’בוטינסקי
+StationShortName = נמיר/ז’בוטינסקי
+Lat = 32.085263
+Long = 34.795058
+CityId = 5000
+StreetName = 
+HouseNumber = 
+B56Heb = 
+B56Eng = 
+LinkId = 10277
+StationCatalog = 20348
+LatDifferrent = 32.085272
+LongDifferrent = 34.795006
+AreaOperatorId = 
+StationStatusId = 1
+StationTypeId = 9
+UpdateDate = 06/11/2015 6:48:14 PM
+System.Data.SqlClient.SqlException: The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_StationImport_StationType". The conflict occurred in database "TrafficLicensingPlanning", table "dbo.StationType", column 'StationTypeId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Utilities.SQLServerHelper.ExecuteQuery(String spName, Dictionary`2 inputParameter, SqlConnection connection, SqlTransaction transaction) in C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\SQLServerHelper.cs:line 441
+   at Utilities.SQLServerHelper.ExecuteQuery(String spName, Dictionary`2 inputParameter, SqlConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\SQLServerHelper.cs:line 410
+   at DAL.SQLServerDAL.StationImportDAL.Save(StationImport entity, DbConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\SQLServerDAL\StationImportDAL.cs:line 35
+DAL =>    at DAL.SQLServerDAL.StationImportDAL.Save(StationImport entity, DbConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\SQLServerDAL\StationImportDAL.cs:line 39
+   at DAL.ExportBaseToSqldal.<>c__DisplayClass10.<InsertStations>b__d(StationImport c) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportBaseToSQLDAL.cs:line 80
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at DAL.ExportBaseToSqldal.InsertStations(List`1 lstStations, SqlConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportBaseToSQLDAL.cs:line 78
+   at DAL.ExportBaseToSqldal.ExportInfrasructureDataByOperGroup(List`1 lstCities, List`1 lstJunctions, List`1 lstStations, String& message, EnmOperatorGroup oprGroup) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportBaseToSQLDAL.cs:line 210
+   at DAL.ExportBaseToSqldal.ExportInfrasructureData(List`1 lstCities, List`1 lstJunctions, List`1 lstStations, String& message) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportBaseToSQLDAL.cs:line 228
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/11/2015 4:48:24 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 8088
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6728
+Extended Properties: Message - Loading process faild for user Slava for operator נתיב אקספרס
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/11/2015 4:48:25 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 8088
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6728
+Extended Properties: Message - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_StationImport_StationType". The conflict occurred in database "TrafficLicensingPlanning", table "dbo.StationType", column 'StationTypeId'.
+The statement has been terminated.
+Class StationImport
+StationId = 20348
+StationName = דרך נמיר/ז’בוטינסקי
+StationShortName = נמיר/ז’בוטינסקי
+Lat = 32.085263
+Long = 34.795058
+CityId = 5000
+StreetName = 
+HouseNumber = 
+B56Heb = 
+B56Eng = 
+LinkId = 10277
+StationCatalog = 20348
+LatDifferrent = 32.085272
+LongDifferrent = 34.795006
+AreaOperatorId = 
+StationStatusId = 1
+StationTypeId = 9
+UpdateDate = 06/11/2015 6:48:14 PM
+System.Data.SqlClient.SqlException: The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_StationImport_StationType". The conflict occurred in database "TrafficLicensingPlanning", table "dbo.StationType", column 'StationTypeId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Utilities.SQLServerHelper.ExecuteQuery(String spName, Dictionary`2 inputParameter, SqlConnection connection, SqlTransaction transaction) in C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\SQLServerHelper.cs:line 441
+   at Utilities.SQLServerHelper.ExecuteQuery(String spName, Dictionary`2 inputParameter, SqlConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\SQLServerHelper.cs:line 410
+   at DAL.SQLServerDAL.StationImportDAL.Save(StationImport entity, DbConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\SQLServerDAL\StationImportDAL.cs:line 35
+DAL =>    at DAL.SQLServerDAL.StationImportDAL.Save(StationImport entity, DbConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\SQLServerDAL\StationImportDAL.cs:line 39
+   at DAL.ExportBaseToSqldal.<>c__DisplayClass10.<InsertStations>b__d(StationImport c) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportBaseToSQLDAL.cs:line 80
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at DAL.ExportBaseToSqldal.InsertStations(List`1 lstStations, SqlConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportBaseToSQLDAL.cs:line 78
+   at DAL.ExportBaseToSqldal.ExportInfrasructureDataByOperGroup(List`1 lstCities, List`1 lstJunctions, List`1 lstStations, String& message, EnmOperatorGroup oprGroup) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportBaseToSQLDAL.cs:line 210
+   at DAL.ExportBaseToSqldal.ExportInfrasructureData(List`1 lstCities, List`1 lstJunctions, List`1 lstStations, String& message) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportBaseToSQLDAL.cs:line 228
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/11/2015 4:49:27 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 8088
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6728
+Extended Properties: Message - The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_StationImport_StationType". The conflict occurred in database "TrafficLicensingPlanning", table "dbo.StationType", column 'StationTypeId'.
+The statement has been terminated.
+Class StationImport
+StationId = 20348
+StationName = דרך נמיר/ז’בוטינסקי
+StationShortName = נמיר/ז’בוטינסקי
+Lat = 32.085263
+Long = 34.795058
+CityId = 5000
+StreetName = 
+HouseNumber = 
+B56Heb = 
+B56Eng = 
+LinkId = 10277
+StationCatalog = 20348
+LatDifferrent = 32.085272
+LongDifferrent = 34.795006
+AreaOperatorId = 
+StationStatusId = 1
+StationTypeId = 9
+UpdateDate = 06/11/2015 6:48:14 PM
+System.Data.SqlClient.SqlException: The UPDATE statement conflicted with the FOREIGN KEY constraint "FK_StationImport_StationType". The conflict occurred in database "TrafficLicensingPlanning", table "dbo.StationType", column 'StationTypeId'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Utilities.SQLServerHelper.ExecuteQuery(String spName, Dictionary`2 inputParameter, SqlConnection connection, SqlTransaction transaction) in C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\SQLServerHelper.cs:line 441
+   at Utilities.SQLServerHelper.ExecuteQuery(String spName, Dictionary`2 inputParameter, SqlConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\SQLServerHelper.cs:line 410
+   at DAL.SQLServerDAL.StationImportDAL.Save(StationImport entity, DbConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\SQLServerDAL\StationImportDAL.cs:line 35
+DAL =>    at DAL.SQLServerDAL.StationImportDAL.Save(StationImport entity, DbConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\SQLServerDAL\StationImportDAL.cs:line 39
+   at DAL.ExportBaseToSqldal.<>c__DisplayClass10.<InsertStations>b__d(StationImport c) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportBaseToSQLDAL.cs:line 80
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at DAL.ExportBaseToSqldal.InsertStations(List`1 lstStations, SqlConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportBaseToSQLDAL.cs:line 78
+   at DAL.ExportBaseToSqldal.ExportInfrasructureDataByOperGroup(List`1 lstCities, List`1 lstJunctions, List`1 lstStations, String& message, EnmOperatorGroup oprGroup) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportBaseToSQLDAL.cs:line 210
+   at DAL.ExportBaseToSqldal.ExportInfrasructureData(List`1 lstCities, List`1 lstJunctions, List`1 lstStations, String& message) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportBaseToSQLDAL.cs:line 242
+   at BLManager.ExportBaseToSQLBL.ExportBaseData(String& message) in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\ExportBaseToSQLBL.cs:line 235
+   at RouteExportProcess.frmRouteExportProccess.btnExportBase_Click(Object sender, EventArgs e) in C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\frmRouteExportProccess.cs:line 1290
+   at System.Windows.Forms.MenuItem.OnClick(EventArgs e)
+   at System.Windows.Forms.MenuItem.MenuItemData.Execute()
+   at System.Windows.Forms.Command.Invoke()
+   at System.Windows.Forms.Command.DispatchID(Int32 id)
+   at System.Windows.Forms.Control.WmCommand(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/11/2015 4:54:28 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 5192
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7728
+Extended Properties: Message - CaliperForm.Connection.DoMacro("e","C:\Slava\ADL\Macros\Export\exportcalcmacro.dbd", ... ) threw an exception. There was an macro error encountered during the running of the macro "e". The connection has been closed.
+CaliperForm =>    at CaliperForm.Connection.DoMacro(String MacroName, String UIDatabase, Object[] Arguments)
+   at DAL.TransCadMunipulationDataDAL.RunExportMacro(String macroName, String uiFile, List`1 parameters) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadMunipulationDataDAL.cs:line 2763
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/11/2015 4:54:33 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 5192
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7728
+Extended Properties: Message - CaliperForm.Connection.DoFunction("SetLayer" , ... ) threw an exception. Cannot find layer "Stops". The connection has been closed.
+DAL =>    at DAL.TransCadMunipulationDataDAL.FillData(String[] filedNames, String layer, String sentance) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadMunipulationDataDAL.cs:line 187
+   at DAL.TransCadMunipulationDataDAL.GetRouteStopsRawDataDictionary() in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadMunipulationDataDAL.cs:line 365
+   at BLManager.TransCadBlManager.RePopulateRouteStopList() in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\TransCadBLManager.cs:line 1623
+   at BLManager.ExportDataSqlblManager.ExportData(String& message) in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\ExportDataSQLBLManager.cs:line 146
+   at RouteExportProcess.frmRouteExportProccess.BtnCreateTextFilesClick(Object sender, EventArgs e) in C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\frmRouteExportProccess.cs:line 1023
+   at System.Windows.Forms.MenuItem.OnClick(EventArgs e)
+   at System.Windows.Forms.MenuItem.MenuItemData.Execute()
+   at System.Windows.Forms.Command.Invoke()
+   at System.Windows.Forms.Command.DispatchID(Int32 id)
+   at System.Windows.Forms.Control.WmCommand(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/11/2015 6:19:21 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 1784
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6652
+Extended Properties: Message - ExitFormApplication
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 5:50:56 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 5288
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7252
+Extended Properties: Message - לא ניתן להפעיל קובץ C:\Slava\ADL\DATA\GIS\RS_AFIKIM\afikim.wrk כי הוא נעול על ידי משתמש Slava, נסה מאוחר יותר.
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 5:59:39 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7044
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:2652
+Extended Properties: Message - לא ניתן להפעיל קובץ C:\Slava\ADL\DATA\GIS\RS_AFIKIM\afikim.wrk כי הוא נעול על ידי משתמש Slava, נסה מאוחר יותר.
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:12 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 276 1 #. Distance between point x1 : 35207651, y1 : 32102876 and x2 35207650, y2 32102873 is 3.16227766016838. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:12 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 276 1 #. Distance between point x1 : 35207406, y1 : 32102420 and x2 35207409, y2 32102419 is 3.16227766016838. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:13 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 276 1 #. Distance between point x1 : 35207458, y1 : 32102396 and x2 35207462, y2 32102395 is 4.12310562561766. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:13 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 276 1 #. Distance between point x1 : 35207650, y1 : 32102873 and x2 35207651, y2 32102876 is 3.16227766016838. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:13 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 276 1 #. Distance between point x1 : 34917455, y1 : 32168053 and x2 34917452, y2 32168053 is 3. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:13 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 276 1 #. Distance between point x1 : 34917455, y1 : 32168053 and x2 34917452, y2 32168053 is 3. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:28 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 276 2 #. Distance between point x1 : 34917455, y1 : 32168053 and x2 34917452, y2 32168053 is 3. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:28 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 276 2 #. Distance between point x1 : 34917455, y1 : 32168053 and x2 34917452, y2 32168053 is 3. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:28 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 276 2 #. Distance between point x1 : 35207406, y1 : 32102420 and x2 35207409, y2 32102419 is 3.16227766016838. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:28 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 276 2 #. Distance between point x1 : 35207458, y1 : 32102396 and x2 35207462, y2 32102395 is 4.12310562561766. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:28 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 276 2 #. Distance between point x1 : 35207650, y1 : 32102873 and x2 35207651, y2 32102876 is 3.16227766016838. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:29 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 276 2 1. Distance between point x1 : 34882046, y1 : 32323442 and x2 34882047, y2 32323441 is 1.4142135623731. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:29 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 276 2 1. Distance between point x1 : 34917455, y1 : 32168053 and x2 34917452, y2 32168053 is 3. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:29 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 276 2 1. Distance between point x1 : 34917455, y1 : 32168053 and x2 34917452, y2 32168053 is 3. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:29 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 276 2 1. Distance between point x1 : 35207406, y1 : 32102420 and x2 35207409, y2 32102419 is 3.16227766016838. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:29 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 276 2 1. Distance between point x1 : 35207458, y1 : 32102396 and x2 35207462, y2 32102395 is 4.12310562561766. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:29 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 276 2 1. Distance between point x1 : 35207650, y1 : 32102873 and x2 35207651, y2 32102876 is 3.16227766016838. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:30 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 860 1 #. Distance between point x1 : 35207651, y1 : 32102876 and x2 35207650, y2 32102873 is 3.16227766016838. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:30 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 860 1 #. Distance between point x1 : 35207406, y1 : 32102420 and x2 35207409, y2 32102419 is 3.16227766016838. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:30 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 860 1 #. Distance between point x1 : 35207458, y1 : 32102396 and x2 35207462, y2 32102395 is 4.12310562561766. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:30 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 860 1 #. Distance between point x1 : 35207650, y1 : 32102873 and x2 35207651, y2 32102876 is 3.16227766016838. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:30 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 860 2 #. Distance between point x1 : 35175273, y1 : 32104810 and x2 35175276, y2 32104811 is 3.16227766016838. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:30 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 860 2 #. Distance between point x1 : 35189603, y1 : 32107711 and x2 35189604, y2 32107713 is 2.23606797749979. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:30 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 860 2 #. Distance between point x1 : 35207651, y1 : 32102876 and x2 35207650, y2 32102873 is 3.16227766016838. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:30 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 860 2 #. Distance between point x1 : 35207406, y1 : 32102420 and x2 35207409, y2 32102419 is 3.16227766016838. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:30 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 860 2 #. Distance between point x1 : 35207458, y1 : 32102396 and x2 35207462, y2 32102395 is 4.12310562561766. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:15:31 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - Line 860 2 #. Distance between point x1 : 35207650, y1 : 32102873 and x2 35207651, y2 32102876 is 3.16227766016838. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:16:01 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6800
+Extended Properties: Message - הקליטה נכשלה בגלל שקיימים תחנות בקו תחנה שעוד לא נקלטו בתשתית. פנה למנהל המערכת
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:33:41 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 5896
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:2220
+Extended Properties: Message - CaliperForm.Connection.Open() threw an exception.
+DAL =>    at DAL.TransCadMunipulationDataDAL.GetTransCadCurrentEnvoromnetInfo() in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadMunipulationDataDAL.cs:line 739
+   at BLManager.TransCadBlManager.IsValidTransCadEnvironment(String& errorString) in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\TransCadBLManager.cs:line 93
+   at RouteExportProcess.frmRouteExportProccess.RouteExportProccess_Load(Object sender, EventArgs e) in C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\frmRouteExportProccess.cs:line 204
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:34:00 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7416
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:1756
+Extended Properties: Message - לא ניתן להפעיל קובץ C:\Slava\ADL\DATA\GIS\RS_AFIKIM\afikim.wrk כי הוא נעול על ידי משתמש Slava, נסה מאוחר יותר.
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:37:28 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 2480
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6204
+Extended Properties: Message - Line 389 1 #. Distance between point x1 : 34834871, y1 : 32081622 and x2 34834873, y2 32081626 is 4.47213595499958. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:37:29 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 2480
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6204
+Extended Properties: Message - Line 389 1 1. Distance between point x1 : 34834871, y1 : 32081622 and x2 34834873, y2 32081626 is 4.47213595499958. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 16/11/2015 6:50:50 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 6740
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6812
+Extended Properties: Message - CaliperForm.Connection.DoMacro("maR","C:\Slava\ADL\Macros\EgedNispah2\nispah2.dbd", ... ) threw an exception. There was an macro error encountered during the running of the macro "maR". The connection has been closed.
+CaliperForm =>    at CaliperForm.Connection.DoMacro(String MacroName, String UIDatabase, Object[] Arguments)
+   at DAL.TransCadMunipulationDataDAL.RunTranscadMacro(String macroName, String uiFile, List`1 parameters) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadMunipulationDataDAL.cs:line 2791
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/12/2015 6:07:16 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 4360
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5148
+Extended Properties: Message - CaliperForm.Connection.DoMacro("RSP","C:\Slava\ADL\Macros\RouteSystemPoints\routeSystemPointsUI.dbd", ... ) threw an exception. There was an macro error encountered during the running of the macro "RSP". The connection has been closed.
+CaliperForm =>    at CaliperForm.Connection.DoMacro(String MacroName, String UIDatabase, Object[] Arguments)
+   at DAL.TransCadMunipulationDataDAL.RunTranscadMacro(String macroName, String uiFile, List`1 parameters) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadMunipulationDataDAL.cs:line 2791
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/12/2015 6:07:45 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 4360
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5148
+Extended Properties: Message - CaliperForm.Connection.DoMacro("RSP","C:\Slava\ADL\Macros\RouteSystemPoints\routeSystemPointsUI.dbd", ... ) threw an exception. There was an macro error encountered during the running of the macro "RSP". The connection has been closed.
+CaliperForm =>    at CaliperForm.Connection.DoMacro(String MacroName, String UIDatabase, Object[] Arguments)
+   at DAL.TransCadMunipulationDataDAL.RunTranscadMacro(String macroName, String uiFile, List`1 parameters) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadMunipulationDataDAL.cs:line 2791
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/12/2015 6:07:48 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 4360
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5148
+Extended Properties: Message - CaliperForm.Connection.DoMacro("RSP","C:\Slava\ADL\Macros\RouteSystemPoints\routeSystemPointsUI.dbd", ... ) threw an exception. There was an macro error encountered during the running of the macro "RSP". The connection has been closed.
+CaliperForm =>    at CaliperForm.Connection.DoMacro(String MacroName, String UIDatabase, Object[] Arguments)
+   at DAL.TransCadMunipulationDataDAL.RunTranscadMacro(String macroName, String uiFile, List`1 parameters) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadMunipulationDataDAL.cs:line 2791
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 06/12/2015 6:07:54 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 4360
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5148
+Extended Properties: Message - CaliperForm.Connection.DoMacro("RSP","C:\Slava\ADL\Macros\RouteSystemPoints\routeSystemPointsUI.dbd", ... ) threw an exception. There was an macro error encountered during the running of the macro "RSP". The connection has been closed.
+CaliperForm =>    at CaliperForm.Connection.DoMacro(String MacroName, String UIDatabase, Object[] Arguments)
+   at DAL.TransCadMunipulationDataDAL.RunTranscadMacro(String macroName, String uiFile, List`1 parameters) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadMunipulationDataDAL.cs:line 2791
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 10/12/2015 7:02:54 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 2560
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5792
+Extended Properties: Message - Line 251 2 #. Distance between point x1 : 35297714, y1 : 31770115 and x2 35297711, y2 31770118 is 4.24264068711928. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 10/12/2015 7:02:55 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 2560
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5792
+Extended Properties: Message - Line 251 2 #. Distance between point x1 : 35207650, y1 : 32102873 and x2 35207651, y2 32102876 is 3.16227766016838. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 10/12/2015 7:02:56 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 2560
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5792
+Extended Properties: Message - Line 251 1 #. Distance between point x1 : 35207651, y1 : 32102876 and x2 35207650, y2 32102873 is 3.16227766016838. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 10/12/2015 7:02:56 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 2560
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5792
+Extended Properties: Message - Line 251 1 #. Distance between point x1 : 35207406, y1 : 32102420 and x2 35207409, y2 32102419 is 3.16227766016838. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 10/12/2015 7:02:56 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 2560
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5792
+Extended Properties: Message - Line 251 1 #. Distance between point x1 : 35207458, y1 : 32102396 and x2 35207462, y2 32102395 is 4.12310562561766. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 10/12/2015 7:02:56 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 2560
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5792
+Extended Properties: Message - Line 251 1 #. Distance between point x1 : 35230062, y1 : 31862243 and x2 35230064, y2 31862247 is 4.47213595499958. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 10/12/2015 7:02:57 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 2560
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5792
+Extended Properties: Message - Line 251 1 #. Distance between point x1 : 35229730, y1 : 31862313 and x2 35229731, y2 31862316 is 3.16227766016838. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 10/12/2015 7:02:57 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 2560
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5792
+Extended Properties: Message - Line 251 1 #. Distance between point x1 : 35289971, y1 : 31768161 and x2 35289974, y2 31768159 is 3.60555127546399. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 10/12/2015 7:02:57 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 2560
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5792
+Extended Properties: Message - Line 251 1 #. Distance between point x1 : 35297308, y1 : 31769452 and x2 35297311, y2 31769456 is 5. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 11:23:36 AM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 4312
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:4616
+Extended Properties: Message - *********** The eged loading Data to Traffic DB has  4 routes
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 11:48:15 AM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 6140
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7564
+Extended Properties: Message - לא ניתן להפעיל קובץ C:\Slava\ADL\DATA\GIS\Eged\egedWS.wrk כי הוא נעול על ידי משתמש Slava, נסה מאוחר יותר.
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 11:49:28 AM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 4736
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6344
+Extended Properties: Message - *********** The eged loading Data to Traffic DB has  4 routes
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 11:51:08 AM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3892
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:684
+Extended Properties: Message - לא ניתן להפעיל קובץ C:\Slava\ADL\DATA\GIS\Eged\egedWS.wrk כי הוא נעול על ידי משתמש Slava, נסה מאוחר יותר.
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:06:08 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3572
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7072
+Extended Properties: Message - לא ניתן להפעיל קובץ C:\Slava\ADL\DATA\GIS\Eged\egedWS.wrk כי הוא נעול על ידי משתמש Slava, נסה מאוחר יותר.
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:13 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 100 1 #. Distance between point x1 : 35165906, y1 : 31792187 and x2 35165906, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:14 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 100 1 #. Distance between point x1 : 35165906, y1 : 31792188 and x2 35165906, y2 31792187 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:14 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 100 1 #. Distance between point x1 : 35165906, y1 : 31792187 and x2 35165906, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:14 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 100 1 #. Distance between point x1 : 35165906, y1 : 31792188 and x2 35165906, y2 31792187 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:14 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 100 1 #. Distance between point x1 : 35165906, y1 : 31792187 and x2 35165906, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:14 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 100 1 #. Distance between point x1 : 35165906, y1 : 31792188 and x2 35165907, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:14 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 100 1 #. Distance between point x1 : 35165907, y1 : 31792188 and x2 35165906, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:14 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 100 1 #. Distance between point x1 : 35165906, y1 : 31792188 and x2 35165907, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:14 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 100 1 #. Distance between point x1 : 35165907, y1 : 31792188 and x2 35165907, y2 31792187 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:14 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 100 1 #. Distance between point x1 : 35165907, y1 : 31792187 and x2 35165908, y2 31792187 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:14 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 100 1 #. Distance between point x1 : 35165908, y1 : 31792187 and x2 35165908, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:14 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 100 1 #. Distance between point x1 : 35165908, y1 : 31792188 and x2 35165907, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:14 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 100 1 #. Distance between point x1 : 35165907, y1 : 31792188 and x2 35165908, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:14 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 100 1 #. Distance between point x1 : 35165908, y1 : 31792188 and x2 35165908, y2 31792187 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:14 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 100 1 #. Distance between point x1 : 35165908, y1 : 31792187 and x2 35165909, y2 31792188 is 1.4142135623731. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:14 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 100 1 #. Distance between point x1 : 35165909, y1 : 31792188 and x2 35165908, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:14 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 100 1 #. Distance between point x1 : 35165908, y1 : 31792188 and x2 35165909, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:14 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 100 1 #. Distance between point x1 : 35165909, y1 : 31792188 and x2 35165908, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:14 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 100 1 #. Distance between point x1 : 35165908, y1 : 31792188 and x2 35165909, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:14 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 100 1 #. Distance between point x1 : 35165909, y1 : 31792188 and x2 35165908, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:14 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 100 1 #. Distance between point x1 : 35165908, y1 : 31792188 and x2 35165909, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:15 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 480 1 #. Distance between point x1 : 35165906, y1 : 31792187 and x2 35165906, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:15 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 480 1 #. Distance between point x1 : 35165906, y1 : 31792188 and x2 35165906, y2 31792187 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:15 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 480 1 #. Distance between point x1 : 35165906, y1 : 31792187 and x2 35165906, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:15 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 480 1 #. Distance between point x1 : 35165906, y1 : 31792188 and x2 35165906, y2 31792187 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:15 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 480 1 #. Distance between point x1 : 35165906, y1 : 31792187 and x2 35165906, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:15 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 480 1 #. Distance between point x1 : 35165906, y1 : 31792188 and x2 35165907, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:15 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 480 1 #. Distance between point x1 : 35165907, y1 : 31792188 and x2 35165906, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:15 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 480 1 #. Distance between point x1 : 35165906, y1 : 31792188 and x2 35165907, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:15 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 480 1 #. Distance between point x1 : 35165907, y1 : 31792188 and x2 35165907, y2 31792187 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:15 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 480 1 #. Distance between point x1 : 35165907, y1 : 31792187 and x2 35165908, y2 31792187 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:15 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 480 1 #. Distance between point x1 : 35165908, y1 : 31792187 and x2 35165908, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:15 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 480 1 #. Distance between point x1 : 35165908, y1 : 31792188 and x2 35165907, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:15 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 480 1 #. Distance between point x1 : 35165907, y1 : 31792188 and x2 35165908, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:15 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 480 1 #. Distance between point x1 : 35165908, y1 : 31792188 and x2 35165908, y2 31792187 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:15 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 480 1 #. Distance between point x1 : 35165908, y1 : 31792187 and x2 35165909, y2 31792188 is 1.4142135623731. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:15 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 480 1 #. Distance between point x1 : 35165909, y1 : 31792188 and x2 35165908, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:15 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 480 1 #. Distance between point x1 : 35165908, y1 : 31792188 and x2 35165909, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:15 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 480 1 #. Distance between point x1 : 35165909, y1 : 31792188 and x2 35165908, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:15 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 480 1 #. Distance between point x1 : 35165908, y1 : 31792188 and x2 35165909, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:15 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 480 1 #. Distance between point x1 : 35165909, y1 : 31792188 and x2 35165908, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:15 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 480 1 #. Distance between point x1 : 35165908, y1 : 31792188 and x2 35165909, y2 31792188 is 1. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:16 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - Line 486 3 2. Distance between point x1 : 35202734, y1 : 31789620 and x2 35202733, y2 31789623 is 3.16227766016838. The second point was not applied
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 11/12/2015 12:08:19 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3476
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8144
+Extended Properties: Message - *********** The eged loading Data to Traffic DB has  4 routes
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/02/2016 6:13:22 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 6664
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5076
+Extended Properties: Message - שם הקובץ זיפ לא תואם לשם PRICEAREA.ZIP שנקבע
+עליך לבקש שכבה חדשה ממשרד התחבורה
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/02/2016 6:13:23 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 6664
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5076
+Extended Properties: Message - CaliperForm.Connection.DoFunction("AddLayer" , ... ) threw an exception. AddLayer returned an error. (1) The connection has been closed.
+CaliperForm =>    at CaliperForm.Connection.DoFunction(String FunctionName, Object[] Arguments)
+   at DAL.TransCadMunipulationDataDAL.AddLayer(String mapName, String layerName, String dbName, String dbLayerName, Object options) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadManipuationStructureDAL.cs:line 341
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/02/2016 6:15:17 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7228
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7568
+Extended Properties: Message - לא ניתן להפעיל קובץ C:\Slava\ADL\DATA\GIS\RS_AFIKIM\afikim.wrk כי הוא נעול על ידי משתמש Slava, נסה מאוחר יותר.
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/02/2016 6:20:27 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 6984
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6884
+Extended Properties: Message - לא ניתן להפעיל קובץ C:\Slava\ADL\DATA\GIS\RS_AFIKIM\afikim.wrk כי הוא נעול על ידי משתמש Slava, נסה מאוחר יותר.
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/02/2016 6:26:32 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3836
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:3264
+Extended Properties: Message - לא ניתן להפעיל קובץ C:\Slava\ADL\DATA\GIS\RS_AFIKIM\afikim.wrk כי הוא נעול על ידי משתמש Slava, נסה מאוחר יותר.
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/02/2016 6:38:37 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 6708
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6624
+Extended Properties: Message - לא ניתן להפעיל קובץ C:\Slava\ADL\DATA\GIS\RS_AFIKIM\afikim.wrk כי הוא נעול על ידי משתמש Slava, נסה מאוחר יותר.
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/02/2016 6:41:26 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 1664
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6852
+Extended Properties: Message - לא ניתן להפעיל קובץ C:\Slava\ADL\DATA\GIS\RS_AFIKIM\afikim.wrk כי הוא נעול על ידי משתמש Slava, נסה מאוחר יותר.
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/02/2016 6:45:35 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3840
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7984
+Extended Properties: Message - לא ניתן להפעיל קובץ C:\Slava\ADL\DATA\GIS\RS_AFIKIM\afikim.wrk כי הוא נעול על ידי משתמש Slava, נסה מאוחר יותר.
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/02/2016 6:49:37 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7384
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:4688
+Extended Properties: Message - CaliperForm.Connection.DoFunction("AddLayer" , ... ) threw an exception. AddLayer returned an error. (1) The connection has been closed.
+CaliperForm =>    at CaliperForm.Connection.DoFunction(String FunctionName, Object[] Arguments)
+   at DAL.TransCadMunipulationDataDAL.AddLayer(String mapName, String layerName, String dbName, String dbLayerName, Object options) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadManipuationStructureDAL.cs:line 341
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/02/2016 6:55:05 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7668
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7716
+Extended Properties: Message - CaliperForm.Connection.DoFunction("AddLayer" , ... ) threw an exception. AddLayer returned an error. (1) The connection has been closed.
+CaliperForm =>    at CaliperForm.Connection.DoFunction(String FunctionName, Object[] Arguments)
+   at DAL.TransCadMunipulationDataDAL.AddLayer(String mapName, String layerName, String dbName, String dbLayerName, Object options) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadManipuationStructureDAL.cs:line 341
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/02/2016 6:55:36 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7668
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7716
+Extended Properties: Message - CaliperForm.Connection.DoFunction("AddLayer" , ... ) threw an exception. AddLayer returned an error. (1) The connection has been closed.
+CaliperForm =>    at CaliperForm.Connection.DoFunction(String FunctionName, Object[] Arguments)
+   at DAL.TransCadMunipulationDataDAL.AddLayer(String mapName, String layerName, String dbName, String dbLayerName, Object options) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadManipuationStructureDAL.cs:line 341
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/02/2016 6:57:34 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 2032
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:3176
+Extended Properties: Message - לא ניתן להפעיל קובץ C:\Slava\ADL\DATA\GIS\RS_AFIKIM\afikim.wrk כי הוא נעול על ידי משתמש Slava, נסה מאוחר יותר.
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/02/2016 7:31:21 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7100
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7920
+Extended Properties: Message - לא ניתן להפעיל קובץ C:\Slava\ADL\DATA\GIS\RS_AFIKIM\afikim.wrk כי הוא נעול על ידי משתמש Slava, נסה מאוחר יותר.
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/02/2016 7:48:13 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7980
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7232
+Extended Properties: Message - לא ניתן להפעיל קובץ C:\Slava\ADL\DATA\GIS\RS_AFIKIM\afikim.wrk כי הוא נעול על ידי משתמש Slava, נסה מאוחר יותר.
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/02/2016 7:49:12 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 6200
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:1476
+Extended Properties: Message - CaliperForm.Connection.DoFunction("SetRecordValues" , ... ) threw an exception. SetRecordValues returned an error. (0) The connection has been closed.
+CaliperForm =>    at CaliperForm.Connection.DoFunction(String FunctionName, Object[] Arguments)
+   at DAL.TransCadMunipulationDataDAL.SaveRouteLine(RouteLine routeLine, String layerName) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadMunipulationDataDAL.cs:line 2117
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 13/02/2016 5:53:31 AM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 4856
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:2800
+Extended Properties: Message - שם הקובץ זיפ לא תואם לשם PRICEAREA.ZIP שנקבע
+עליך לבקש שכבה חדשה ממשרד התחבורה
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 13/02/2016 5:57:58 AM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 4856
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:2800
+Extended Properties: Message - מספרי אזור 331 331  כפולים
+עליך לבקש שכבה חדשה ממשרד התחבורה
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 13/02/2016 6:03:51 AM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 4776
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5452
+Extended Properties: Message - מספרי אזור 331 331  כפולים
+עליך לבקש שכבה חדשה ממשרד התחבורה
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 13/02/2016 6:04:41 AM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 4776
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5452
+Extended Properties: Message - The process cannot access the file 'zones.bin' because it is being used by another process.
+mscorlib =>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileInfo.Delete()
+   at BLManager.BlPriceAreaToStationManager.EmptyFolder(DirectoryInfo directoryInfo) in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\BlPriceAreaToStationManager.cs:line 44
+   at BLManager.BlPriceAreaToStationManager.EmptyFolder(DirectoryInfo directoryInfo) in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\BlPriceAreaToStationManager.cs:line 49
+   at BLManager.BlPriceAreaToStationManager.ValidateInput() in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\BlPriceAreaToStationManager.cs:line 115
+   at RouteExportProcess.frmRouteExportProccess.BtnRunClick(Object sender, EventArgs e) in C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\frmRouteExportProccess.cs:line 2139
+   at System.Windows.Forms.MenuItem.OnClick(EventArgs e)
+   at System.Windows.Forms.MenuItem.MenuItemData.Execute()
+   at System.Windows.Forms.Command.Invoke()
+   at System.Windows.Forms.Command.DispatchID(Int32 id)
+   at System.Windows.Forms.Control.WmCommand(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 13/02/2016 6:28:10 AM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 5200
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5688
+Extended Properties: Message - מספרי אזור 331  כפולים
+עליך לבקש שכבה חדשה ממשרד התחבורה
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 13/02/2016 6:29:39 AM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 5200
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5688
+Extended Properties: Message - מספרי אזור 331  כפולים
+עליך לבקש שכבה חדשה ממשרד התחבורה
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 13/02/2016 6:34:24 AM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 4016
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5252
+Extended Properties: Message - מספרי אזור 331  כפולים
+עליך לבקש שכבה חדשה ממשרד התחבורה
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 13/02/2016 6:34:52 AM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 4016
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5252
+Extended Properties: Message - מספרי אזור 331  כפולים
+עליך לבקש שכבה חדשה ממשרד התחבורה
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 13/02/2016 6:36:35 AM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 4016
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5252
+Extended Properties: Message - שמות אזור מודיעין נהריה  כפולים
+עליך לבקש שכבה חדשה ממשרד התחבורה
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 13/02/2016 6:43:42 AM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 4016
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5252
+Extended Properties: Message - שמות אזור מודיעין נהריה  כפולים
+עליך לבקש שכבה חדשה ממשרד התחבורה
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 13/02/2016 7:11:26 AM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 2036
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:4552
+Extended Properties: Message - מספרי אזור 331| כפולים
+עליך לבקש שכבה חדשה ממשרד התחבורה
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 13/02/2016 7:15:20 AM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 4908
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:780
+Extended Properties: Message - מספרי אזור 331| כפולים
+עליך לבקש שכבה חדשה ממשרד התחבורה
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 13/02/2016 7:20:19 AM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 4908
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:780
+Extended Properties: Message - מספרי אזור 331| כפולים
+עליך לבקש שכבה חדשה ממשרד התחבורה
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 13/02/2016 7:28:05 AM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 568
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5168
+Extended Properties: Message - מספרי אזור 331| כפולים
+
+עליך לבקש שכבה חדשה ממשרד התחבורה
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 13/02/2016 7:29:22 AM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 568
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5168
+Extended Properties: Message - מספרי אזור 331| כפולים
+
+עליך לבקש שכבה חדשה ממשרד התחבורה
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 13/02/2016 7:35:43 AM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 4576
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:3540
+Extended Properties: Message - מספרי אזור 331| כפולים
+שמות אזור מודיעין|נהריה| כפולים
+
+עליך לבקש שכבה חדשה ממשרד התחבורה
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 13/02/2016 7:36:47 AM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 4576
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:3540
+Extended Properties: Message - מספרי אזור 331| כפולים
+שמות אזור מודיעין|נהריה| כפולים
+
+עליך לבקש שכבה חדשה ממשרד התחבורה
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 13/02/2016 7:38:34 AM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 2216
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:2080
+Extended Properties: Message - לא ניתן להפעיל קובץ C:\Slava\ADL\DATA\GIS\RS_AFIKIM\afikim.wrk כי הוא נעול על ידי משתמש Slava, נסה מאוחר יותר.
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 13/02/2016 7:55:40 AM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 4936
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:336
+Extended Properties: Message - לא ניתן להפעיל קובץ C:\Slava\ADL\DATA\GIS\RS_AFIKIM\afikim.wrk כי הוא נעול על ידי משתמש Slava, נסה מאוחר יותר.
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 26/02/2016 1:11:43 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 5676
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:3472
+Extended Properties: Message - לא ניתן להפעיל קובץ C:\Slava\ADL\DATA\GIS\RS_AFIKIM\afikim.wrk כי הוא נעול על ידי משתמש Slava, נסה מאוחר יותר.
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 26/02/2016 1:13:28 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3116
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:2344
+Extended Properties: Message - Procedure or function 'TC_lnsertZoneImport' expects parameter '@ShapeFile', which was not supplied.
+System.Data.SqlClient.SqlException: Procedure or function 'TC_lnsertZoneImport' expects parameter '@ShapeFile', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Utilities.SQLServerHelper.ExecuteQueryBySqlParameter(String spName, SqlParameter[] inputParameters, SqlConnection connection, SqlTransaction transaction) in C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\SQLServerHelper.cs:line 471
+   at Utilities.SQLServerHelper.ExecuteQueryBySqlParameter(String spName, SqlParameter[] inputParameters, SqlConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\SQLServerHelper.cs:line 482
+   at DAL.ExportStationAreasToTrafficLicensingDal.Save(PriceZoneArea entity, DbConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportStationAreasToTrafficLicensingDAL.cs:line 135
+DAL =>    at DAL.ExportStationAreasToTrafficLicensingDal.Save(PriceZoneArea entity, DbConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportStationAreasToTrafficLicensingDAL.cs:line 140
+   at DAL.ExportStationAreasToTrafficLicensingDal.<>c__DisplayClassf.<ExportPriceArea>b__d(PriceZoneArea pa) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportStationAreasToTrafficLicensingDAL.cs:line 155
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at DAL.ExportStationAreasToTrafficLicensingDal.ExportPriceArea(List`1 priceZoneAreas, String& errorMessage) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportStationAreasToTrafficLicensingDAL.cs:line 152
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 26/02/2016 1:17:09 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3116
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:2344
+Extended Properties: Message - Procedure or function 'TC_lnsertZoneImport' expects parameter '@ShapeFile', which was not supplied.
+System.Data.SqlClient.SqlException: Procedure or function 'TC_lnsertZoneImport' expects parameter '@ShapeFile', which was not supplied.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Utilities.SQLServerHelper.ExecuteQueryBySqlParameter(String spName, SqlParameter[] inputParameters, SqlConnection connection, SqlTransaction transaction) in C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\SQLServerHelper.cs:line 471
+   at Utilities.SQLServerHelper.ExecuteQueryBySqlParameter(String spName, SqlParameter[] inputParameters, SqlConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\SQLServerHelper.cs:line 482
+   at DAL.ExportStationAreasToTrafficLicensingDal.Save(PriceZoneArea entity, DbConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportStationAreasToTrafficLicensingDAL.cs:line 135
+DAL =>    at DAL.ExportStationAreasToTrafficLicensingDal.Save(PriceZoneArea entity, DbConnection connection) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportStationAreasToTrafficLicensingDAL.cs:line 140
+   at DAL.ExportStationAreasToTrafficLicensingDal.<>c__DisplayClassf.<ExportPriceArea>b__d(PriceZoneArea pa) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportStationAreasToTrafficLicensingDAL.cs:line 155
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at DAL.ExportStationAreasToTrafficLicensingDal.ExportPriceArea(List`1 priceZoneAreas, String& errorMessage) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\ExportStationAreasToTrafficLicensingDAL.cs:line 152
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 26/02/2016 3:02:31 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3340
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6636
+Extended Properties: Message - לא ניתן להפעיל קובץ C:\Slava\ADL\DATA\GIS\RS_AFIKIM\afikim.wrk כי הוא נעול על ידי משתמש Slava, נסה מאוחר יותר.
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 26/02/2016 3:08:16 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 6808
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:8020
+Extended Properties: Message - CaliperForm.Connection.DoFunction("SetLayer" , ... ) threw an exception. Cannot find layer "Zones". The connection has been closed.
+CaliperForm =>    at CaliperForm.Connection.DoFunction(String FunctionName, Object[] Arguments)
+   at DAL.TransCadMunipulationDataDAL.GetNearestIdPriceAreaRecordToPhysicalStop(PhysicalStop stop, String areaLayer, Boolean realCoordinate) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadManipuationStructureDAL.cs:line 645
+   at BLManager.BlPriceAreaToStationManager.<UpdatePriceListZoneValues>b__2e(PhysicalStop ps) in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\BlPriceAreaToStationManager.cs:line 292
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at BLManager.BlPriceAreaToStationManager.UpdatePriceListZoneValues() in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\BlPriceAreaToStationManager.cs:line 290
+   at BLManager.BlPriceAreaToStationManager.ExportToLicensingSystem() in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\BlPriceAreaToStationManager.cs:line 255
+   at RouteExportProcess.frmRouteExportProccess.BtnRunClick(Object sender, EventArgs e) in C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\frmRouteExportProccess.cs:line 2379
+   at System.Windows.Forms.MenuItem.OnClick(EventArgs e)
+   at System.Windows.Forms.MenuItem.MenuItemData.Execute()
+   at System.Windows.Forms.Command.Invoke()
+   at System.Windows.Forms.Command.DispatchID(Int32 id)
+   at System.Windows.Forms.Control.WmCommand(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 26/02/2016 3:12:25 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3156
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7988
+Extended Properties: Message - CaliperForm.Connection.DoFunction("GetRecordValues" , ... ) threw an exception. Cannot create column ZoneCode -- field name ZoneCode not found in view Zones. The connection has been closed.
+CaliperForm =>    at CaliperForm.Connection.DoFunction(String FunctionName, Object[] Arguments)
+   at DAL.TransCadMunipulationDataDAL.GetNearestIdPriceAreaRecordToPhysicalStop(PhysicalStop stop, String areaLayer, Boolean realCoordinate) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadManipuationStructureDAL.cs:line 652
+   at BLManager.BlPriceAreaToStationManager.<UpdatePriceListZoneValues>b__2e(PhysicalStop ps) in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\BlPriceAreaToStationManager.cs:line 292
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at BLManager.BlPriceAreaToStationManager.UpdatePriceListZoneValues() in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\BlPriceAreaToStationManager.cs:line 290
+   at BLManager.BlPriceAreaToStationManager.ExportToLicensingSystem() in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\BlPriceAreaToStationManager.cs:line 254
+   at RouteExportProcess.frmRouteExportProccess.BtnRunClick(Object sender, EventArgs e) in C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\frmRouteExportProccess.cs:line 2379
+   at System.Windows.Forms.MenuItem.OnClick(EventArgs e)
+   at System.Windows.Forms.MenuItem.MenuItemData.Execute()
+   at System.Windows.Forms.Command.Invoke()
+   at System.Windows.Forms.Command.DispatchID(Int32 id)
+   at System.Windows.Forms.Control.WmCommand(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 26/02/2016 3:19:58 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 5768
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:3800
+Extended Properties: Message - לא ניתן להפעיל קובץ C:\Slava\ADL\DATA\GIS\RS_AFIKIM\afikim.wrk כי הוא נעול על ידי משתמש Slava, נסה מאוחר יותר.
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 29/02/2016 4:40:55 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 2556
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5020
+Extended Properties: Message - Could not find a part of the path 'C:\Slava\ADL\DATA\PriceArea\TemporaryPriceZoneArea\PriceArea'.
+mscorlib =>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalGetFileDirectoryNames(String path, String userPathOriginal, String searchPattern, Boolean includeFiles, Boolean includeDirs, SearchOption searchOption)
+   at System.IO.Directory.GetFiles(String path, String searchPattern, SearchOption searchOption)
+   at System.IO.Directory.GetFiles(String path)
+   at BLManager.BlPriceAreaToStationManager.ValidateFieldNames() in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\BlPriceAreaToStationManager.cs:line 136
+   at BLManager.BlPriceAreaToStationManager.ValidateInput() in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\BlPriceAreaToStationManager.cs:line 121
+   at RouteExportProcess.frmRouteExportProccess.BtnRunClick(Object sender, EventArgs e) in C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\frmRouteExportProccess.cs:line 2361
+   at System.Windows.Forms.MenuItem.OnClick(EventArgs e)
+   at System.Windows.Forms.MenuItem.MenuItemData.Execute()
+   at System.Windows.Forms.Command.Invoke()
+   at System.Windows.Forms.Command.DispatchID(Int32 id)
+   at System.Windows.Forms.Control.WmCommand(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 29/02/2016 4:47:28 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 5720
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5188
+Extended Properties: Message - Could not find a part of the path 'C:\Slava\ADL\DATA\PriceArea\TemporaryPriceZoneArea\PriceArea.zip'.
+mscorlib =>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite)
+   at System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+   at Utilities.IoHelper.CopyFile(String oldName, String newName) in C:\Slava\ADL\Code\RoutesExportSQLServer\Utilities\IOHelper.cs:line 120
+   at BLManager.BlPriceAreaToStationManager.MoveFile(String fileFrom) in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\BlPriceAreaToStationManager.cs:line 95
+   at BLManager.BlPriceAreaToStationManager.FileInputOperationsBulk() in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\BlPriceAreaToStationManager.cs:line 130
+   at BLManager.BlPriceAreaToStationManager.ValidateInput() in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\BlPriceAreaToStationManager.cs:line 120
+   at RouteExportProcess.frmRouteExportProccess.BtnRunClick(Object sender, EventArgs e) in C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\frmRouteExportProccess.cs:line 2361
+   at System.Windows.Forms.MenuItem.OnClick(EventArgs e)
+   at System.Windows.Forms.MenuItem.MenuItemData.Execute()
+   at System.Windows.Forms.Command.Invoke()
+   at System.Windows.Forms.Command.DispatchID(Int32 id)
+   at System.Windows.Forms.Control.WmCommand(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   at System.Windows.Forms.Form.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 29/02/2016 4:50:05 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 5856
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7956
+Extended Properties: Message - חסרה שכבה פעילה של איזורי מחיר
+עליך לבקש שכבה חדשה ממשרד התחבורה
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 29/02/2016 4:50:25 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 5856
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7956
+Extended Properties: Message - חסרה שכבה פעילה של איזורי מחיר
+עליך לבקש שכבה חדשה ממשרד התחבורה
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 29/02/2016 5:11:24 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 6852
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6244
+Extended Properties: Message - לא ניתן להפעיל קובץ C:\Slava\ADL\DATA\GIS\RS_AFIKIM\afikim.wrk כי הוא נעול על ידי משתמש Slava, נסה מאוחר יותר.
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 29/02/2016 5:28:33 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 6380
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:4896
+Extended Properties: Message - שם הקובץ זיפ לא תואם לשם PRICEAREA.ZIP שנקבע
+עליך לבקש שכבה חדשה ממשרד התחבורה
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 29/02/2016 5:28:58 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 6380
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:4896
+Extended Properties: Message - חסרים קבצים לצורך קליטת אזורי המחיר
+ZONES.DBD
+ZONES.BIN
+ZONES.DSC
+ZONES.BDR
+ZONES.GRP
+
+עליך לבקש שכבה חדשה ממשרד התחבורה
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 29/02/2016 5:30:38 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 6380
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Debug\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:4896
+Extended Properties: Message - מספרי אזור 331| כפולים
+שמות אזור מודיעין|נהריה| כפולים
+
+עליך לבקש שכבה חדשה ממשרד התחבורה
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------

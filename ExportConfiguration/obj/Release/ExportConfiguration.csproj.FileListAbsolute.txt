@@ -1,0 +1,5 @@
+C:\Slava\ADL\Code\RoutesExportSQLServer\ExportConfiguration\bin\Release\ExportConfiguration.dll
+C:\Slava\ADL\Code\RoutesExportSQLServer\ExportConfiguration\bin\Release\ExportConfiguration.pdb
+C:\Slava\ADL\Code\RoutesExportSQLServer\ExportConfiguration\obj\Release\ResolveAssemblyReference.cache
+C:\Slava\ADL\Code\RoutesExportSQLServer\ExportConfiguration\obj\Release\ExportConfiguration.dll
+C:\Slava\ADL\Code\RoutesExportSQLServer\ExportConfiguration\obj\Release\ExportConfiguration.pdb

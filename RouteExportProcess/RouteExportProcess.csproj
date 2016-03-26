@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{94E352F5-4785-4394-93E6-2CA422454C03}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RouteExportProcess</RootNamespace>
+    <AssemblyName>RouteExportProcess</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Forms.DataVisualization.Design, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmChooseCatalog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChooseCatalog.Designer.cs">
+      <DependentUpon>frmChooseCatalog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmClusterOfOperator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClusterOfOperator.Designer.cs">
+      <DependentUpon>frmClusterOfOperator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmClusterStateSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClusterStateSelect.Designer.cs">
+      <DependentUpon>frmClusterStateSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmClusterValidExportDateManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClusterValidExportDateManage.Designer.cs">
+      <DependentUpon>frmClusterValidExportDateManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmExportValidateDateOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExportValidateDateOptions.Designer.cs">
+      <DependentUpon>frmExportValidateDateOptions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLinkstationToMunArea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLinkstationToMunArea.Designer.cs">
+      <DependentUpon>frmLinkstationToMunArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListSearchCatalog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListSearchCatalog.Designer.cs">
+      <DependentUpon>frmListSearchCatalog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmExportClusters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExportClusters.Designer.cs">
+      <DependentUpon>frmExportClusters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLinkStationToMun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLinkStationToMun.Designer.cs">
+      <DependentUpon>frmLinkStationToMun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoginsManagment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoginsManagment.Designer.cs">
+      <DependentUpon>frmLoginsManagment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReportErrorRouteStopResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReportErrorRouteStopResults.Designer.cs">
+      <DependentUpon>frmReportErrorRouteStopResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdmin.Designer.cs">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBaseTableManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBaseTableManager.Designer.cs">
+      <DependentUpon>frmBaseTableManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCatalogInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCatalogInfo.Designer.cs">
+      <DependentUpon>frmCatalogInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmExportToSQLServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExportToSQLServer.Designer.cs">
+      <DependentUpon>frmExportToSQLServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLayerManagment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLayerManagment.Designer.cs">
+      <DependentUpon>frmLayerManagment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListBoxes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListBoxes.Designer.cs">
+      <DependentUpon>frmListBoxes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListSearch.Designer.cs">
+      <DependentUpon>frmListSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewCatalog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewCatalog.Designer.cs">
+      <DependentUpon>frmNewCatalog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOperatorEntity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOperatorEntity.Designer.cs">
+      <DependentUpon>frmOperatorEntity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecreateTableStructure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecreateTableStructure.Designer.cs">
+      <DependentUpon>frmRecreateTableStructure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLineDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLineDetails.Designer.cs">
+      <DependentUpon>frmLineDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOperatorList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOperatorList.Designer.cs">
+      <DependentUpon>frmOperatorList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmZoneImportAreaChanged.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmZoneImportAreaChanged.Designer.cs">
+      <DependentUpon>frmZoneImportAreaChanged.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Globals.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="frmReportErrorRouteLineResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReportErrorRouteLineResults.Designer.cs">
+      <DependentUpon>frmReportErrorRouteLineResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ResourceGUI.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ResourceGUI.resx</DependentUpon>
+    </Compile>
+    <Compile Include="frmRouteExportProccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRouteExportProccess.Designer.cs">
+      <DependentUpon>frmRouteExportProccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmChooseCatalog.resx">
+      <DependentUpon>frmChooseCatalog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClusterOfOperator.resx">
+      <DependentUpon>frmClusterOfOperator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClusterStateSelect.resx">
+      <DependentUpon>frmClusterStateSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClusterValidExportDateManage.resx">
+      <DependentUpon>frmClusterValidExportDateManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExportValidateDateOptions.resx">
+      <DependentUpon>frmExportValidateDateOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLinkstationToMunArea.resx">
+      <DependentUpon>frmLinkstationToMunArea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListSearchCatalog.resx">
+      <DependentUpon>frmListSearchCatalog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExportClusters.resx">
+      <DependentUpon>frmExportClusters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLinkStationToMun.resx">
+      <DependentUpon>frmLinkStationToMun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoginsManagment.resx">
+      <DependentUpon>frmLoginsManagment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportErrorRouteStopResults.resx">
+      <DependentUpon>frmReportErrorRouteStopResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdmin.resx">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBaseTableManager.resx">
+      <DependentUpon>frmBaseTableManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCatalogInfo.resx">
+      <DependentUpon>frmCatalogInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExportToSQLServer.resx">
+      <DependentUpon>frmExportToSQLServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLayerManagment.resx">
+      <DependentUpon>frmLayerManagment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListBoxes.resx">
+      <DependentUpon>frmListBoxes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmListSearch.resx">
+      <DependentUpon>frmListSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewCatalog.resx">
+      <DependentUpon>frmNewCatalog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOperatorEntity.resx">
+      <DependentUpon>frmOperatorEntity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecreateTableStructure.resx">
+      <DependentUpon>frmRecreateTableStructure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLineDetails.resx">
+      <DependentUpon>frmLineDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOperatorList.resx">
+      <DependentUpon>frmOperatorList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmZoneImportAreaChanged.resx">
+      <DependentUpon>frmZoneImportAreaChanged.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportErrorRouteLineResults.resx">
+      <DependentUpon>frmReportErrorRouteLineResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ReportStationErrors.rdlc" />
+    <EmbeddedResource Include="Resources\ResourceGUI.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResourceGUI.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRouteExportProccess.resx">
+      <DependentUpon>frmRouteExportProccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ReportErrors.rdlc" />
+    <EmbeddedResource Include="frmRouteStopDetail.resx">
+      <DependentUpon>frmRouteStopDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="App.config" />
+    <None Include="Properties\DataSources\BLEntities.Accessories.Operator.datasource" />
+    <None Include="Properties\DataSources\BLEntities.Accessories.ValidationErrorResult.datasource" />
+    <None Include="Properties\DataSources\BLEntities.Entities.BaseClass.datasource" />
+    <None Include="Properties\DataSources\BLEntities.Entities.BaseTableEntity.datasource" />
+    <None Include="Properties\DataSources\BLEntities.Entities.CatalogInfo.datasource" />
+    <None Include="Properties\DataSources\BLEntities.Entities.PhysicalStop.datasource" />
+    <None Include="Properties\DataSources\BLEntities.Entities.RouteLine.datasource" />
+    <None Include="Properties\DataSources\BLEntities.Entities.RouteStop.datasource" />
+    <None Include="Properties\DataSources\BLEntities.Model.RouteModel.datasource" />
+    <None Include="Properties\DataSources\BLEntities.Report.ErrorReportEntity.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="frmRouteStopDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRouteStopDetail.Designer.cs">
+      <DependentUpon>frmRouteStopDetail.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLEntities\BLEntities.csproj">
+      <Project>{FD5265BE-424C-41FD-A622-E3909D191D2A}</Project>
+      <Name>BLEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BLManager\BLManager.csproj">
+      <Project>{234500DD-B816-4876-9D8F-33FA0A8FF844}</Project>
+      <Name>BLManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExportConfiguration\ExportConfiguration.csproj">
+      <Project>{5EED2E6B-F9EE-4A25-818F-70D9AF4C262C}</Project>
+      <Name>ExportConfiguration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GUIBase\GUIBase.csproj">
+      <Project>{9AB9727B-C5A1-467F-806A-BABD75ED7F5B}</Project>
+      <Name>GUIBase</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IBLManager\IBLManager.csproj">
+      <Project>{AB15B5D8-D2C4-4945-A41F-4793C978CE65}</Project>
+      <Name>IBLManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logger\Logger.csproj">
+      <Project>{2478924E-DC90-4892-AABA-E2203C4BB3C9}</Project>
+      <Name>Logger</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{D9FFA388-ECC7-426F-99D3-792B54779658}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\BLEntities.Accessories.ExportToSQL.datasource" />
+    <None Include="Properties\DataSources\BLEntities.Entities.City.datasource" />
+    <None Include="Properties\DataSources\BLEntities.Entities.ClusterValidateLineExportDate.datasource" />
+    <None Include="Properties\DataSources\BLEntities.Entities.Layer.datasource" />
+    <None Include="Properties\DataSources\BLEntities.Entities.Login.datasource" />
+    <None Include="Properties\DataSources\BLManager.BLPriceArea.datasource" />
+    <None Include="Properties\DataSources\BLManager.CatalogPresenter.datasource" />
+    <None Include="Resources\right.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

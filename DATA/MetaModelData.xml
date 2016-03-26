@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layers>
+   <layer name="Route System">
+    <fields>
+        <field name="Route_ID" type="Integer"/>
+        <field name="Route_Name" type="String"/>
+        <field name="Signpost" type="String"/>
+	<field name="Dir" type="Integer"/>
+	<field name="Var" type="Integer"/>
+	<field name="Hagdara" type="Integer"/>
+	<field name="RoadDescription" type="String"/>
+	<field name="Catalog" type="Integer"/>
+	<field name="IdOperator" type="Integer"/>
+	<field name="IdCluster" type="Integer"/>
+	<field name="RouteNumber" type="Integer"/>
+	<field name="IdRouteType" type="Integer"/>
+	<field name="IdServiceType" type="Integer"/>
+	<field name="IdSeasonal" type="Integer"/>
+	<field name="IdZoneHead" type="Integer"/>
+	<field name="IdZoneSubHead" type="Integer"/>
+	<field name="IsBase" type="Integer"/>
+	<field name="ZipFile" type="String"/>
+	<field name="IdExclusivityLine" type="Integer"/>
+	<field name="Accessibility" type="Integer"/>
+	<field name="AccountingGroupID" type="Integer"/>
+	<field name="ValidExportDate" type="String"/>
+    </fields>
+   </layer>
+  <layer name="Stops">
+    <fields>
+        <field name="ID" type="Integer"/>
+        <field name="Longitude" type="Integer"/>
+        <field name="Latitude" type="Integer"/>
+        <field name="Route_ID" type="Integer"/>
+        <field name="Pass_Count" type="Integer"/>
+        <field name="Milepost" type="Real"/>
+        <field name="Physical_Stop_ID" type="Integer"/>
+        <field name="STOP_ID" type="Integer"/>
+        <field name="Stop_UID" type="Integer"/>
+        <field name="Horada" type="Integer"/>
+        <field name="B-56" type="String"/>
+        <field name="Duration" type="Real"/>
+        <field name="Floor" type="Short"/>
+        <field name="Platform" type="String"/>
+    </fields>
+  </layer>
+  <layer name="Physical Stops">
+    <fields>
+        <field name="ID" type="Integer"/>
+        <field name="Longitude" type="Integer"/>
+	<field name="Latitude" type="Integer"/>
+	<field name="Direction" type="String"/>
+	<field name="Name" type="String"/>
+	<field name="STOP_ID" type="Integer"/>
+	<field name="CorrectPhStopName" type="String"/>
+	<field name="ID_SEKER" type="String"/>
+	<field name="LinkUserID" type="Integer"/>
+	<field name="Street" type="String"/>
+	<field name="House" type="Integer"/>
+	<field name="Across" type="Integer"/>
+	<field name="CityCode" type="String"/>
+	<field name="LINKID" type="Integer"/>
+	<field name="LongitudeN" type="Integer"/>
+	<field name="LatitudeN" type="Integer"/>
+                <field name="StationTypeId" type="Integer"/>
+                <field name="StationStatusId" type="Integer"/>
+				<field name="CityLinkCode" type="Integer"/>
+				<field name="AddressUpdateDate" type="String"/>
+				<field name="IsTrainMainStation" type="Integer"/>
+    </fields>
+  </layer>
+</layers>

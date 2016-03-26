@@ -1,0 +1,347 @@
+----------------------------------------
+General Information: 1 : Timestamp: 12/20/2011 9:31:19 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7952
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Release\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6464
+Extended Properties: Message - workSpacePath is C:\Slava\ADL\DATA\GIS\Eged\egedWS.wrk
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/20/2011 9:32:00 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7952
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Release\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7912
+Extended Properties: Message - The process cannot access the file 'C:\Users\Slava\AppData\Roaming\OperatorTranscad\OperatorPerformenceCounters_Slava_20-12-2011 11-31-15.txt' because it is being used by another process.
+mscorlib =>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   at BLManager.PerformenseMonitorBL.OnTimedEvent(Object source, ElapsedEventArgs e) in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\PerformenseMonitorBL.cs:line 57
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/20/2011 9:32:00 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7952
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Release\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:6464
+Extended Properties: Message - CaliperForm.Connection.Open() threw an exception.
+DAL =>    at DAL.TransCadMunipulationDataDAL.EgedZoomToLayerFeutureById(String layerName, List`1 IDs, String title, String whereClass) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadMunipulationDataDAL.cs:line 948
+   at BLManager.EgedBLManager.ZoomToRouteLinesLayerFeutureById(List`1 entityList) in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\EgedBLManager.cs:line 104
+   at RouteExportProcess.frmRouteExportProccess.mnuZoomCurrent_Click(Object sender, EventArgs e) in C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\frmRouteExportProccess.cs:line 564
+   at System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   at System.Windows.Forms.ToolStripMenuItem.OnClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   at System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   at System.Windows.Forms.ToolStripDropDown.OnMouseUp(MouseEventArgs mea)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   at System.Windows.Forms.ToolStripDropDown.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/20/2011 9:32:00 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7952
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Release\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7912
+Extended Properties: Message - The process cannot access the file 'C:\Users\Slava\AppData\Roaming\OperatorTranscad\OperatorPerformenceCounters_Slava_20-12-2011 11-31-15.txt' because it is being used by another process.
+mscorlib =>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   at BLManager.PerformenseMonitorBL.OnTimedEvent(Object source, ElapsedEventArgs e) in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\PerformenseMonitorBL.cs:line 57
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/20/2011 9:32:00 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7952
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Release\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7912
+Extended Properties: Message - The process cannot access the file 'C:\Users\Slava\AppData\Roaming\OperatorTranscad\OperatorPerformenceCounters_Slava_20-12-2011 11-31-15.txt' because it is being used by another process.
+mscorlib =>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   at BLManager.PerformenseMonitorBL.OnTimedEvent(Object source, ElapsedEventArgs e) in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\PerformenseMonitorBL.cs:line 57
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/20/2011 9:32:00 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 7952
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Release\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:7912
+Extended Properties: Message - The process cannot access the file 'C:\Users\Slava\AppData\Roaming\OperatorTranscad\OperatorPerformenceCounters_Slava_20-12-2011 11-31-15.txt' because it is being used by another process.
+mscorlib =>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   at BLManager.PerformenseMonitorBL.OnTimedEvent(Object source, ElapsedEventArgs e) in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\PerformenseMonitorBL.cs:line 57
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/20/2011 9:32:10 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 1256
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Release\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5624
+Extended Properties: Message - workSpacePath is C:\Slava\ADL\DATA\GIS\Eged\egedWS.wrk
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/20/2011 9:32:37 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 1256
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Release\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:2676
+Extended Properties: Message - The process cannot access the file 'C:\Users\Slava\AppData\Roaming\OperatorTranscad\OperatorPerformenceCounters_Slava_20-12-2011 11-32-07.txt' because it is being used by another process.
+mscorlib =>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   at BLManager.PerformenseMonitorBL.OnTimedEvent(Object source, ElapsedEventArgs e) in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\PerformenseMonitorBL.cs:line 57
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/20/2011 9:32:43 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 1256
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Release\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:2676
+Extended Properties: Message - The process cannot access the file 'C:\Users\Slava\AppData\Roaming\OperatorTranscad\OperatorPerformenceCounters_Slava_20-12-2011 11-32-07.txt' because it is being used by another process.
+mscorlib =>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   at BLManager.PerformenseMonitorBL.OnTimedEvent(Object source, ElapsedEventArgs e) in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\PerformenseMonitorBL.cs:line 57
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/20/2011 9:32:45 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 1256
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Release\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:5624
+Extended Properties: Message - CaliperForm.Connection.Open() threw an exception.
+DAL =>    at DAL.TransCadMunipulationDataDAL.EgedZoomToLayerFeutureById(String layerName, List`1 IDs, String title, String whereClass) in C:\Slava\ADL\Code\RoutesExportSQLServer\DAL\TransCadMunipulationDataDAL.cs:line 948
+   at BLManager.EgedBLManager.ZoomToRouteLinesLayerFeutureById(List`1 entityList) in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\EgedBLManager.cs:line 104
+   at RouteExportProcess.frmRouteExportProccess.mnuZoomCurrent_Click(Object sender, EventArgs e) in C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\frmRouteExportProccess.cs:line 564
+   at System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)
+   at System.Windows.Forms.ToolStripMenuItem.OnClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)
+   at System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)
+   at System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)
+   at System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)
+   at System.Windows.Forms.ToolStripDropDown.OnMouseUp(MouseEventArgs mea)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   at System.Windows.Forms.ToolStrip.WndProc(Message& m)
+   at System.Windows.Forms.ToolStripDropDown.WndProc(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/20/2011 9:37:00 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3936
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Release\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:4928
+Extended Properties: Message - The process cannot access the file 'C:\Users\Slava\AppData\Roaming\OperatorTranscad\OperatorPerformenceCounters_Slava_20-12-2011 11-36-51.txt' because it is being used by another process.
+mscorlib =>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   at BLManager.PerformenseMonitorBL.OnTimedEvent(Object source, ElapsedEventArgs e) in C:\Slava\ADL\Code\RoutesExportSQLServer\BLManager\PerformenseMonitorBL.cs:line 57
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/20/2011 9:37:12 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 3936
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Release\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:924
+Extended Properties: Message - workSpacePath is C:\Slava\ADL\DATA\GIS\Eged\egedWS.wrk
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------
+----------------------------------------
+General Information: 1 : Timestamp: 12/20/2011 9:43:17 PM
+Message: Log entry with extra information
+Category: General
+Priority: -1
+EventId: 1
+Severity: Information
+Title:
+Machine: SLAVA-PC
+App Domain: RouteExportProcess.vshost.exe
+ProcessId: 1368
+Process Name: C:\Slava\ADL\Code\RoutesExportSQLServer\RouteExportProcess\bin\Release\RouteExportProcess.vshost.exe
+Thread Name: 
+Win32 ThreadId:4972
+Extended Properties: Message - workSpacePath is C:\Slava\ADL\DATA\GIS\Eged\egedWS.wrk
+AuthenticationType - NTLM
+IdentityName - Slava-PC\Slava
+IsAuthenticated - True
+
+----------------------------------------

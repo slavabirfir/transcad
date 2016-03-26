@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<layers>
+  <layer id="1">
+    <mapname></mapname>
+    <layername>is_mun</layername>
+    <label>MUNICIPALN</label>
+    <layerhebrew>אזורים מוניציפאליים,שכבה פוליגונלית</layerhebrew>
+    <dbname>C:\Slava\ADL\Code\RoutesExport\Layers\is_mun.cdf</dbname>
+    <dblayername>is_mun</dblayername>
+    <readonly>true</readonly>
+    <shared>true</shared>
+    <layertype>Area</layertype>
+  </layer>
+  <layer id="2">
+    <mapname></mapname>
+    <layername>is_nyb</layername>
+    <label>NYBNAME</label>
+    <layerhebrew>שכונות, שכבה נקודתית</layerhebrew>
+    <dbname>C:\Slava\ADL\Code\RoutesExport\Layers\is_nyb.cdf</dbname>
+    <dblayername>is_nyb</dblayername>
+    <readonly>true</readonly>
+    <shared>true</shared>
+    <layertype>Point</layertype>
+  </layer>
+  <layer id="3">
+    <mapname></mapname>
+    <layername>is_set</layername>
+    <label>CITYNAME</label>
+    <layerhebrew>ישובים, שכבה נקודתית</layerhebrew>
+    <dbname>C:\Slava\ADL\Code\RoutesExport\Layers\is_set.cdf</dbname>
+    <dblayername>is_set</dblayername>
+    <readonly>true</readonly>
+    <shared>true</shared>
+    <layertype>Point</layertype>
+  </layer>
+  <layer id="4">
+    <mapname></mapname>
+    <layername>is_zmt</layername>
+    <label>NODENAME</label>
+    <layerhebrew>צמתים, שכבה נקודתית</layerhebrew>
+    <dbname>C:\Slava\ADL\Code\RoutesExport\Layers\is_zmt.cdf</dbname>
+    <dblayername>is_zmt</dblayername>
+    <readonly>true</readonly>
+    <shared>true</shared>
+    <layertype>Point</layertype>
+  </layer>
+</layers>

@@ -1,0 +1,14 @@
+<Modules>
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="System.Windows.Forms" />
+  <Module PersistentId="94E352F5-4785-4394-93E6-2CA422454C03" ModuleId="RouteExportProcess" />
+  <Module PersistentId="9AB9727B-C5A1-467F-806A-BABD75ED7F5B" ModuleId="GUIBase" />
+  <Module PersistentId="AB15B5D8-D2C4-4945-A41F-4793C978CE65" ModuleId="IBLManager" />
+  <Module PersistentId="FD5265BE-424C-41FD-A622-E3909D191D2A" ModuleId="BLEntities" />
+  <Module PersistentId="D9FFA388-ECC7-426F-99D3-792B54779658" ModuleId="Utilities" />
+  <Module PersistentId="234500DD-B816-4876-9D8F-33FA0A8FF844" ModuleId="BLManager" />
+  <Module PersistentId="5EED2E6B-F9EE-4A25-818F-70D9AF4C262C" ModuleId="ExportConfiguration" />
+  <Module PersistentId="5F231A52-0BC4-4A52-B9D4-451DE15AB8C4" ModuleId="DAL" />
+  <Module PersistentId="F11DCA75-1FA9-4C1B-9CD7-FCC423EBED90" ModuleId="IDAL" />
+  <Module PersistentId="2478924E-DC90-4892-AABA-E2203C4BB3C9" ModuleId="Logger" />
+  <Module PersistentId="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Windows.Forms_1" />
+</Modules>

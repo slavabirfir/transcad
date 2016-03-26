@@ -1,0 +1,719 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationAlreadyRunning" xml:space="preserve">
+    <value>אפליקציה כבר רצה</value>
+  </data>
+  <data name="DeleteRouteLineConfirmation" xml:space="preserve">
+    <value>מזהה הקו וכל התחנות שלו יבוטלו , האם אתה בטוח </value>
+  </data>
+  <data name="DeleteLogin" xml:space="preserve">
+    <value>האם בכוונתך למחוק</value>
+  </data>
+  <data name="DoubleClickToSeeReport" xml:space="preserve">
+    <value>הקלק פעמים על מנת לראות דוח פרטני</value>
+  </data>
+  <data name="ErrorLinesReportCaption" xml:space="preserve">
+    <value>קוים שגוים</value>
+  </data>
+  <data name="ErrorPhysicalReportCaption" xml:space="preserve">
+    <value>תחנות פיזיות שגויות</value>
+  </data>
+  <data name="ErrorRouteLine" xml:space="preserve">
+    <value>קו  {0} מכיל {1} שגיאות</value>
+  </data>
+  <data name="ErrorRouteStop" xml:space="preserve">
+    <value>קו תחנה {0} מכיל {1} שגיאות</value>
+  </data>
+  <data name="ErrorRouteLineCount" xml:space="preserve">
+    <value>מספר קוים {0} לא תקינים </value>
+  </data>
+  <data name="ErrorRoutePhysicalStopsCount" xml:space="preserve">
+    <value>מספר תחנות פיזיות {0} לא תקינות</value>
+  </data>
+  <data name="ErrorRouteStopsCount" xml:space="preserve">
+    <value>מספר תחנות בקו {0} לא תקינות</value>
+  </data>
+  <data name="ErrorStopsReportCaption" xml:space="preserve">
+    <value>תחנות הקו שגוים</value>
+  </data>
+  <data name="Fix" xml:space="preserve">
+    <value>תקין</value>
+  </data>
+  <data name="GoodRouteLine" xml:space="preserve">
+    <value>קו  {0} תקין</value>
+  </data>
+  <data name="GoodRouteStop" xml:space="preserve">
+    <value>קו תחנה {0} תקין</value>
+  </data>
+  <data name="LineDetailCaption" xml:space="preserve">
+    <value>נספח 1</value>
+  </data>
+  <data name="CatalogManage" xml:space="preserve">
+    <value>עדכון מקט - {0} </value>
+  </data>
+  <data name="RouteStopDetailCaption" xml:space="preserve">
+    <value>נספח 3</value>
+  </data>
+  <data name="NOT_ERROR_LINES" xml:space="preserve">
+    <value>כל הקוים תקינים</value>
+  </data>
+  <data name="NOT_ERROR_LINES_STOP" xml:space="preserve">
+    <value>כל תחנות בקו תקינות</value>
+  </data>
+  <data name="NOT_ERROR_PHYSICAL_STOP" xml:space="preserve">
+    <value>כל תחנות פיזיות תקינות</value>
+  </data>
+  <data name="ERROR_PHYSICAL_STOP_BEFORE_SQL_EXPORT" xml:space="preserve">
+    <value>ישנן תחנות פיזיות שגויות. ראה אתם בדוח שיופק</value>
+  </data>
+  <data name="NOT_Fix" xml:space="preserve">
+    <value>שגוי</value>
+  </data>
+  <data name="NumericValueOnly" xml:space="preserve">
+    <value>שדה זה מכיל רק ערכים נומרים</value>
+  </data>
+  <data name="OperatorName" xml:space="preserve">
+    <value>{0} שם מפעיל</value>
+  </data>
+  <data name="TransCadPath" xml:space="preserve">
+    <value>{0} קובץ טרנסקד</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>{0} שם משתמש </value>
+  </data>
+  <data name="DeleteRouteLineSuccessInfo" xml:space="preserve">
+    <value>קו {0} נמחק בהצלחהו </value>
+  </data>
+  <data name="LineHasHoradaStationDoYouWantToContinue" xml:space="preserve">
+    <value>קו מכיל תחנות הורדה. האם להמשיך בתהליך חישוב ?</value>
+  </data>
+  <data name="ClusterValidExportSucceded" xml:space="preserve">
+    <value>עדכון עבר בהצלחה</value>
+  </data>
+  <data name="ConfirmDeleteRow" xml:space="preserve">
+    <value>האם למחוק רשומה</value>
+  </data>
+  <data name="LinesDataAccomulation" xml:space="preserve">
+    <value>נתוני קוים  סה"כ {0} קוים</value>
+  </data>
+  <data name="StopsDataAccomulation" xml:space="preserve">
+    <value>נתוני תחנות בקו  סה"כ {0} תחנות בקו</value>
+  </data>
+  <data name="PhisicalStopsDataAccomulation" xml:space="preserve">
+    <value>תחנות פיזיות סה"כ {0}</value>
+  </data>
+  <data name="NewRecordsCount" xml:space="preserve">
+    <value>חדש</value>
+  </data>
+  <data name="DeleteRouteStopConfirmation" xml:space="preserve">
+    <value>תחנה זו תבוטל. האם אתה בטוח</value>
+  </data>
+  <data name="DeleteRouteStopSuccessInfo" xml:space="preserve">
+    <value>תחנת הקו נמחקה בהצלחה</value>
+  </data>
+  <data name="ConfirmRouteLineSave" xml:space="preserve">
+    <value>האם ברצונך לשמור שינוים שביצעת בקו</value>
+  </data>
+  <data name="ConfirmRouteStopSave" xml:space="preserve">
+    <value>האם ברצונך לשמור שינוים בביצעת בקו תחנה</value>
+  </data>
+  <data name="SaveRouteLineDoneWithSuccese" xml:space="preserve">
+    <value>פרטי קו {0} נשמרו בהצלחה</value>
+  </data>
+  <data name="SaveFailed" xml:space="preserve">
+    <value>פעולת שמירה נכשלה, ראה פירוט של הבעיות</value>
+  </data>
+  <data name="SaveRouteStopDoneWithSucces" xml:space="preserve">
+    <value>פרטי קו תחנה נשמרו בהצלחה</value>
+  </data>
+  <data name="ValidationRouteLineNotPassed" xml:space="preserve">
+    <value>קו {0} לא עבר בדיקת תקינות</value>
+  </data>
+  <data name="ValidationRouteStopsNotPassed" xml:space="preserve">
+    <value>קו תחנה{0} לא עבר בדיקת תקינות</value>
+  </data>
+  <data name="ValidationRouteStopNotPassed" xml:space="preserve">
+    <value>קו תחנה{0} לא עבר בדיקת תקינות</value>
+  </data>
+  <data name="ValidationRouteLinePassed" xml:space="preserve">
+    <value>קו {0} עבר בדיקת תקינות</value>
+  </data>
+  <data name="ValidationRouteStopPassed" xml:space="preserve">
+    <value>קו תחנה {0} עבר בדיקת תקינות</value>
+  </data>
+  <data name="ExportProcessWasSucceseful" xml:space="preserve">
+    <value>תהליך יצוא הסתיים בהצלחה האם ברצונך לראות קבצים שנוצרו</value>
+  </data>
+  <data name="ExportProcessWasSuccesefulSQL" xml:space="preserve">
+    <value>תהליך היצוא הסתיים בהצלחה</value>
+  </data>
+  <data name="ExportProcessWasSuccesefulNonQuestion" xml:space="preserve">
+    <value>תהליך יצוא הסתיים בהצלחה</value>
+  </data>
+  <data name="ChooseClustersForExportAndGoOnWithExport" xml:space="preserve">
+    <value>בחר אשכולות שאותם ברצונך לייצא</value>
+  </data>
+  <data name="ExportQuestions" xml:space="preserve">
+    <value>האם להתחיל בתהליך היצוא של מפה</value>
+  </data>
+  <data name="ExportBaseDataQuestions" xml:space="preserve">
+    <value>האם להתחיל בתהליך היצוא של תשתיות</value>
+  </data>
+  <data name="ExportToSQLServer" xml:space="preserve">
+    <value>התהליך היצוא יקח מספר דקות. האם להמשיך</value>
+  </data>
+  <data name="SaveInfraToLocalStorage" xml:space="preserve">
+    <value>התהליך שמירה יקח מספר דקות. האם להמשיך</value>
+  </data>
+  <data name="DuplicatedLine" xml:space="preserve">
+    <value>שיכפול מי קו מספר {0} ,שם {0} כקו חדש</value>
+  </data>
+  <data name="YouDefinedExistingCatalog" xml:space="preserve">
+    <value>הגדרת מקט שכבר קיים</value>
+  </data>
+  <data name="CatalogFilter" xml:space="preserve">
+    <value>סינון לפי מקטים</value>
+  </data>
+  <data name="DateNotValid" xml:space="preserve">
+    <value>תאריך לא תיקני</value>
+  </data>
+  <data name="EgedDeleteStationIsProhibited" xml:space="preserve">
+    <value>לא ניתן להפעיל מחיקה של תחנה אצל מפעיל אגד</value>
+  </data>
+  <data name="RouteNumberFilter" xml:space="preserve">
+    <value>סינון לפי מספר קו</value>
+  </data>
+  <data name="StationCatalogFilter" xml:space="preserve">
+    <value>סינון לפי מקט תחנה</value>
+  </data>
+  <data name="ClustertFilter" xml:space="preserve">
+    <value>סינון לפי אשכול</value>
+  </data>
+  <data name="StationNameFilter" xml:space="preserve">
+    <value>סינון לפי שם תחנה</value>
+  </data>
+  <data name="VariantNotExistsInVarNumberTable" xml:space="preserve">
+    <value>חלופה לא נמצאה באוסף של חלופות המותרות לעדכון</value>
+  </data>
+  <data name="LuzExistsForLine" xml:space="preserve">
+    <value>לא ניתן לעדכן חלופה או כיוון כיוון שקיים לוז של קו זה</value>
+  </data>
+  <data name="ConfirmChangingCatalog" xml:space="preserve">
+    <value>שינוי של מקט יביא לשינוי פרמטרים הקשורים למקט.</value>
+  </data>
+  <data name="YouchangeswillaffectSameRouteLines" xml:space="preserve">
+    <value>שינוי זה ישפיע על כל המזהים של המקט שבחרת. מספרם מזהים - {0}. האם אתה בטוח</value>
+  </data>
+  <data name="cmbClusternameIsEmpty" xml:space="preserve">
+    <value>בחר אשכול</value>
+  </data>
+  <data name="cmbRouteTypeIsEmpty" xml:space="preserve">
+    <value> בחר סוג קו</value>
+  </data>
+  <data name="cmbServiceTypeIsEmpty" xml:space="preserve">
+    <value>בחר סוג שרות</value>
+  </data>
+  <data name="cmbAccountingGroupIsEmpty" xml:space="preserve">
+    <value>בחר קבוצת התחשבנות</value>
+  </data>
+  <data name="cmbExclusivityIsEmpty" xml:space="preserve">
+    <value>בחר סוג ייחדיות</value>
+  </data>
+  <data name="cmbExclusivityLineTypeIsEmpty" xml:space="preserve">
+    <value>בחר עונתיות</value>
+  </data>
+  <data name="cmbZoneheadIsEmpty" xml:space="preserve">
+    <value>בחר מחוז ראשי</value>
+  </data>
+  <data name="cmbZoneSubHeadIsEmpty" xml:space="preserve">
+    <value>בחר מחוז משנה</value>
+  </data>
+  <data name="txtRouteNumberIsEmpty" xml:space="preserve">
+    <value>נא, הכנס מספר קו</value>
+  </data>
+  <data name="ZoneNotDefinedinXML" xml:space="preserve">
+    <value>לא הוגדרו מחוזות פר אשכול בקובץ ההגדרות</value>
+  </data>
+  <data name="txtRouteNumberHasFirstZero" xml:space="preserve">
+    <value>מספר קו לא יכול להכיל אפסים מובילים</value>
+  </data>
+  <data name="txtSignPostHasFirstZero" xml:space="preserve">
+    <value>שילוט קו לא יכול להכיל אפסים מובילים</value>
+  </data>
+  <data name="ChooseCatalog" xml:space="preserve">
+    <value>נא, בחר מקט קיים</value>
+  </data>
+  <data name="MainFormCaption" xml:space="preserve">
+    <value>טרנסקאד – מפת תח"צ". {0} משתמש {1} , מפעיל {2}, אשקול {3} </value>
+  </data>
+  <data name="PlanningFirm" xml:space="preserve">
+    <value> חברת תכנון </value>
+  </data>
+  <data name="RouteLineDetails" xml:space="preserve">
+    <value>שם הקו: {0}</value>
+  </data>
+  <data name="MapUnits" xml:space="preserve">
+    <value>המפה נמדדת ב {0} יחידות</value>
+  </data>
+  <data name="OperatorWasNotSelected" xml:space="preserve">
+    <value>נא, לבחור מפעיל</value>
+  </data>
+  <data name="OperatorWasNotConverted" xml:space="preserve">
+    <value>המפעיל שבחרת לא הומר לפורמט החדש</value>
+  </data>
+  <data name="LinesNotBelongToOperator" xml:space="preserve">
+    <value>מק"ט/ים {1} אינם שייכים למפעיל {0}, כדי לייצא אותם לרישוי, עליך להתחבר עם המפעיל המתאים.</value>
+  </data>
+  <data name="SelectFileImageNameToSave" xml:space="preserve">
+    <value>בחר שם של קובץ</value>
+  </data>
+  <data name="AreYouSure" xml:space="preserve">
+    <value>האם ברצונך לסגור את המערכת</value>
+  </data>
+  <data name="SelectStation" xml:space="preserve">
+    <value>נא, לבחור תחנה</value>
+  </data>
+  <data name="SelectCity" xml:space="preserve">
+    <value>נא, לבחור עיר</value>
+  </data>
+  <data name="ChangeAdminDone" xml:space="preserve">
+    <value>נא, לסגור אפליקציה ולפתוח אותה שנית על מנת לקבל את השינוים</value>
+  </data>
+  <data name="TABFileWasCreated" xml:space="preserve">
+    <value>תהליך המרה הסתיים בהצלחה, קובץ {0} הועבר לכספת</value>
+  </data>
+
+  
+  <data name="DistributionInfrastructureVerifiedSuccesefully" xml:space="preserve">
+    <value>הפצת התשתיות הסתיימה תקין</value>
+  </data>
+  <data name="DistributionInfrastructureVerifiedFailed" xml:space="preserve">
+    <value>הפצת התשתיות לא הסתיימה באופן תקין. נא בדוק דוח שמוצג.</value>
+  </data>
+
+  <data name="SelectOperatprAndCluster" xml:space="preserve">
+    <value>נא, לבחור תחילה מפעיל ואשכול</value>
+  </data>
+  <data name="ValidExportClusterDateMustBeMoreToday" xml:space="preserve">
+    <value>תאריך תוקף ייצוא של אשכול חייב חהיות יותר מהיום</value>
+  </data>
+  <data name="IdClusterNotDefinedInClusterToZoneFile" xml:space="preserve">
+    <value>אשכול לא מוגדר בקובץ אשקולות למחוז. נא, הגדר אותו</value>
+  </data>
+  <data name="SelectOperatprAndClusterWhenValidDateEmptyConfirm" xml:space="preserve">
+    <value>לא בחרת תאריך האם להמשיך</value>
+  </data>
+  <data name="PriceListPassedSuccesefuly" xml:space="preserve">
+    <value>תהליך העברת אזורי מחיר הסתיים בהצלחה</value>
+  </data>
+  <data name="PriceListFileCreatedSuccefully" xml:space="preserve">
+    <value>קובץ מיקום תחנה נוצר בהצלחה</value>
+  </data>
+  <data name="AdminExportQuestions" xml:space="preserve">
+    <value>תהליך ייצוא של מפה לסיס הנתונים של השוואות יימשך מספר דקות האם ברצונך להמשיך</value>
+  </data>
+  <data name="EgedMadWasSuccesefullyLoaded" xml:space="preserve">
+    <value>מפת אגד נקלטה בהצלחה</value>
+  </data>
+  <data name="EndPointsAndPhysicalStopsWasSuccesefullyLoaded" xml:space="preserve">
+    <value>מקליטה של אנד פוינט ותחנות פיזיות הסתיימה בהצלחה</value>
+  </data>
+  <data name="ChangeHoradaStationsForAllLone" xml:space="preserve">
+    <value>האם ברצונך לחשב מחדש תחנות הורדה בקו</value>
+  </data>
+  <data name="UpdateCarSize" xml:space="preserve">
+    <value>עדכון של שדה גודל רכב</value>
+  </data>
+  <data name="UpdateCarType" xml:space="preserve">
+    <value>עדכון של שדה סוג רכב</value>
+  </data>
+  <data name="ChangeLayers" xml:space="preserve">
+    <value>האם לשנות תצוגה של מפה</value>
+  </data>
+  <data name="ChangingLayersSuccess" xml:space="preserve">
+    <value>תצוגה של מפה השתנה בהצלחה</value>
+  </data>
+  <data name="SQLServerExportWasFailed" xml:space="preserve">
+    <value>תהליך ייצוא ל SQL Server נכשל \n {0}</value>
+  </data>
+  <data name="SQLServerExportWasSuccesefullyFinished" xml:space="preserve">
+    <value>תהליך ייצוא ל SQL Server הסתיים בהצלחה</value>
+  </data>
+  <data name="SaveImportToLocalWasSuccesefullyFinished" xml:space="preserve">
+    <value>תהליך שמירת נתוני תשתית הסתיים בהצלחה</value>
+  </data>
+  <data name="ConfigurationExportMechanismWasNotDefined" xml:space="preserve">
+    <value>קובץ קונפיגורציה לא הוגדר נכון עבור תהליך ייצוא</value>
+  </data>
+  <data name="RouteLineListEmpty" xml:space="preserve">
+    <value>לא נבחרו קוים</value>
+  </data>
+  <data name="ExportToRishuiLocked" xml:space="preserve">
+    <value>ייצוא נתונים למערכת רישוי חסום</value>
+  </data>
+  <data name="CatalogConvertedFileWasCreatedSuccesefully" xml:space="preserve">
+    <value>קובצי ההמרה נוצרו בהצלחה</value>
+  </data>
+  <data name="LineErrorValidExportDate" xml:space="preserve">
+    <value>{1} קו {0} לא ניתן לייצא בגלל תאריך תוקף</value>
+  </data>
+  <data name="DeleteFolderContentAfterRunningBaseExport" xml:space="preserve">
+    <value>נא, מחק כל הקבצים שנמצאים בספריה לאחר הרצת קליטת התשתיות</value>
+  </data>
+  <data name="ChooseConvertCatalogFolder" xml:space="preserve">
+    <value>בחר ספריה שבה יווצר קובץ ההמרה</value>
+  </data>
+  <data name="ChooseJunctionVersionFileBuilddFolder" xml:space="preserve">
+    <value>בחר ספריה שבה יווצר קובץ של גרסת מוקד</value>
+  </data>
+  <data name="ChooseStationAreaPriceReportVersionFileBuilddFolder" xml:space="preserve">
+    <value>בחר ספריה שבה יווצר קובץ של ניתוח אזורי מחיר של תחנות</value>
+  </data>
+  <data name="SelectEgedFolderCSVFile" xml:space="preserve">
+    <value>בחר ספריה שבה יווצרו קובצי אגד</value>
+  </data>
+  <data name="CSVFileJunctionVersionNonHeader" xml:space="preserve">
+    <value>בחר קובץ csv ללא כותרות</value>
+  </data>
+  <data name="SelectStationCSVFile" xml:space="preserve">
+    <value>בחר קובץ של תחנות</value>
+  </data>
+  <data name="SelectStationCSVFileOfProcessExportSationToPriceAreaAllOperators" xml:space="preserve">
+    <value>בחר קובץ תחנות עבור תהליך קליטת עדכון שיוך תחנות לאזורי מחיר</value>
+  </data>
+  <data name="SelectStationCSVFileOfProcessAreaPriceNewLocation" xml:space="preserve">
+    <value>בחר קובץ של תחנות עבור תהליך בדיקת שינוי תחנה באזור מחיר</value>
+  </data>
+  <data name="ChooseEndPointFileFormat" xml:space="preserve">
+    <value>בחירת קובץ לקליטה של אנד פוינט בפורמט לונג,לט,נוד יד</value>
+  </data>
+  <data name="ChooseExportToExcelFolder" xml:space="preserve">
+    <value>בחר ספריה שבה יווצר הקובץ </value>
+  </data>
+  <data name="PleaseChooseConvertCatalogFolder" xml:space="preserve">
+    <value>נא, לבחור בספריית של קובץ ההמרה</value>
+  </data>
+  <data name="ChooseStationType" xml:space="preserve">
+    <value>נא, לבחור בסוג תחנה</value>
+  </data>
+  <data name="SelectRowsForUpdate" xml:space="preserve">
+    <value>נא, לסמן רשומות לעדכון</value>
+  </data>
+  <data name="CatlogWithSameRNandClusterAlreadyDefined" xml:space="preserve">
+    <value>מקט כזה כבר קיים לאשכול, נא לבחור במקט אחר</value>
+  </data>
+  <data name="PriceListPocessRunning" xml:space="preserve">
+    <value>תהליך ייצוא של אזורי מחיר יקח כמה דקות. האם לבצע</value>
+  </data>
+  <data name="EnableAreaPriceMenu" xml:space="preserve">
+    <value>האם ברצונך לאפשר לעבוד עם תפריט של אזורי מחיר</value>
+  </data>
+  <data name="LoadEgedMap" xml:space="preserve">
+    <value>וודא שקבצים מעודכנים נמצאים בספריה
+{0}</value>
+  </data>
+  <data name="ChooseCluster" xml:space="preserve">
+    <value>נא, לבחור אשכול</value>
+  </data>
+  <data name="ChooseAccountingGroup" xml:space="preserve">
+    <value>נא, לבחור קבוצת התחשבנות</value>
+  </data>
+  <data name="ChooseRouteNumber" xml:space="preserve">
+    <value>נא, לבחור מספר קו</value>
+  </data>
+  <data name="CreateExportShapeFiles" xml:space="preserve">
+    <value>הרצת מקרו לבניית קבצי גאוגרפיה </value>
+  </data>
+  <data name="SystemTask" xml:space="preserve">
+    <value>המערכת בודקת את הנתונים</value>
+  </data>
+  <data name="mAdministrator" xml:space="preserve">
+    <value>מנהל תשתיות</value>
+  </data>
+
+  <data name="ExitFromApplication" xml:space="preserve">
+    <value>יציאה מהמערכת</value>
+  </data>
+
+  <data name="submExportBaseDasaToLicensing" xml:space="preserve">
+    <value>ייצא תשתיות למערכת הרישוי</value>
+  </data>
+  <data name="submCalcFirstDropStationForAllSystem" xml:space="preserve">
+    <value>חשב תחנת הורדה ראשונה לכל ה-RS.</value>
+  </data>
+  <data name="submSetBasedLine" xml:space="preserve">
+    <value>קבע מזהה קו בסיסי</value>
+  </data>
+  <data name="submStationAreaPriceChange" xml:space="preserve">
+    <value>בדיקת שינוי תחנה באזור מחיר</value>
+  </data>
+  <data name="submExportStationLinkedToPriceArea" xml:space="preserve">
+    <value>קליטת עדכון שיוך תחנות לאיזור המחיר</value>
+  </data>
+
+  <data name="submExportStationPriceAreaImport" xml:space="preserve">
+    <value>קליטת אזורי מחיר</value>
+  </data>
+  קליטת אזורי מחיר
+
+
+  <data name="submShowConfigFile" xml:space="preserve">
+    <value>הצג קובץ קונפיגורציה</value>
+  </data>
+  <data name="submClusterValidDateExportManageOfOperator" xml:space="preserve">
+    <value>דוח תאריכי ייצוא לרישוי</value>
+  </data>
+  <data name="submClusterValidDateExportManage" xml:space="preserve">
+    <value>ניהול תאריכי ייצוא של אשכולות</value>
+  </data>
+  <data name="submUpdateStationLinkToCity" xml:space="preserve">
+    <value>שיוך של תחנות לעיר</value>
+  </data>
+  <data name="submUpdateStreetLayer" xml:space="preserve">
+    <value>עדכן את שכבת הרחובות</value>
+  </data>
+  <data name="submAppendOperatorRouteSystems" xml:space="preserve">
+    <value>צרף רוט סיסטם של כול המפעילים</value>
+  </data>
+  <data name="submUpdatePhysicalStopsLayer" xml:space="preserve">
+    <value>עדכן את שכבת התחנות הפיזיות</value>
+  </data>
+  <data name="submBuildLineJunctionFile" xml:space="preserve">
+    <value>בנה קובץ לקביעת מספר המוקדים בקו</value>
+  </data>
+  <data name="submExportEggedStations" xml:space="preserve">
+    <value>ייצא את תחנות אגד</value>
+  </data>
+  <data name="submExportMapForDataComparing" xml:space="preserve">
+    <value>ייצא מפה להשוואה לבסיס הנתונים</value>
+  </data>
+  <data name="submEgedExportProcess" xml:space="preserve">
+    <value>ייצוא של נתוני מסלולים של אגד</value>
+  </data>
+  <data name="mExport" xml:space="preserve">
+    <value>ייצוא</value>
+  </data>
+  <data name="submCheckMapBeforeExport" xml:space="preserve">
+    <value>בדוק מזהי קווים ותחנות לפני ייצוא לרישוי</value>
+  </data>
+  <data name="submExportLinesToLicensingSystem" xml:space="preserve">
+    <value>ייצא מזהי קווים לרישוי</value>
+  </data>
+  <data name="submExportLinesToExcel" xml:space="preserve">
+    <value>ייצא רשימת קווים לקובץ אקסל</value>
+  </data>
+  <data name="submExportMapToImage" xml:space="preserve">
+    <value>ייצא מפה לקובץ תמונה</value>
+  </data>
+  <data name="mAdditionalInfo" xml:space="preserve">
+    <value>מידע נוסף</value>
+  </data>
+  <data name="submShowAdditionalLayersInMap" xml:space="preserve">
+    <value>הצג שכבות נוספות במפה</value>
+  </data>
+  <data name="submShowConvertCodesOfBasedTable" xml:space="preserve">
+    <value>הצג קודי המרה של מערכת הרישוי</value>
+  </data>
+  <data name="submShowLinesPassingViaStation" xml:space="preserve">
+    <value>הצג קווים העוברים בתחנה</value>
+  </data>
+  <data name="mPriceList" xml:space="preserve">
+    <value>איזורי מחיר</value>
+  </data>
+  <data name="mEgedMapLoad" xml:space="preserve">
+    <value>קליטת מפה של אגד</value>
+  </data>
+  <data name="submExportPriceListToLicensingSystem" xml:space="preserve">
+    <value>ייצוא של אזורי מחיר למערכת רישוי</value>
+  </data>
+  <data name="submEnablePriceListToLicensingSystem" xml:space="preserve">
+    <value>לאפשר לעבוד עם תפריטים של אזורי מחיר</value>
+  </data>
+  <data name="submImportEgedMap" xml:space="preserve">
+    <value>קליטת מפה של אגד</value>
+  </data>
+  <data name="submImportEndPointsAndPhysicalStops" xml:space="preserve">
+    <value>קליטה של טבלה אנד פוינט ותחנות פיזיות</value>
+  </data>
+  <data name="submUpdateAreaPriceDetails" xml:space="preserve">
+    <value>עדכון פרטים של אזורי מחיר</value>
+  </data>
+  <data name="EgedShowRouteGISInfo" xml:space="preserve">
+    <value>הצג מידע של קו</value>
+  </data>
+  <data name="YouCantZoomToMoreThen100Lines" xml:space="preserve">
+    <value>לא ניתן לעשות זום לקבוצה של יותר 100 רשומות</value>
+  </data>
+  <data name="StationNoneForTheLine" xml:space="preserve">
+    <value>לקו לא נבחרו תחנות</value>
+  </data>
+  <data name="Nispah1Form" xml:space="preserve">
+    <value>נספח 1 , מפעיל - {0}.</value>
+  </data>
+  <data name="LineDetailAccountingGroupConfirmation" xml:space="preserve">
+    <value>שינוי של קבוצת התחשבנות של מזהה קו זה יגרום לשינוי של קבוצת התחשבנות של כול מזהי קוים של אותו מקט.</value>
+  </data>
+  <data name="LineDetailEshkolConfirmation" xml:space="preserve">
+    <value>שינוי של אשכול של מזהה קו זה יגרום לשינוי של אשקולות של כול מזהי קוים של אותו מקט.</value>
+  </data>
+  <data name="IdMahozMain" xml:space="preserve">
+    <value>מס מחוז רארשי</value>
+  </data>
+  <data name="IdMahozSub" xml:space="preserve">
+    <value>מס מחוז משני</value>
+  </data>
+  <data name="MahozMainName" xml:space="preserve">
+    <value>שם מחוז ראשי</value>
+  </data>
+  <data name="MahozSubName" xml:space="preserve">
+    <value>שם מחוז משני</value>
+  </data>
+  <data name="SelectMahozForStateSelect" xml:space="preserve">
+    <value>בחר מחוז לקו</value>
+  </data>
+  <data name="SelectMahozMainAndSub" xml:space="preserve">
+    <value>נא, לבחור במחוז ראשי ומשני</value>
+  </data>
+  <data name="convertIstrShapeToTab" xml:space="preserve">
+    <value>המרה של קובץ בפורמט שייפ לטאב</value>
+  </data>
+  <data name="linkstationToMun" xml:space="preserve">
+    <value>שיוך תחנה לשטח מוניציפאלי</value>
+  </data>
+  <data name="verifyBasedMap" xml:space="preserve">
+    <value>בדיקות תקינות לאחר הפצת תשתית למפעילים</value>
+  </data>
+  <data name="LoginManagment" xml:space="preserve">
+    <value>ניהול משתשמים של המערכת</value>
+  </data>
+  <data name="ExportExcelCreated" xml:space="preserve">
+    <value>קובץ אקסל נוצר בספריה {0}.</value>
+  </data>
+  <data name="StationWasSuccesefullyLinked" xml:space="preserve">
+    <value>תחנה שויכה בהצלחה לאזור מוניציפאלי</value>
+  </data>
+
+  <data name="CloseAreNotFound" xml:space="preserve">
+    <value>לא הנמצאו אזורים מוניציפאלי הסמוכים לתחנה זו</value>
+  </data>
+  <data name="StationCountString" xml:space="preserve">
+    <value>מס' תחנות {0}</value>
+  </data>
+</root>

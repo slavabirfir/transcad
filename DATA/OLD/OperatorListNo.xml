@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OperatorList>
+<Operator>
+
+    <Operator>
+    <IdMofil>100</IdMofil>
+    <MofilName>מוניות</MofilName>
+	<Clusters>
+	  <Cluster>
+	   <ClusterId>333</ClusterId>
+	    <PathToRSTFile>C:\Slava\ADL\DATA\GIS\RS_Taxi\RouteSystem.rts</PathToRSTFile>
+        <PathToRSTWorkSpace>C:\Slava\ADL\DATA\GIS\RS_Taxi\taxi.wrk</PathToRSTWorkSpace>
+	    <PriceListLayer>C:\Slava\ADL\DATA\GIS\PriceList\area.dbd</PriceListLayer>
+	  </Cluster>
+	</Clusters>
+    <TransCadStatus>1</TransCadStatus>
+   <Group>Operator</Group>
+  </Operator>
+
+
+    <IdMofil>253</IdMofil>
+    <MofilName>פי זי ל</MofilName>
+	<Group>PlanningFirm</Group>
+	<TransCadStatus>1</TransCadStatus>
+	 <Clusters>
+   	  <Cluster>
+	   <ClusterId>-1</ClusterId>
+	   <PathToRSTFile>C:\Slava\ADL\DATA\GIS\PGL\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>C:\Slava\ADL\DATA\GIS\PGL\pgl.wrk</PathToRSTWorkSpace>
+	   <PriceListLayer>C:\Slava\ADL\DATA\GIS\PriceList\area.dbd</PriceListLayer>
+	  </Cluster>
+   </Clusters>
+  </Operator>
+
+<Operator>
+    <IdMofil>3</IdMofil>
+    <MofilName>אגד</MofilName>
+    <TransCadStatus>1</TransCadStatus>
+   <Group>Operator</Group>
+   <Clusters>
+   	  <Cluster>
+	   <ClusterId>-1</ClusterId>
+	   <PathToRSTFile>C:\Slava\ADL\DATA\Eged\Route System.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>C:\Slava\ADL\DATA\GIS\Eged\egedWS.wrk</PathToRSTWorkSpace>
+	   <PriceListLayer>C:\Slava\ADL\DATA\GIS\PriceList\area.dbd</PriceListLayer>
+	  </Cluster>
+   </Clusters>
+  </Operator>
+  <!--<Operator>
+    <IdMofil>5</IdMofil>
+    <MofilName>דן</MofilName>
+    <LoadingFolder>C:\Slava\ADL\DATA\Transcad\Operators\Dan\Export</LoadingFolder>
+    <PathToRSTFile>C:\Slava\ADL\DATA\Transcad\Operators\Dan\Dan Route System.rts</PathToRSTFile>
+    <PathToRSTWorkSpace>C:\Slava\ADL\DATA\Transcad\Operators\Dan\dan.wrk</PathToRSTWorkSpace>
+	<PriceListLayer>C:\Slava\ADL\DATA\GIS\PriceList\area.dbd</PriceListLayer>
+    <TransCadStatus>0</TransCadStatus>
+    <Group>Operator</Group>
+	<ActiveDirectoryGroups>Russians</ActiveDirectoryGroups>
+  </Operator>
+  <Operator>
+    <IdMofil>4</IdMofil>
+    <MofilName>אגד תעבורה</MofilName>
+	<WorkFolder>C:\Slava\ADL\DATA\GIS\RS_EggedT</WorkFolder>
+    <LoadingFolder>C:\Slava\ADL\DATA\Transcad\Operators\Eggedt\Export</LoadingFolder>
+    <PathToRSTFile>C:\Slava\ADL\DATA\GIS\RS_EggedT\RouteSystem.rts</PathToRSTFile>
+    <PathToRSTWorkSpace>C:\Slava\ADL\DATA\GIS\RS_EggedT\egedt.wrk</PathToRSTWorkSpace>
+	<PriceListLayer>C:\Slava\ADL\DATA\GIS\PriceList\area.dbd</PriceListLayer>
+    <TransCadStatus>1</TransCadStatus>
+    <Group>Operator</Group>
+  </Operator>-->
+  <Operator>
+    <IdMofil>252</IdMofil>
+    <MofilName>מתי</MofilName>
+	<Clusters>
+	  <Cluster>
+	   <ClusterId>140</ClusterId>
+	   <PriceListLayer>C:\Slava\ADL\DATA\GIS\RS_Mati\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>C:\Slava\ADL\DATA\GIS\RS_Mati\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>C:\Slava\ADL\DATA\GIS\RS_Mati\matiT.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+	  <Cluster>
+	   <ClusterId>150</ClusterId>
+	   <PriceListLayer>C:\Slava\ADL\DATA\GIS\RS_Mati\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>C:\Slava\ADL\DATA\GIS\RS_Mati\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>C:\Slava\ADL\DATA\GIS\RS_Mati\matiT.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+	   <Cluster>
+	   <ClusterId>176</ClusterId>
+	   <PriceListLayer>C:\Slava\ADL\DATA\GIS\RS_Mati\PriceList\area.dbd</PriceListLayer>
+       <PathToRSTFile>C:\Slava\ADL\DATA\GIS\RS_Mati\RouteSystem.rts</PathToRSTFile>
+       <PathToRSTWorkSpace>C:\Slava\ADL\DATA\GIS\RS_Mati\matiT.wrk</PathToRSTWorkSpace>
+	  </Cluster>
+	</Clusters>
+    
+    <Group>PlanningFirm</Group>
+    <TransCadStatus>1</TransCadStatus>
+	
+  </Operator>
+  
+  <Operator>
+    <IdMofil>25</IdMofil>
+    <MofilName>אפיקים</MofilName>
+	<Clusters>
+	  <Cluster>
+	   <ClusterId>190</ClusterId>
+	    <PathToRSTFile>C:\Slava\ADL\DATA\GIS\RS_AFIKIM\RouteSystem.rts</PathToRSTFile>
+        <PathToRSTWorkSpace>C:\Slava\ADL\DATA\GIS\RS_AFIKIM\afikim.wrk</PathToRSTWorkSpace>
+	    <PriceListLayer>C:\Slava\ADL\DATA\GIS\PriceList\area.dbd</PriceListLayer>
+	  </Cluster>
+	</Clusters>
+    <TransCadStatus>1</TransCadStatus>
+   <Group>Operator</Group>
+  </Operator>
+  <!--
+  <Operator>
+      <IdMofil>24</IdMofil>
+      <MofilName>מועצה אזורית גולן</MofilName>
+      <LoadingFolder>>C:\Slava\ADL\DATA\GIS\RS_Rama\Export</LoadingFolder>
+      <PathToRSTFile>C:\Slava\ADL\DATA\GIS\RS_Rama\RouteSystem.rts</PathToRSTFile>
+      <PathToRSTWorkSpace>C:\Slava\ADL\DATA\GIS\RS_Rama\ramaT.wrk</PathToRSTWorkSpace>
+      <Group>Operator</Group>
+      <TransCadStatus>1</TransCadStatus>
+	  <PriceListLayer>D:\Users\Rama\TransCad\RouteSystemRishuy\PriceList\area.dbd</PriceListLayer>
+  </Operator>-->
+  <Operator>
+    <IdMofil>254</IdMofil>
+    <MofilName>ארוך מספיק שם גלים</MofilName>
+    <TransCadStatus>1</TransCadStatus>
+    <Group>PlanningFirm</Group>
+	<Clusters>
+	  <Cluster>
+	   <ClusterId>141</ClusterId>
+        <PriceListLayer>C:\Slava\ADL\DATA\GIS\PriceList\area.dbd</PriceListLayer>
+        <PathToRSTFile>C:\Slava\ADL\DATA\GIS\RS_Narkis\RouteSystem.rts</PathToRSTFile>
+        <PathToRSTWorkSpace>C:\Slava\ADL\DATA\GIS\RS_Narkis\narkis.wrk</PathToRSTWorkSpace>	   
+	  </Cluster>
+	  <Cluster>
+	   <ClusterId>156</ClusterId>
+        <PriceListLayer>C:\Slava\ADL\DATA\GIS\PriceList\area.dbd</PriceListLayer>
+        <PathToRSTFile>C:\Slava\ADL\DATA\GIS\RS_Narkis\RouteSystem.rts</PathToRSTFile>
+        <PathToRSTWorkSpace>C:\Slava\ADL\DATA\GIS\RS_Narkis\narkis.wrk</PathToRSTWorkSpace>	   
+	  </Cluster>
+	  <Cluster>
+	   <ClusterId>252</ClusterId>
+        <PriceListLayer>C:\Slava\ADL\DATA\GIS\PriceList\area.dbd</PriceListLayer>
+        <PathToRSTFile>C:\Slava\ADL\DATA\GIS\RS_Narkis\RouteSystem.rts</PathToRSTFile>
+        <PathToRSTWorkSpace>C:\Slava\ADL\DATA\GIS\RS_Narkis\narkis.wrk</PathToRSTWorkSpace>	   
+	  </Cluster>
+	</Clusters>
+  </Operator>
+
+   
+
+  <Operator>
+    <IdMofil>18</IdMofil>
+    <MofilName>קווים</MofilName>
+    <LoadingFolder>C:\Slava\ADL\DATA\GIS\RS_Kavim\Export</LoadingFolder>
+    <TransCadStatus>1</TransCadStatus>
+    <Group>Operator</Group>
+	<Clusters>
+	  <Cluster>
+	   <ClusterId>150</ClusterId>
+	   <PathToRSTWorkSpace>C:\Slava\ADL\DATA\GIS\RS_Kavim_150\kavim.wrk</PathToRSTWorkSpace>
+	   <PathToRSTFile>C:\Slava\ADL\DATA\GIS\RS_Kavim_150\RouteSystem.rts</PathToRSTFile>
+	   <PriceListLayer>C:\Slava\ADL\DATA\GIS\PriceList\area.dbd</PriceListLayer>
+	  </Cluster>
+	  <Cluster>
+	   <ClusterId>152</ClusterId>
+	   <PathToRSTWorkSpace>C:\Slava\ADL\DATA\GIS\RS_Kavim\kavim.wrk</PathToRSTWorkSpace>
+	   <PathToRSTFile>C:\Slava\ADL\DATA\GIS\RS_Kavim\RouteSystem.rts</PathToRSTFile>
+	   <PriceListLayer>C:\Slava\ADL\DATA\GIS\PriceList\area.dbd</PriceListLayer>
+	  </Cluster>
+	  <Cluster>
+	   <ClusterId>155</ClusterId>
+	   <PathToRSTWorkSpace>C:\Slava\ADL\DATA\GIS\Kavim\Clusters\Clusters\155\kavim_155.wrk</PathToRSTWorkSpace>
+	   <PathToRSTFile>C:\Slava\ADL\DATA\GIS\Kavim\Clusters\Clusters\155\RouteSystem.rts</PathToRSTFile>
+	   <PriceListLayer>C:\Slava\ADL\DATA\GIS\PriceList\area.dbd</PriceListLayer>
+	  </Cluster>
+	</Clusters>
+	
+  </Operator>
+ 
+   <!-- <Operator>
+    <IdMofil>6</IdMofil>
+    <MofilName>שאמ</MofilName>
+    <LoadingFolder>C:\Slava\ADL\DATA\GIS\RS_Shaam\Export</LoadingFolder>
+    <PathToRSTFile>C:\Slava\ADL\DATA\GIS\RS_Shaam\RouteSystem.rts</PathToRSTFile>
+    <PathToRSTWorkSpace>C:\Slava\ADL\DATA\GIS\RS_Shaam\shaam.wrk</PathToRSTWorkSpace>
+    <TransCadStatus>1</TransCadStatus>
+	<PriceListLayer>C:\Slava\ADL\DATA\GIS\RS_Shaam\PriceList\area.dbd</PriceListLayer>
+    <Group>Operator</Group>
+    </Operator> -->
+ </OperatorList>

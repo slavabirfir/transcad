@@ -1,0 +1,1492 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="cmbServiceType" priority="0" />
+      <Item value="isEnable" priority="1" />
+      <Item value="bool" priority="38" />
+      <Item value="false" priority="85" />
+      <Item value="if" priority="250" />
+      <Item value="this" priority="13" />
+      <Item value="Action`0" priority="1" />
+      <Item value="private" priority="59" />
+      <Item value="true" priority="61" />
+      <Item value="isCanceledByUser" priority="0" />
+      <Item value="return" priority="150" />
+      <Item value="prop" priority="32" />
+      <Item value="Convert`0" priority="18" />
+      <Item value="Thread`0" priority="2" />
+      <Item value="string" priority="236" />
+      <Item value="ShowBottomBar" priority="0" />
+      <Item value="EventArgs`0" priority="0" />
+      <Item value="Changed" priority="1" />
+      <Item value="null" priority="90" />
+      <Item value="IsCanceledByUser" priority="1" />
+      <Item value="throw" priority="14" />
+      <Item value="new" priority="114" />
+      <Item value="ApplicationException" priority="12" />
+      <Item value="OperationCanceledException`0" priority="5" />
+      <Item value="try" priority="12" />
+      <Item value="catch" priority="6" />
+      <Item value="Exception`0" priority="6" />
+      <Item value="exp" priority="3" />
+      <Item value="is" priority="2" />
+      <Item value="else" priority="46" />
+      <Item value="Cursor`0" priority="0" />
+      <Item value="HorizontalAlignment`0" priority="0" />
+      <Item value="ShowCancelButton" priority="0" />
+      <Item value="public" priority="31" />
+      <Item value="void" priority="33" />
+      <Item value="ProcessWaitingManager" priority="1" />
+      <Item value="IGrouping" priority="0" />
+      <Item value="Close`0" priority="2" />
+      <Item value="List" priority="35" />
+      <Item value="ctor" priority="0" />
+      <Item value="List&lt;StationAreaPriceCompare&gt;" priority="0" />
+      <Item value="StationCatalog" priority="1" />
+      <Item value="NewCoord" priority="0" />
+      <Item value="Coord" priority="1" />
+      <Item value="Longitude" priority="2" />
+      <Item value="PhysicalStop`0" priority="16" />
+      <Item value="stop" priority="3" />
+      <Item value="p" priority="11" />
+      <Item value="StringBuilder`0" priority="12" />
+      <Item value="StringBuilder" priority="4" />
+      <Item value="var" priority="89" />
+      <Item value="ConsoleSpecialKey`0" priority="0" />
+      <Item value="sb" priority="6" />
+      <Item value="Resources" priority="19" />
+      <Item value="BLManagerResource`0" priority="10" />
+      <Item value="CurrentCoord" priority="1" />
+      <Item value="PhysicalStop" priority="0" />
+      <Item value="Latitude" priority="1" />
+      <Item value="sc" priority="4" />
+      <Item value="int" priority="32" />
+      <Item value="areaPriceCompare" priority="0" />
+      <Item value="physicalStop" priority="8" />
+      <Item value="dr" priority="2" />
+      <Item value="GlobalData`0" priority="15" />
+      <Item value="BlComparePriceAreaOfStation`0" priority="0" />
+      <Item value="blComparePriceAreaOfStation" priority="0" />
+      <Item value="BlComparePriceAreaOfStation" priority="0" />
+      <Item value="ref" priority="5" />
+      <Item value="errorMessage" priority="1" />
+      <Item value="DateTime`0" priority="25" />
+      <Item value="Encoding`0" priority="0" />
+      <Item value="LongitudeN" priority="1" />
+      <Item value="LatitudeN" priority="1" />
+      <Item value="m" priority="3" />
+      <Item value="maps" priority="1" />
+      <Item value="IFormatProvider`0" priority="3" />
+      <Item value="_dalTranscad" priority="0" />
+      <Item value="priceListLayers" priority="0" />
+      <Item value="StationAreaPriceCompareOutputData`0" priority="0" />
+      <Item value="list" priority="8" />
+      <Item value="List&lt;StationAreaPriceCompareOutputData&gt;" priority="0" />
+      <Item value="StationAreaPriceCompareOutputData" priority="0" />
+      <Item value="CurrentIdPriceArea" priority="0" />
+      <Item value="NewIdPriceArea" priority="0" />
+      <Item value="OperatorId" priority="3" />
+      <Item value="listOutPutData" priority="0" />
+      <Item value="Layer`0" priority="0" />
+      <Item value="layerName" priority="6" />
+      <Item value="op" priority="5" />
+      <Item value="layers" priority="2" />
+      <Item value="foreach" priority="9" />
+      <Item value="break" priority="7" />
+      <Item value="Nullable`0" priority="1" />
+      <Item value="IEnumerable" priority="1" />
+      <Item value="_stationList" priority="0" />
+      <Item value="ZoneImport" priority="0" />
+      <Item value="PriceArea`0" priority="0" />
+      <Item value="priceArea" priority="1" />
+      <Item value="List&lt;ZoneImport&gt;" priority="0" />
+      <Item value="byte" priority="4" />
+      <Item value="List&lt;Coord&gt;" priority="0" />
+      <Item value="DBNull`0" priority="3" />
+      <Item value="zi" priority="11" />
+      <Item value="List&lt;ExternalImport_InsertImportZoneControlOperator&gt;" priority="0" />
+      <Item value="UnionStation" priority="0" />
+      <Item value="l" priority="8" />
+      <Item value="PriceListLayer" priority="0" />
+      <Item value="Logger" priority="11" />
+      <Item value="LoggerManager`0" priority="13" />
+      <Item value="IsListFull`0" priority="0" />
+      <Item value="for" priority="3" />
+      <Item value="Length" priority="1" />
+      <Item value="ListBoxBLManager`0" priority="0" />
+      <Item value="case" priority="3" />
+      <Item value="oper" priority="13" />
+      <Item value="Operator" priority="0" />
+      <Item value="Operator`0" priority="1" />
+      <Item value="ExportConfiguration" priority="7" />
+      <Item value="ExportConfigurator`0" priority="14" />
+      <Item value="result" priority="4" />
+      <Item value="File`0" priority="3" />
+      <Item value="routeLine" priority="5" />
+      <Item value="dtValidExportDate" priority="2" />
+      <Item value="street" priority="6" />
+      <Item value="DateTimePickerFormat" priority="0" />
+      <Item value="DateTime" priority="0" />
+      <Item value="bndSourceRouteLine" priority="0" />
+      <Item value="msValidateDateTime" priority="1" />
+      <Item value="delegate" priority="0" />
+      <Item value="errorProvider" priority="0" />
+      <Item value="e" priority="9" />
+      <Item value="ResourceGUI`0" priority="7" />
+      <Item value="routeLines" priority="0" />
+      <Item value="RouteLine`0" priority="12" />
+      <Item value="List&lt;RouteLine&gt;" priority="4" />
+      <Item value="SourceFilter`0" priority="0" />
+      <Item value="rl" priority="15" />
+      <Item value="dt" priority="4" />
+      <Item value="errList" priority="0" />
+      <Item value="SplitContainer`0" priority="0" />
+      <Item value="lst" priority="3" />
+      <Item value="li" priority="1" />
+      <Item value="re" priority="0" />
+      <Item value="blManager" priority="3" />
+      <Item value="clusterValidExportDateManage" priority="0" />
+      <Item value="frmClusterValidExportDateManage" priority="0" />
+      <Item value="override" priority="5" />
+      <Item value="static" priority="4" />
+      <Item value="readonly" priority="11" />
+      <Item value="IBLManager" priority="1" />
+      <Item value="_manager" priority="0" />
+      <Item value="_transCadBlManager" priority="0" />
+      <Item value="TransCadBLManager`0" priority="0" />
+      <Item value="_operatorValidateLineExportDate" priority="0" />
+      <Item value="_blClusterValidExportDateManage" priority="0" />
+      <Item value="BlClusterValidExportDateManage" priority="2" />
+      <Item value="lstOpers" priority="3" />
+      <Item value="dtClusters" priority="0" />
+      <Item value="OperatorValidateLineExportDate`0" priority="0" />
+      <Item value="operatorValidateLineExportDate" priority="1" />
+      <Item value="as" priority="8" />
+      <Item value="opr" priority="0" />
+      <Item value="ClusterValidateLineExportDate`0" priority="1" />
+      <Item value="operatorValidateLineExportDates" priority="0" />
+      <Item value="_internalBaseDal" priority="3" />
+      <Item value="List&lt;int&gt;" priority="0" />
+      <Item value="c" priority="29" />
+      <Item value="IFastSearchBLManagerPresenter`0" priority="0" />
+      <Item value="Clusters" priority="4" />
+      <Item value="cmdClusters" priority="0" />
+      <Item value="msDate" priority="0" />
+      <Item value="GUIBase" priority="3" />
+      <Item value="BaseForm`0" priority="0" />
+      <Item value="el" priority="3" />
+      <Item value="lock" priority="0" />
+      <Item value="date" priority="2" />
+      <Item value="ClusterValidateLineExportDate" priority="0" />
+      <Item value="IdCluster" priority="2" />
+      <Item value="clusterId" priority="0" />
+      <Item value="ordinalDataGridViewTextBoxColumn" priority="0" />
+      <Item value="frmClusterValidExportDateManage`0" priority="0" />
+      <Item value="OperatorValidateLineExportDate" priority="0" />
+      <Item value="IdOperator" priority="0" />
+      <Item value="OperatorName" priority="3" />
+      <Item value="List&lt;ClusterValidateLineExportDate&gt;" priority="0" />
+      <Item value="operatorValidateLineExportDatesToOperate" priority="1" />
+      <Item value="using" priority="2" />
+      <Item value="x" priority="0" />
+      <Item value="XAttribute`0" priority="3" />
+      <Item value="Format" priority="0" />
+      <Item value="oper2" priority="0" />
+      <Item value="clus" priority="0" />
+      <Item value="Nullable" priority="1" />
+      <Item value="CatalogInfo`0" priority="2" />
+      <Item value="catalog" priority="1" />
+      <Item value="List&lt;CatalogInfo&gt;" priority="0" />
+      <Item value="errorList" priority="1" />
+      <Item value="ProcessLauncher`0" priority="2" />
+      <Item value="class" priority="0" />
+      <Item value="const" priority="4" />
+      <Item value="ClusterName" priority="5" />
+      <Item value="ClusterID" priority="5" />
+      <Item value="ClusterToZone`0" priority="0" />
+      <Item value="BaseTableEntity`0" priority="8" />
+      <Item value="BaseTableEntity" priority="2" />
+      <Item value="ID" priority="5" />
+      <Item value="i" priority="7" />
+      <Item value="Name" priority="3" />
+      <Item value="it" priority="0" />
+      <Item value="clusters" priority="0" />
+      <Item value="lstOperClusters" priority="1" />
+      <Item value="cl" priority="0" />
+      <Item value="List&lt;BaseTableEntity&gt;" priority="0" />
+      <Item value="Save`0" priority="1" />
+      <Item value="gbExport" priority="0" />
+      <Item value="gbClose" priority="0" />
+      <Item value="lstReport" priority="1" />
+      <Item value="List&lt;string&gt;" priority="0" />
+      <Item value="resultList" priority="0" />
+      <Item value="source" priority="0" />
+      <Item value="btnPrint" priority="0" />
+      <Item value="OK" priority="0" />
+      <Item value="frmExportValidateDateOptions`0" priority="1" />
+      <Item value="Routes" priority="1" />
+      <Item value="IsInsideExportProcess" priority="1" />
+      <Item value="DialogResult" priority="0" />
+      <Item value="Cancel" priority="0" />
+      <Item value="Yes" priority="0" />
+      <Item value="blClusterValidExportDateManage" priority="0" />
+      <Item value="ReportResults" priority="2" />
+      <Item value="cluster" priority="4" />
+      <Item value="GetClusterNameById`0" priority="1" />
+      <Item value="returnedRoutes" priority="0" />
+      <Item value="fixedList" priority="0" />
+      <Item value="sourse" priority="0" />
+      <Item value="txtRouteNumber" priority="0" />
+      <Item value="cmbEshkol" priority="0" />
+      <Item value="results" priority="2" />
+      <Item value="r" priority="0" />
+      <Item value="ValidationResults" priority="0" />
+      <Item value="res" priority="11" />
+      <Item value="ValueType`0" priority="0" />
+      <Item value="data" priority="5" />
+      <Item value="StationId" priority="0" />
+      <Item value="DataTable`0" priority="6" />
+      <Item value="typeof" priority="2" />
+      <Item value="s" priority="9" />
+      <Item value="za" priority="0" />
+      <Item value="sop" priority="0" />
+      <Item value="isExportsNeeded" priority="0" />
+      <Item value="z" priority="3" />
+      <Item value="from" priority="0" />
+      <Item value="join" priority="0" />
+      <Item value="st" priority="4" />
+      <Item value="where" priority="3" />
+      <Item value="select" priority="1" />
+      <Item value="into" priority="0" />
+      <Item value="DataSearchAndManipulateBLManager`0" priority="0" />
+      <Item value="cell" priority="0" />
+      <Item value="DataGridViewCellStyle`0" priority="0" />
+      <Item value="gridViewCellStyle" priority="0" />
+      <Item value="Color`0" priority="0" />
+      <Item value="PaintEntity`1" priority="0" />
+      <Item value="ClusterState" priority="2" />
+      <Item value="Dictionary" priority="5" />
+      <Item value="clusterToZones" priority="0" />
+      <Item value="Dictionary&lt;int,ClusterToZone&gt;" priority="0" />
+      <Item value="ClusterToZone" priority="0" />
+      <Item value="ClusterStateSelected" priority="0" />
+      <Item value="ClusterStateList" priority="0" />
+      <Item value="List&lt;ClusterState&gt;" priority="0" />
+      <Item value="NewsStyleUriParser`0" priority="1" />
+      <Item value="MainZoneID" priority="1" />
+      <Item value="MainZoneName" priority="1" />
+      <Item value="SubZoneID" priority="1" />
+      <Item value="SubZoneName" priority="0" />
+      <Item value="IBaseTableEntity`0" priority="0" />
+      <Item value="object" priority="11" />
+      <Item value="AdditonalInfo" priority="0" />
+      <Item value="Dictionary&lt;string,object&gt;" priority="1" />
+      <Item value="set" priority="0" />
+      <Item value="IdZoneHead" priority="0" />
+      <Item value="state" priority="0" />
+      <Item value="ClusterState`0" priority="4" />
+      <Item value="clusterState" priority="3" />
+      <Item value="frmClusterStateSelect`0" priority="0" />
+      <Item value="stateSelect" priority="0" />
+      <Item value="frmClusterStateSelect" priority="0" />
+      <Item value="SelectedClusterState" priority="0" />
+      <Item value="indexes" priority="2" />
+      <Item value="routeStopDetailPresenter" priority="0" />
+      <Item value="ckBoxNotInUse" priority="2" />
+      <Item value="txtPlatform" priority="0" />
+      <Item value="txtFloor" priority="0" />
+      <Item value="rs" priority="2" />
+      <Item value="platform" priority="0" />
+      <Item value="floor" priority="1" />
+      <Item value="short" priority="0" />
+      <Item value="default" priority="1" />
+      <Item value="BLSharedUtils`0" priority="10" />
+      <Item value="CheckBox`0" priority="0" />
+      <Item value="thr" priority="0" />
+      <Item value="sp" priority="1" />
+      <Item value="RouteModel`0" priority="1" />
+      <Item value="pstop" priority="0" />
+      <Item value="ps" priority="15" />
+      <Item value="pa" priority="1" />
+      <Item value="RootFolder" priority="1" />
+      <Item value="Path`0" priority="14" />
+      <Item value="Directory`0" priority="4" />
+      <Item value="targetTAB" priority="0" />
+      <Item value="ProcessStartInfo" priority="0" />
+      <Item value="dataDal" priority="0" />
+      <Item value="DirectoryInfo`0" priority="0" />
+      <Item value="Utilities" priority="1" />
+      <Item value="IOHelper`0" priority="0" />
+      <Item value="UriFormat`0" priority="0" />
+      <Item value="ex" priority="1" />
+      <Item value="zipFileDestinationFolder" priority="0" />
+      <Item value="strSteet" priority="0" />
+      <Item value="di" priority="0" />
+      <Item value="ValidationErrorResult`0" priority="0" />
+      <Item value="ProcessThread`0" priority="0" />
+      <Item value="isArrivePlanning" priority="0" />
+      <Item value="baseTableEntity" priority="0" />
+      <Item value="counter" priority="0" />
+      <Item value="ZoneImport`0" priority="0" />
+      <Item value="zoneImports" priority="3" />
+      <Item value="Environment`0" priority="4" />
+      <Item value="listExternalImportInsertImportZoneControlOperator" priority="3" />
+      <Item value="clustres" priority="0" />
+      <Item value="FrmLoginsManagment`0" priority="0" />
+      <Item value="frmLoginsManagment" priority="0" />
+      <Item value="FrmLoginsManagment" priority="0" />
+      <Item value="transcadLogin" priority="2" />
+      <Item value="InternalTvunaImplementationDal" priority="0" />
+      <Item value="InternalTvunaImplementationDAL" priority="0" />
+      <Item value="LoginDate" priority="1" />
+      <Item value="WorkspaceFile" priority="0" />
+      <Item value="_dalBaseSql" priority="0" />
+      <Item value="TranscadLogin" priority="1" />
+      <Item value="LoginUser`0" priority="0" />
+      <Item value="UserName" priority="0" />
+      <Item value="IInternalBaseDal`0" priority="1" />
+      <Item value="exception" priority="0" />
+      <Item value="manager" priority="0" />
+      <Item value="BlLoginsManager" priority="1" />
+      <Item value="_blLoginsManager" priority="0" />
+      <Item value="bndSource" priority="1" />
+      <Item value="dtData" priority="2" />
+      <Item value="InvokeGotFocus`0" priority="0" />
+      <Item value="List&lt;TranscadLogin&gt;" priority="0" />
+      <Item value="ApplicationException`0" priority="0" />
+      <Item value="ResourceDAL`0" priority="0" />
+      <Item value="path" priority="1" />
+      <Item value="ManualResetEvent`0" priority="0" />
+      <Item value="manualResetEvent" priority="0" />
+      <Item value="ManualResetEvent" priority="0" />
+      <Item value="count" priority="0" />
+      <Item value="messageException" priority="0" />
+      <Item value="isFull" priority="1" />
+      <Item value="ShapeOfJunctionDetailsImport" priority="0" />
+      <Item value="dalShapeOfJunctionDetailsImport" priority="0" />
+      <Item value="DataRow`0" priority="0" />
+      <Item value="Order" priority="0" />
+      <Item value="row" priority="2" />
+      <Item value="Lat" priority="0" />
+      <Item value="Long" priority="0" />
+      <Item value="ImportControlId" priority="0" />
+      <Item value="lineDetailImport" priority="0" />
+      <Item value="OfficeLineId" priority="0" />
+      <Item value="Direction" priority="0" />
+      <Item value="LineAlternative" priority="0" />
+      <Item value="connection" priority="2" />
+      <Item value="DALShared`0" priority="0" />
+      <Item value="DalShared`0" priority="16" />
+      <Item value="JavaScriptSerializerHelper`0" priority="0" />
+      <Item value="j" priority="2" />
+      <Item value="distStart" priority="0" />
+      <Item value="IdStationType" priority="0" />
+      <Item value="StationFloor" priority="0" />
+      <Item value="global" priority="0" />
+      <Item value="routeStop" priority="0" />
+      <Item value="LinkStop`0" priority="0" />
+      <Item value="long" priority="1" />
+      <Item value="Coord`0" priority="1" />
+      <Item value="_transCadMunipulationDataDal" priority="4" />
+      <Item value="List&lt;long&gt;" priority="0" />
+      <Item value="DataTable" priority="1" />
+      <Item value="DataColumn" priority="0" />
+      <Item value="IsFixedSize" priority="0" />
+      <Item value="error" priority="1" />
+      <Item value="GuiHelper`0" priority="3" />
+      <Item value="dtStationId" priority="0" />
+      <Item value="o" priority="5" />
+      <Item value="orderedList" priority="0" />
+      <Item value="Size" priority="1" />
+      <Item value="SqlParameter`0" priority="0" />
+      <Item value="SqlDbType" priority="0" />
+      <Item value="StationShortName" priority="0" />
+      <Item value="finally" priority="1" />
+      <Item value="Any`1" priority="3" />
+      <Item value="FirstOrDefault`1" priority="1" />
+      <Item value="psTrains" priority="0" />
+      <Item value="nameGroup" priority="0" />
+      <Item value="dicPhysicalStop" priority="0" />
+      <Item value="OrderedEnumerableRowCollection" priority="0" />
+      <Item value="orderby" priority="0" />
+      <Item value="IsTranCadProcessIsLaunched`0" priority="0" />
+      <Item value="t" priority="1" />
+      <Item value="enmLinkStationCity`0" priority="3" />
+      <Item value="Count" priority="0" />
+      <Item value="isStartUpDone" priority="0" />
+      <Item value="lines" priority="1" />
+      <Item value="Enumerable`0" priority="0" />
+      <Item value="Catalog" priority="0" />
+      <Item value="IsCityLinkedManual" priority="1" />
+      <Item value="interface" priority="2" />
+      <Item value="BaseClass`0" priority="1" />
+      <Item value="MunArea`0" priority="5" />
+      <Item value="_blLinkedMunicipalityStations" priority="0" />
+      <Item value="lstStations" priority="5" />
+      <Item value="neighbors" priority="0" />
+      <Item value="munAreas" priority="0" />
+      <Item value="lstAreas" priority="1" />
+      <Item value="internalBaseDal" priority="2" />
+      <Item value="ListOfTranscadClusterConfig" priority="0" />
+      <Item value="List&lt;TranscadClusterConfig&gt;" priority="0" />
+      <Item value="operatorId" priority="0" />
+      <Item value="AsEnumerable`1" priority="0" />
+      <Item value="opers" priority="1" />
+      <Item value="InternalTvunaImplementationDal`0" priority="1" />
+      <Item value="MainZoneId" priority="1" />
+      <Item value="SubZoneId" priority="1" />
+      <Item value="AuthorityId" priority="0" />
+      <Item value="ConnectionStringReadOnly" priority="7" />
+      <Item value="ConnectionStringTranscadOperatorReadOnly" priority="1" />
+      <Item value="ConnectionstringtranscadoperatorReadOnly" priority="7" />
+      <Item value="coord" priority="0" />
+      <Item value="threshhold" priority="0" />
+      <Item value="List&lt;MunArea&gt;" priority="0" />
+      <Item value="MunArea" priority="0" />
+      <Item value="munId" priority="0" />
+      <Item value="Where`1" priority="0" />
+      <Item value="MunId" priority="0" />
+      <Item value="City`0" priority="1" />
+      <Item value="cities" priority="1" />
+      <Item value="_cites" priority="2" />
+      <Item value="EnvironmentVariableTarget`0" priority="1" />
+      <Item value="List&lt;City&gt;" priority="0" />
+      <Item value="mun" priority="0" />
+      <Item value="city" priority="2" />
+      <Item value="txtMuniSel" priority="0" />
+      <Item value="txtStationCatalogSearch" priority="0" />
+      <Item value="chAllNonLinked" priority="0" />
+      <Item value="P" priority="0" />
+      <Item value="Manual" priority="0" />
+      <Item value="txtSN" priority="0" />
+      <Item value="Link`0" priority="0" />
+      <Item value="linkstationToMunMenu" priority="0" />
+      <Item value="_loggerManager" priority="0" />
+      <Item value="LoggerManager" priority="0" />
+      <Item value="_transcadActivity" priority="0" />
+      <Item value="frm" priority="0" />
+      <Item value="Application`0" priority="0" />
+      <Item value="errStationDt" priority="0" />
+      <Item value="PlanningFirm" priority="0" />
+      <Item value="field" priority="0" />
+      <Item value="errMessage" priority="0" />
+      <Item value="status" priority="0" />
+      <Item value="List&lt;StationImport&gt;" priority="0" />
+      <Item value="StationImport`0" priority="0" />
+      <Item value="stationImport" priority="1" />
+      <Item value="Serializable" priority="1" />
+      <Item value="propg" priority="0" />
+      <Item value="IBaseTablePresentation`0" priority="0" />
+      <Item value="Dictionary&lt;int,string&gt;" priority="0" />
+      <Item value="Title" priority="0" />
+      <Item value="FilePath" priority="4" />
+      <Item value="filePath" priority="0" />
+      <Item value="IoHelper`0" priority="8" />
+      <Item value="ErrorMessage" priority="1" />
+      <Item value="f" priority="1" />
+      <Item value="flagFileNotExists" priority="0" />
+      <Item value="DeleteAllFile`0" priority="0" />
+      <Item value="fileFrom" priority="0" />
+      <Item value="fileName" priority="0" />
+      <Item value="fileTo" priority="0" />
+      <Item value="PriceArea" priority="1" />
+      <Item value="PriceAreaLayerTemp" priority="0" />
+      <Item value="Zones" priority="2" />
+      <Item value="ZName" priority="0" />
+      <Item value="TatFull" priority="0" />
+      <Item value="PriceZoneAreas" priority="0" />
+      <Item value="IsInUse`0" priority="0" />
+      <Item value="FileLocked`0" priority="0" />
+      <Item value="EmptyFolder`0" priority="0" />
+      <Item value="ZipunzipHelper`0" priority="0" />
+      <Item value="file" priority="1" />
+      <Item value="BLManager" priority="1" />
+      <Item value="a" priority="1" />
+      <Item value="Func" priority="0" />
+      <Item value="PriceZoneArea`0" priority="1" />
+      <Item value="CheckDuplicated`0" priority="0" />
+      <Item value="_folderName" priority="0" />
+      <Item value="isNotValid" priority="0" />
+      <Item value="String`0" priority="1" />
+      <Item value="DropLayer`0" priority="0" />
+      <Item value="MessageEventArgs`0" priority="0" />
+      <Item value="senderName" priority="0" />
+      <Item value="stringBuilder" priority="0" />
+      <Item value="notValid" priority="0" />
+      <Item value="PriceAreaZip" priority="0" />
+      <Item value="control" priority="0" />
+      <Item value="priceZoneAreas" priority="0" />
+      <Item value="FromDate" priority="0" />
+      <Item value="Status" priority="0" />
+      <Item value="imporControl" priority="0" />
+      <Item value="inexp" priority="0" />
+      <Item value="double" priority="1" />
+      <Item value="Ring" priority="0" />
+      <Item value="ring" priority="0" />
+      <Item value="Area" priority="0" />
+      <Item value="area" priority="0" />
+      <Item value="float" priority="0" />
+      <Item value="psStop" priority="2" />
+      <Item value="physicalStops" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox">
+      <Item value="Enabled" priority="0" />
+      <Item value="DataSource" priority="2" />
+      <Item value="SelectedValue" priority="4" />
+      <Item value="SelectedItem" priority="2" />
+      <Item value="Select`0" priority="0" />
+      <Item value="SelectedText" priority="2" />
+      <Item value="DisplayMember" priority="0" />
+      <Item value="ValueMember" priority="0" />
+      <Item value="FindStringExact`0" priority="0" />
+      <Item value="Items" priority="1" />
+      <Item value="SelectedIndex" priority="1" />
+      <Item value="FindString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GUIBase.frmProcessWaiting">
+      <Item value="Height" priority="0" />
+      <Item value="Close`0" priority="1" />
+      <Item value="IsCanceledByUser" priority="0" />
+      <Item value="Width" priority="0" />
+      <Item value="Cursor" priority="0" />
+      <Item value="btnCancel" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToBoolean`0" priority="1" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="ToInt16`0" priority="1" />
+      <Item value="ToInt32`0" priority="16" />
+      <Item value="ToDouble`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="Sleep`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLManager.PriceListPolygonBL">
+      <Item value="Changed" priority="0" />
+      <Item value="IsCanceledByUser" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:GUIBase.ProcessWaitingManager">
+      <Item value="ShowProcessWaitingForm`0" priority="3" />
+      <Item value="CloseProcessWaitingForm`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Label">
+      <Item value="Width" priority="0" />
+      <Item value="Validated" priority="0" />
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Cursor">
+      <Item value="Current" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Cursors">
+      <Item value="WaitCursor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="BringToFront`0" priority="0" />
+      <Item value="TextAlign" priority="0" />
+      <Item value="Enabled" priority="1" />
+      <Item value="Text" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.HorizontalAlignment">
+      <Item value="Right" priority="0" />
+      <Item value="Left" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="44" />
+      <Item value="Concat`0" priority="3" />
+      <Item value="Format`0" priority="41" />
+      <Item value="IsNullOrEmpty`0" priority="36" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IDAL.ITransCadMunipulationDataDAL">
+      <Item value="GetCoordinate`0" priority="0" />
+      <Item value="CloseConnection`0" priority="2" />
+      <Item value="OpenWorkspace`0" priority="0" />
+      <Item value="GetLayersName`0" priority="2" />
+      <Item value="GetMapNames`0" priority="0" />
+      <Item value="CloseMap`0" priority="1" />
+      <Item value="GetMapLayers`0" priority="1" />
+      <Item value="AddLayer`0" priority="2" />
+      <Item value="IsAddeRouteSystemLayer`0" priority="0" />
+      <Item value="SetMap`0" priority="0" />
+      <Item value="SavePhisicalStopStop`0" priority="0" />
+      <Item value="SetLabelOnMap`0" priority="0" />
+      <Item value="DropLayer`0" priority="0" />
+      <Item value="IsLayerExists`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CaliperForm.Connection">
+      <Item value="IsConnected`0" priority="1" />
+      <Item value="Close`0" priority="0" />
+      <Item value="Open`0" priority="1" />
+      <Item value="GetMap`0" priority="0" />
+      <Item value="DoMacro`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DAL.ExportRouteToSQLDAL">
+      <Item value="IsCanceledByUser" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Model.RouteModel">
+      <Item value="PhysicalStopList" priority="5" />
+      <Item value="RouteLineList" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="16" />
+      <Item value="SingleOrDefault`1" priority="17" />
+      <Item value="IsListFull`0" priority="44" />
+      <Item value="ForEach`0" priority="33" />
+      <Item value="FindAll`0" priority="1" />
+      <Item value="AddRange`0" priority="0" />
+      <Item value="FindLast`0" priority="1" />
+      <Item value="FindLastIndex`0" priority="0" />
+      <Item value="Any`1" priority="9" />
+      <Item value="Exists`0" priority="13" />
+      <Item value="Count" priority="15" />
+      <Item value="Where`1" priority="22" />
+      <Item value="Remove`0" priority="1" />
+      <Item value="OrderBy`2" priority="13" />
+      <Item value="OfType`1" priority="1" />
+      <Item value="Insert`0" priority="0" />
+      <Item value="Select`2" priority="5" />
+      <Item value="All`1" priority="0" />
+      <Item value="Except`1" priority="1" />
+      <Item value="Single`1" priority="2" />
+      <Item value="ToList`1" priority="0" />
+      <Item value="FirstOrDefault`1" priority="5" />
+      <Item value="Count`1" priority="0" />
+      <Item value="First`1" priority="0" />
+      <Item value="Contains`0" priority="1" />
+      <Item value="Distinct`1" priority="0" />
+      <Item value="SelectMany`3" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@BLEntities.Model.GlobalData">
+      <Item value="RouteModel" priority="10" />
+      <Item value="LoginUser" priority="8" />
+      <Item value="OperatorList" priority="1" />
+      <Item value="ClusterToZoneList" priority="0" />
+      <Item value="ClusterToZoneDictionary" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Entities.PhysicalStop">
+      <Item value="StationCatalog" priority="19" />
+      <Item value="Longitude" priority="1" />
+      <Item value="Latitude" priority="2" />
+      <Item value="IdStationStatus" priority="2" />
+      <Item value="ID" priority="3" />
+      <Item value="Floor" priority="0" />
+      <Item value="StationShortName" priority="2" />
+      <Item value="IsTrainMainStation" priority="2" />
+      <Item value="IdStationType" priority="4" />
+      <Item value="IsCityLinkedManual" priority="1" />
+      <Item value="CityCode" priority="3" />
+      <Item value="Name" priority="4" />
+      <Item value="CityLinkCode" priority="2" />
+      <Item value="LinkId" priority="0" />
+      <Item value="LongitudeN" priority="0" />
+      <Item value="LatitudeN" priority="0" />
+      <Item value="FromPlatform" priority="0" />
+      <Item value="ToPlatform" priority="0" />
+      <Item value="Street" priority="0" />
+      <Item value="AreaOperatorId" priority="0" />
+      <Item value="PriceZoneArea" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="AppendFormat`0" priority="3" />
+      <Item value="ToString`0" priority="8" />
+      <Item value="AppendLine`0" priority="10" />
+      <Item value="Remove`0" priority="0" />
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Accessories.StationAreaPriceCompare">
+      <Item value="NewCoord" priority="1" />
+      <Item value="CurrentIdPriceArea" priority="2" />
+      <Item value="StationCatalog" priority="0" />
+      <Item value="NewIdPriceArea" priority="1" />
+      <Item value="CurrentCoord" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Entities.Coord">
+      <Item value="Longitude" priority="1" />
+      <Item value="Latitude" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Entities.PriceArea">
+      <Item value="Area" priority="0" />
+      <Item value="Coords" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@BLManager.Resources.BLManagerResource">
+      <Item value="StationDoesnotHasNewAreaProce" priority="0" />
+      <Item value="All" priority="1" />
+      <Item value="TheOperDoesntHaveClusters" priority="0" />
+      <Item value="Signpost" priority="0" />
+      <Item value="CantLinkAlreadyLinkedItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Accessories.LoginUser">
+      <Item value="UserOperator" priority="8" />
+      <Item value="IsSuperViser" priority="1" />
+      <Item value="UserName" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Accessories.Operator">
+      <Item value="IdOperator" priority="14" />
+      <Item value="OperatorName" priority="11" />
+      <Item value="PriceListLayer" priority="0" />
+      <Item value="TransCadStatus" priority="0" />
+      <Item value="OperatorGroup" priority="3" />
+      <Item value="PathToRSTFile" priority="1" />
+      <Item value="ListOfTranscadClusterConfig" priority="1" />
+      <Item value="SelectedTranscadClusterConfig" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLManager.BlComparePriceAreaOfStation">
+      <Item value="DataPriceArea" priority="0" />
+      <Item value="CheckDataValidity`0" priority="0" />
+      <Item value="BuildReport`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="4" />
+      <Item value="MinValue" priority="3" />
+      <Item value="Parse`0" priority="0" />
+      <Item value="TryParse`0" priority="0" />
+      <Item value="Today" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.Encoding">
+      <Item value="UTF8" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment+SpecialFolder">
+      <Item value="Desktop" priority="1" />
+      <Item value="CommonProgramFiles" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ExportConfiguration.ExportConfigurator">
+      <Item value="WorkspaceProceListAllOperstors" priority="0" />
+      <Item value="WorkspacePriceListAllOperstors" priority="0" />
+      <Item value="MapLayerName" priority="3" />
+      <Item value="WorkspacePriceListAllOperstorsMapName" priority="2" />
+      <Item value="WorkspacePriceListAllOperstorsFileName" priority="0" />
+      <Item value="PriceAreaPolygonName" priority="0" />
+      <Item value="ConvertIsStrShapeToTabMacro" priority="0" />
+      <Item value="ConvertIsStrShapeToTaBogr2OgrPath" priority="1" />
+      <Item value="DataFolder" priority="1" />
+      <Item value="DevelopmentEnv" priority="1" />
+      <Item value="GetRlInfoUi" priority="0" />
+      <Item value="LogicalDataSplitDevider" priority="0" />
+      <Item value="OperatorsIDsNotCalcNispah2Distances" priority="0" />
+      <Item value="MunLayer" priority="2" />
+      <Item value="CalcCloseAreasToStationMacro" priority="0" />
+      <Item value="PhisicalStopsLayerName" priority="0" />
+      <Item value="PriceAreaTemporaryPriceZoneAreaFolder" priority="2" />
+      <Item value="PriceAreaPriceZoneAreaFolder" priority="3" />
+      <Item value="PriceAreaHistoryPriceZoneAreaFolder" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Accessories.StationAreaPriceCompareInputData">
+      <Item value="StationCatalog" priority="0" />
+      <Item value="UnionStation" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Accessories.StationAreaPriceCompareOutputData">
+      <Item value="OperatorId" priority="0" />
+      <Item value="UnionStation" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLManager.BlExportPriceAreaOfStationForAllOperators">
+      <Item value="ExportData`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@BLEntities.Entities.enmOperatorGroup">
+      <Item value="Operator" priority="2" />
+      <Item value="PlanningFirm" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.SQLServer.ExternalImport_InsertImportZoneControlOperator">
+      <Item value="ImportZoneControlOperatorId" priority="2" />
+      <Item value="OperatorId" priority="0" />
+      <Item value="Status" priority="0" />
+      <Item value="DataSource" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DBNull">
+      <Item value="Value" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="5" />
+      <Item value="TryParse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.SQLServer.ZoneImport">
+      <Item value="ImportZoneControlOperatorId" priority="4" />
+      <Item value="StationId" priority="7" />
+      <Item value="ZoneCode" priority="5" />
+      <Item value="OperatorId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Replace`0" priority="3" />
+      <Item value="Equals`0" priority="0" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="Length" priority="1" />
+      <Item value="Substring`0" priority="0" />
+      <Item value="Split`0" priority="1" />
+      <Item value="ToCharArray`0" priority="1" />
+      <Item value="StartsWith`0" priority="0" />
+      <Item value="Contains`0" priority="2" />
+      <Item value="ToUpper`0" priority="4" />
+      <Item value="EndsWith`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="17" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Utilities.CsvReader">
+      <Item value="Fields" priority="1" />
+      <Item value="FieldCount" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.MenuItem">
+      <Item value="Enabled" priority="2" />
+      <Item value="Visible" priority="6" />
+      <Item value="Click" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Logger.LoggerManager">
+      <Item value="WriteToLog`0" priority="13" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="ToList`1" priority="22" />
+      <Item value="OrderBy`2" priority="2" />
+      <Item value="Any`1" priority="6" />
+      <Item value="FirstOrDefault`1" priority="1" />
+      <Item value="Select`2" priority="0" />
+      <Item value="Distinct`1" priority="1" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ExportConfiguration.ExportConfigurator">
+      <Item value="GetConfig`0" priority="13" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="Exists`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Entities.RouteLine">
+      <Item value="IsNewEntity" priority="3" />
+      <Item value="ValidExportDate" priority="5" />
+      <Item value="IsValidExportDateSelected" priority="1" />
+      <Item value="ID" priority="5" />
+      <Item value="StopPresentList" priority="2" />
+      <Item value="ValidationFunction" priority="1" />
+      <Item value="Catalog" priority="5" />
+      <Item value="IdCluster" priority="7" />
+      <Item value="Dir" priority="1" />
+      <Item value="Var" priority="1" />
+      <Item value="IdZoneHead" priority="2" />
+      <Item value="ClusterName" priority="0" />
+      <Item value="IdZoneSubHead" priority="1" />
+      <Item value="JunctionIds" priority="1" />
+      <Item value="CityIds" priority="1" />
+      <Item value="CancelEdit`0" priority="1" />
+      <Item value="RouteNumber" priority="0" />
+      <Item value="IdOperator" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DateTimePicker">
+      <Item value="Enabled" priority="0" />
+      <Item value="Value" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IBLManager.ITransCadBLManager">
+      <Item value="IsAdminFormEnabled" priority="0" />
+      <Item value="GetRouteLineListWithNotValidExportDate`0" priority="0" />
+      <Item value="GetSelectedClusterName`0" priority="1" />
+      <Item value="IsExistsHoradaStationInLine`0" priority="0" />
+      <Item value="IsValidDataModel" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="ToString`0" priority="3" />
+      <Item value="Value" priority="8" />
+      <Item value="HasValue" priority="12" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToStringddMMyyyy`0" priority="0" />
+      <Item value="ToString`0" priority="2" />
+      <Item value="ToStringddMMyyyyhhmmssNONSeparator`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.DateTimePickerFormat">
+      <Item value="Short" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:RouteExportProcess.frmLineDetails">
+      <Item value="bndSourceRouteLine" priority="0" />
+      <Item value="msValidateDateTime" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.BindingSource">
+      <Item value="ResetBindings`0" priority="1" />
+      <Item value="ResetCurrentItem`0" priority="2" />
+      <Item value="ResetItem`0" priority="3" />
+      <Item value="ResumeBinding`0" priority="1" />
+      <Item value="DataSource" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ErrorProvider">
+      <Item value="SetError`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.MaskedTextBox">
+      <Item value="KeyDown" priority="0" />
+      <Item value="Text" priority="3" />
+      <Item value="Validating" priority="0" />
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TypeValidationEventArgs">
+      <Item value="ReturnValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.CancelEventArgs">
+      <Item value="Cancel" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@RouteExportProcess.Resources.ResourceGUI">
+      <Item value="CatalogFilter" priority="0" />
+      <Item value="CatalogConvertedFileWasCreatedSuccesefully" priority="0" />
+      <Item value="DeleteRouteLineSuccessInfo" priority="2" />
+      <Item value="MajozSubName" priority="0" />
+      <Item value="IdMahozSub" priority="0" />
+      <Item value="MahozMainName" priority="0" />
+      <Item value="IdMahozMain" priority="0" />
+      <Item value="CloseAreNotFound" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Entities.RouteStop">
+      <Item value="Route_ID" priority="1" />
+      <Item value="IdStationType" priority="0" />
+      <Item value="Platform" priority="2" />
+      <Item value="Floor" priority="1" />
+      <Item value="Physical_Stop_ID" priority="0" />
+      <Item value="PhysicalStop" priority="1" />
+      <Item value="Horada" priority="0" />
+      <Item value="IsNewEntity" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IBLManager.ILineDetailsPresenter">
+      <Item value="IsEgedOperator" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Entities.OperatorValidateLineExportDate">
+      <Item value="OperatorName" priority="2" />
+      <Item value="IdOperator" priority="9" />
+      <Item value="ClusterValidateLineExportDates" priority="9" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListBox">
+      <Item value="DataSource" priority="6" />
+      <Item value="SelectedIndex" priority="6" />
+      <Item value="SelectedItem" priority="6" />
+      <Item value="SelectedValue" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLManager.BlClusterValidExportDateManage">
+      <Item value="OperatorValidateLineExportDateData" priority="0" />
+      <Item value="Clusters" priority="1" />
+      <Item value="ValidateLineExportDate`0" priority="0" />
+      <Item value="ShowReport`0" priority="0" />
+      <Item value="RemoveNotAllowedRoutesBasedOnExportValidatioDate`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridView">
+      <Item value="DataSource" priority="0" />
+      <Item value="Refresh`0" priority="3" />
+      <Item value="SelectedRows" priority="0" />
+      <Item value="ResetBindings`0" priority="1" />
+      <Item value="DefaultCellStyle" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewRowCancelEventArgs">
+      <Item value="Row" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewRow">
+      <Item value="DataBoundItem" priority="1" />
+      <Item value="State" priority="0" />
+      <Item value="Cells" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IDAL.IInternalBaseDAL">
+      <Item value="SaveOperatorValidateLineExportDate`0" priority="0" />
+      <Item value="GetClustersByOpearatorId`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Entities.ClusterToZone">
+      <Item value="ClusterID" priority="4" />
+      <Item value="ClusterName" priority="1" />
+      <Item value="MainZoneID" priority="0" />
+      <Item value="ClusterStateList" priority="12" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewSelectedRowCollection">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Entities.ClusterValidateLineExportDate">
+      <Item value="ValidExportDate" priority="3" />
+      <Item value="IdCluster" priority="7" />
+      <Item value="ClusterName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@GUIBase.GUIHelper">
+      <Item value="ShowErrorMessage`0" priority="0" />
+      <Item value="ShowConfirmationMessage`0" priority="0" />
+      <Item value="ShowInfoMessage`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IOrderedEnumerable`1">
+      <Item value="ToList`1" priority="12" />
+      <Item value="Where`1" priority="0" />
+      <Item value="ThenBy`2" priority="0" />
+      <Item value="Select`2" priority="0" />
+      <Item value="Any`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:RouteExportProcess.frmClusterValidExportDateManage">
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@BLManager.BlClusterValidExportDateManage">
+      <Item value="ParseToDateTime`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Entities.CatalogInfo">
+      <Item value="Catalog" priority="4" />
+      <Item value="IdCluster" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Utilities.ProcessLauncher">
+      <Item value="RunProcess`0" priority="1" />
+      <Item value="OpenExplorerWithURL`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Entities.BaseTableEntity">
+      <Item value="ID" priority="13" />
+      <Item value="Name" priority="8" />
+      <Item value="AdditonalInfo" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox+ObjectCollection">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:RouteExportProcess.frmExportValidateDateOptions">
+      <Item value="Close`0" priority="0" />
+      <Item value="DialogResult" priority="0" />
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.GroupBox">
+      <Item value="Visible" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Button">
+      <Item value="Enabled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DialogResult">
+      <Item value="Cancel" priority="0" />
+      <Item value="Yes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Practices.EnterpriseLibrary.Validation.ValidationResults">
+      <Item value="IsValid" priority="0" />
+      <Item value="Reverse`1" priority="0" />
+      <Item value="Select`2" priority="0" />
+      <Item value="Where`1" priority="0" />
+      <Item value="ElementAt`1" priority="0" />
+      <Item value="AddAllResults`0" priority="0" />
+      <Item value="AddResult`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Practices.EnterpriseLibrary.Validation.ValidationResult">
+      <Item value="Key" priority="0" />
+      <Item value="NestedValidationResults" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Utilities.SQLServerHelper">
+      <Item value="GetData`0" priority="1" />
+      <Item value="GetDataByConnection`0" priority="0" />
+      <Item value="GetScalar`1" priority="0" />
+      <Item value="ExecuteQuery`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="IsDataTableFull`0" priority="2" />
+      <Item value="AsEnumerable`0" priority="0" />
+      <Item value="AcceptChanges`0" priority="0" />
+      <Item value="Rows" priority="6" />
+      <Item value="Columns" priority="1" />
+      <Item value="NewRow`0" priority="0" />
+      <Item value="Select`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:TSource">
+      <Item value="Field`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRow">
+      <Item value="Field`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.EnumerableRowCollection`1">
+      <Item value="ToList`1" priority="0" />
+      <Item value="ToDictionary`3" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DAL.SQLServerDAL.ExternalImport_InsertImportZoneControlOperatorDAL">
+      <Item value="GetStationOperatorPriceAreaList`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Entities.StationOperatorPriceArea">
+      <Item value="StationId" priority="3" />
+      <Item value="ZoneCode" priority="1" />
+      <Item value="OperatorId" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Color">
+      <Item value="DarkRed" priority="0" />
+      <Item value="YellowGreen" priority="0" />
+      <Item value="Blue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewCell">
+      <Item value="Style" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewCellStyle">
+      <Item value="ApplyStyle`0" priority="1" />
+      <Item value="Clone`0" priority="0" />
+      <Item value="Font" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Font">
+      <Item value="Bold" priority="0" />
+      <Item value="Style" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.FontStyle">
+      <Item value="Regular" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="ContainsKey`0" priority="6" />
+      <Item value="Add`0" priority="2" />
+      <Item value="Keys" priority="0" />
+      <Item value="Values" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2+KeyCollection">
+      <Item value="ToList`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Entities.ClusterState">
+      <Item value="MainZoneID" priority="1" />
+      <Item value="SubZoneID" priority="0" />
+      <Item value="MainZoneId" priority="3" />
+      <Item value="SubZoneId" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:RouteExportProcess.frmClusterStateSelect">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="ClusterState" priority="0" />
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListView+SelectedIndexCollection">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:RouteExportProcess.FrmClusterStateSelect">
+      <Item value="SelectedClusterState" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListView">
+      <Item value="Columns" priority="0" />
+      <Item value="Items" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListView+ColumnHeaderCollection">
+      <Item value="Clear`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListView+ListViewItemCollection">
+      <Item value="Clear`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.CheckBox">
+      <Item value="Enabled" priority="0" />
+      <Item value="Checked" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="2" />
+      <Item value="Source" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Path">
+      <Item value="Combine`0" priority="13" />
+      <Item value="GetFileName`0" priority="0" />
+      <Item value="VolumeSeparatorChar" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Directory">
+      <Item value="CreateDirectory`0" priority="1" />
+      <Item value="Delete`0" priority="1" />
+      <Item value="GetFiles`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.DirectoryInfo">
+      <Item value="FullName" priority="10" />
+      <Item value="GetFiles`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DAL.TransCadMunipulationDataDAL">
+      <Item value="GetLayerFields`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.ProcessStartInfo">
+      <Item value="CreateNoWindow" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Utilities.IOHelper">
+      <Item value="CopyFile`0" priority="0" />
+      <Item value="CreateFolder`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment">
+      <Item value="NewLine" priority="1" />
+      <Item value="GetFolderPath`0" priority="0" />
+      <Item value="SpecialFolder`0" priority="0" />
+      <Item value="UserName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Entities.TranscadClusterConfig">
+      <Item value="ClusterId" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:RouteExportProcess.FrmLoginsManagment">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Entities.TranscadLogin">
+      <Item value="UserName" priority="5" />
+      <Item value="OperatorName" priority="0" />
+      <Item value="ClusterName" priority="0" />
+      <Item value="LoginDate" priority="0" />
+      <Item value="WorkspaceFile" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IDAL.IInternalBaseDal">
+      <Item value="GetAllTranscadLogins`0" priority="0" />
+      <Item value="TranscadLoginDelete`0" priority="1" />
+      <Item value="TranscadLoginInsert`0" priority="1" />
+      <Item value="TranscadLoginIsFileOpened`0" priority="0" />
+      <Item value="GetOperatorList`0" priority="0" />
+      <Item value="InsertPhysicalLayerTestJurnal`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.ThreadExceptionEventArgs">
+      <Item value="Exception" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLManager.BlLoginsManager">
+      <Item value="DeleteLogin`0" priority="1" />
+      <Item value="GetAllTranscadLogins`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Diagnostics.Process">
+      <Item value="Start`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@DAL.Resources.ResourceDAL">
+      <Item value="ClusterDefWasNotFountForOperator" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.ManualResetEvent">
+      <Item value="WaitOne`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLManager.OperatorSelectBlManager">
+      <Item value="ShouldShowClusterForm`0" priority="0" />
+      <Item value="SetSelectedTranscadClusterConfigAndReturnUserDefinedClusterCount`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.SQLServer.ShapeOfJunctionDetailsImport">
+      <Item value="Order" priority="0" />
+      <Item value="Lat" priority="0" />
+      <Item value="Long" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data.SqlDbType">
+      <Item value="Decimal" priority="0" />
+      <Item value="Variant" priority="0" />
+      <Item value="VarChar" priority="0" />
+      <Item value="Int" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IDAL.IImportIDAL`1">
+      <Item value="Save`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.SQLServer.LineDetailImport">
+      <Item value="ImportControlId" priority="0" />
+      <Item value="OperatorId" priority="0" />
+      <Item value="OfficeLineId" priority="0" />
+      <Item value="Direction" priority="0" />
+      <Item value="LineAlternative" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataColumnCollection">
+      <Item value="Add`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowCollection">
+      <Item value="Add`0" priority="1" />
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data.ParameterDirection">
+      <Item value="Output" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@GUIBase.GuiHelper">
+      <Item value="ShowErrorMessage`0" priority="0" />
+      <Item value="ShowConfirmationMessage`0" priority="0" />
+      <Item value="ShowInfoMessage`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlParameter">
+      <Item value="Size" priority="0" />
+      <Item value="SqlDbType" priority="0" />
+      <Item value="Value" priority="0" />
+      <Item value="Direction" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Entities.Stop">
+      <Item value="StationShortName" priority="0" />
+      <Item value="StationTypeId" priority="0" />
+      <Item value="ID_SEKER" priority="5" />
+      <Item value="Name" priority="0" />
+      <Item value="StopID" priority="0" />
+      <Item value="AreaOperatorId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.SQLServer.StationImport">
+      <Item value="StationShortName" priority="0" />
+      <Item value="StationId" priority="0" />
+      <Item value="AreaOperatorId" priority="0" />
+      <Item value="DeepCopy`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@BLManager.BLSharedUtils">
+      <Item value="IsTaxiOperator`0" priority="5" />
+      <Item value="IsTrainStation`0" priority="0" />
+      <Item value="FilterTrainPStops`0" priority="0" />
+      <Item value="FilterTrainStops`0" priority="0" />
+      <Item value="LinesNotBelongToOperator`0" priority="0" />
+      <Item value="IsTranscadActive`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@DAL.DalShared">
+      <Item value="IsOperatorsIDsNotCalcNispah2Distances`0" priority="0" />
+      <Item value="SEPARATOR" priority="0" />
+      <Item value="IsTaxiOperator`0" priority="6" />
+      <Item value="ApplicationIntentReadOnly" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.SQLServer.InsertImportControlOperator">
+      <Item value="ImportFinishDate" priority="0" />
+      <Item value="DataSource" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IGrouping`2">
+      <Item value="FirstOrDefault`1" priority="0" />
+      <Item value="Key" priority="2" />
+      <Item value="Count`1" priority="3" />
+      <Item value="Distinct`1" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Linq.Enumerable">
+      <Item value="Empty`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IBLManager.IBlLinkedMunicipalityStations">
+      <Item value="GetSelectedStations`0" priority="0" />
+      <Item value="GetMunAreasByPhysicalStop`0" priority="0" />
+      <Item value="LinkStationtoMunArea`0" priority="0" />
+      <Item value="StationCount" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.SQLServer.CityImport">
+      <Item value="AuthorityId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Entities.City">
+      <Item value="AuthorityId" priority="0" />
+      <Item value="MunId" priority="2" />
+      <Item value="Name" priority="2" />
+      <Item value="Code" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Entities.MunArea">
+      <Item value="Name" priority="1" />
+      <Item value="ID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@BLEntities.Entities.enmLinkStationCity">
+      <Item value="Manual" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:RouteExportProcess.FrmLinkstationToMunArea">
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Debug">
+      <Item value="WriteLine`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IBLManager.IPresentationRouteMainForm">
+      <Item value="ExitFormApplication`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Process">
+      <Item value="GetProcessesByName`0" priority="0" />
+      <Item value="GetProcessById`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:RouteExportProcess.frmRouteExportProccess">
+      <Item value="Close`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Form">
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Application">
+      <Item value="Exit`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@BLEntities.Entities.EnmOperatorGroup">
+      <Item value="Operator" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLManager.BlPriceAreaToStationManager">
+      <Item value="ImportInput`0" priority="1" />
+      <Item value="ImportAndValidateInput`0" priority="0" />
+      <Item value="CheckDataValidity`0" priority="1" />
+      <Item value="ValidateInput`0" priority="0" />
+      <Item value="ErrorMessage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.SaveFileDialog">
+      <Item value="FileName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Utilities.IoHelper">
+      <Item value="DeleteFile`0" priority="1" />
+      <Item value="IsFileExists`0" priority="1" />
+      <Item value="CopyFile`0" priority="1" />
+      <Item value="DeleteFolder`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Utilities.ZipunzipHelper">
+      <Item value="UnZip`0" priority="0" />
+      <Item value="Zip`0" priority="0" />
+      <Item value="ZipFolder`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.FileInfo">
+      <Item value="FullName" priority="0" />
+      <Item value="Name" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Entities.PriceZoneArea">
+      <Item value="PName" priority="2" />
+      <Item value="TatFull" priority="5" />
+      <Item value="ID" priority="3" />
+      <Item value="ImportControlId" priority="1" />
+      <Item value="ShapeFile" priority="0" />
+      <Item value="Area" priority="0" />
+      <Item value="Ring" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Func`1">
+      <Item value="ToList`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Accessories.MessageEventArgs">
+      <Item value="MaxProgressBarValue" priority="0" />
+      <Item value="ProgressBarValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:BLEntities.Entities.ImporControl">
+      <Item value="Status" priority="0" />
+      <Item value="FromDate" priority="0" />
+      <Item value="ImportControlId" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:IDAL.IExportStationAreasToTrafficLicensingDal">
+      <Item value="ExportPriceArea`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="D9FFA388-ECC7-426F-99D3-792B54779658/f:ConfigurationHelper.cs" caret="226" fromTop="9" />
+      <File id="5F231A52-0BC4-4A52-B9D4-451DE15AB8C4/f:DALShared.cs" caret="9088" fromTop="7" />
+      <File id="FD5265BE-424C-41FD-A622-E3909D191D2A/d:SQLServer/f:ZoneImport.cs" caret="599" fromTop="14" />
+      <File id="FD5265BE-424C-41FD-A622-E3909D191D2A/d:Entities/f:ImporControl.cs" caret="80" fromTop="3" />
+      <File id="5F231A52-0BC4-4A52-B9D4-451DE15AB8C4/d:SQLServerDAL/f:ZoneImportDAL.cs" caret="5291" fromTop="104" />
+      <File id="FD5265BE-424C-41FD-A622-E3909D191D2A/d:SQLServer/f:InsertImportControlOperator.cs" caret="742" fromTop="25" />
+      <File id="5F231A52-0BC4-4A52-B9D4-451DE15AB8C4/f:EgedExportRouteToSQLDAL.cs" caret="11438" fromTop="38" />
+      <File id="5F231A52-0BC4-4A52-B9D4-451DE15AB8C4/d:SQLServerDAL/f:InsertImportControlOperatorDAL.cs" caret="2282" fromTop="14" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:EgedBLManager.cs" caret="23651" fromTop="9" />
+      <File id="AB15B5D8-D2C4-4945-A41F-4793C978CE65/f:IBLPriceAreaToStationManager.cs" caret="424" fromTop="14" />
+      <File id="FD5265BE-424C-41FD-A622-E3909D191D2A/d:Entities/f:BaseClass.cs" caret="2195" fromTop="5" />
+      <File id="FD5265BE-424C-41FD-A622-E3909D191D2A/d:Entities/f:PriceArea.cs" caret="289" fromTop="9" />
+      <File id="FD5265BE-424C-41FD-A622-E3909D191D2A/d:Entities/f:PhysicalStop.cs" caret="2118" fromTop="5" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:BlExportPriceAreaOfStationForAllOperators.cs" caret="3164" fromTop="5" />
+      <File id="5F231A52-0BC4-4A52-B9D4-451DE15AB8C4/d:SQLServerDAL/f:ExternalImport_InsertImportZoneControlOperatorDAL.cs" caret="70" fromTop="2" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:PriceListPolygonBL.cs" caret="7496" fromTop="5" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:BLComparePriceAreaOfStation.cs" caret="4101" fromTop="5" />
+      <File id="F11DCA75-1FA9-4C1B-9CD7-FCC423EBED90/f:ITransCadMunipulationDataDAL.cs" caret="5969" fromTop="18" />
+      <File id="F11DCA75-1FA9-4C1B-9CD7-FCC423EBED90/f:IExportStationAreasToTrafficLicensingDal.cs" caret="172" fromTop="5" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:EgedExportDataSQLBLManager.cs" caret="87" fromTop="2" />
+      <File id="5EED2E6B-F9EE-4A25-818F-70D9AF4C262C/f:ExportConfigurator.cs" caret="424" fromTop="12" />
+      <File id="D9FFA388-ECC7-426F-99D3-792B54779658/f:IOHelper.cs" caret="3792" fromTop="14" />
+      <File id="FD5265BE-424C-41FD-A622-E3909D191D2A/d:Entities/f:PriceZoneArea.cs" caret="632" fromTop="16" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/d:Resources/f:BLManagerResource.resx" caret="20304" fromTop="9" />
+      <File id="94E352F5-4785-4394-93E6-2CA422454C03/f:frmRouteExportProccess.cs" caret="112197" fromTop="5" />
+      <File id="5F231A52-0BC4-4A52-B9D4-451DE15AB8C4/f:TransCadMunipulationDataDAL.cs" caret="107930" fromTop="5" />
+      <File id="5F231A52-0BC4-4A52-B9D4-451DE15AB8C4/f:ExportStationAreasToTrafficLicensingDAL.cs" caret="7139" fromTop="11" />
+      <File id="5F231A52-0BC4-4A52-B9D4-451DE15AB8C4/f:TransCadManipuationStructureDAL.cs" caret="0" fromTop="0" />
+      <File id="94E352F5-4785-4394-93E6-2CA422454C03/f:App.config" caret="12392" fromTop="16" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:BlPriceAreaToStationManager.cs" caret="12372" fromTop="18" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="5F231A52-0BC4-4A52-B9D4-451DE15AB8C4/f:ExportStationAreasToTrafficLicensingDAL.cs" caret="2077" fromTop="9" />
+      <File id="5F231A52-0BC4-4A52-B9D4-451DE15AB8C4/f:ExportStationAreasToTrafficLicensingDAL.cs" caret="2534" fromTop="18" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:BlPriceAreaToStationManager.cs" caret="12601" fromTop="14" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:BlPriceAreaToStationManager.cs" caret="11886" fromTop="11" />
+      <File id="5F231A52-0BC4-4A52-B9D4-451DE15AB8C4/f:TransCadManipuationStructureDAL.cs" caret="22736" fromTop="6" />
+      <File id="5F231A52-0BC4-4A52-B9D4-451DE15AB8C4/f:TransCadManipuationStructureDAL.cs" caret="23411" fromTop="15" />
+      <File id="F11DCA75-1FA9-4C1B-9CD7-FCC423EBED90/f:ITransCadMunipulationDataDAL.cs" caret="6044" fromTop="0" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:BLComparePriceAreaOfStation.cs" caret="4101" fromTop="5" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:BlExportPriceAreaOfStationForAllOperators.cs" caret="3164" fromTop="5" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:PriceListPolygonBL.cs" caret="7496" fromTop="5" />
+      <File id="5F231A52-0BC4-4A52-B9D4-451DE15AB8C4/d:SQLServerDAL/f:ExternalImport_InsertImportZoneControlOperatorDAL.cs" caret="70" fromTop="2" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:BlPriceAreaToStationManager.cs" caret="13622" fromTop="4" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:EgedExportDataSQLBLManager.cs" caret="87" fromTop="2" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:BlPriceAreaToStationManager.cs" caret="16877" fromTop="334" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:BlPriceAreaToStationManager.cs" caret="5734" fromTop="5" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:BlPriceAreaToStationManager.cs" caret="9875" fromTop="5" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:BlPriceAreaToStationManager.cs" caret="16607" fromTop="14" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:BlPriceAreaToStationManager.cs" caret="15989" fromTop="5" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:BlPriceAreaToStationManager.cs" caret="5550" fromTop="14" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:BlPriceAreaToStationManager.cs" caret="977" fromTop="9" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:BlPriceAreaToStationManager.cs" caret="16284" fromTop="20" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:BlPriceAreaToStationManager.cs" caret="11482" fromTop="6" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:BlPriceAreaToStationManager.cs" caret="9036" fromTop="8" />
+      <File id="FD5265BE-424C-41FD-A622-E3909D191D2A/d:Entities/f:PriceZoneArea.cs" caret="632" fromTop="6" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/d:Resources/f:BLManagerResource.resx" caret="20298" fromTop="9" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:BlPriceAreaToStationManager.cs" caret="8828" fromTop="11" />
+      <File id="5F231A52-0BC4-4A52-B9D4-451DE15AB8C4/f:TransCadMunipulationDataDAL.cs" caret="108290" fromTop="8" />
+      <File id="5F231A52-0BC4-4A52-B9D4-451DE15AB8C4/f:ExportStationAreasToTrafficLicensingDAL.cs" caret="6217" fromTop="17" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:BlPriceAreaToStationManager.cs" caret="11410" fromTop="11" />
+      <File id="234500DD-B816-4876-9D8F-33FA0A8FF844/f:BlPriceAreaToStationManager.cs" caret="12372" fromTop="12" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

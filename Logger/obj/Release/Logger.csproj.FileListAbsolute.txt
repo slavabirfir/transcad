@@ -1,0 +1,9 @@
+C:\Slava\ADL\Code\RoutesExportSQLServer\Logger\bin\Release\Logger.dll
+C:\Slava\ADL\Code\RoutesExportSQLServer\Logger\bin\Release\Logger.pdb
+C:\Slava\ADL\Code\RoutesExportSQLServer\Logger\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Slava\ADL\Code\RoutesExportSQLServer\Logger\bin\Release\Microsoft.Practices.EnterpriseLibrary.Logging.dll
+C:\Slava\ADL\Code\RoutesExportSQLServer\Logger\bin\Release\Microsoft.Practices.Unity.dll
+C:\Slava\ADL\Code\RoutesExportSQLServer\Logger\bin\Release\Microsoft.Practices.ObjectBuilder2.dll
+C:\Slava\ADL\Code\RoutesExportSQLServer\Logger\obj\Release\ResolveAssemblyReference.cache
+C:\Slava\ADL\Code\RoutesExportSQLServer\Logger\obj\Release\Logger.dll
+C:\Slava\ADL\Code\RoutesExportSQLServer\Logger\obj\Release\Logger.pdb

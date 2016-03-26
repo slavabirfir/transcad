@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://RishuyWS.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://RishuyWS.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://RishuyWS.org/">
+      <s:element name="GetGroupNameByUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetGroupNameByUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetGroupNameByUserResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ArrayOfString" nillable="true" type="tns:ArrayOfString" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetGroupNameByUserSoapIn">
+    <wsdl:part name="parameters" element="tns:GetGroupNameByUser" />
+  </wsdl:message>
+  <wsdl:message name="GetGroupNameByUserSoapOut">
+    <wsdl:part name="parameters" element="tns:GetGroupNameByUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetGroupNameByUserHttpGetIn">
+    <wsdl:part name="userName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetGroupNameByUserHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="GetGroupNameByUserHttpPostIn">
+    <wsdl:part name="userName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetGroupNameByUserHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:portType name="RishuyADSoap">
+    <wsdl:operation name="GetGroupNameByUser">
+      <wsdl:input message="tns:GetGroupNameByUserSoapIn" />
+      <wsdl:output message="tns:GetGroupNameByUserSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="RishuyADHttpGet">
+    <wsdl:operation name="GetGroupNameByUser">
+      <wsdl:input message="tns:GetGroupNameByUserHttpGetIn" />
+      <wsdl:output message="tns:GetGroupNameByUserHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="RishuyADHttpPost">
+    <wsdl:operation name="GetGroupNameByUser">
+      <wsdl:input message="tns:GetGroupNameByUserHttpPostIn" />
+      <wsdl:output message="tns:GetGroupNameByUserHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="RishuyADSoap" type="tns:RishuyADSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetGroupNameByUser">
+      <soap:operation soapAction="http://RishuyWS.org/GetGroupNameByUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RishuyADSoap12" type="tns:RishuyADSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetGroupNameByUser">
+      <soap12:operation soapAction="http://RishuyWS.org/GetGroupNameByUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RishuyADHttpGet" type="tns:RishuyADHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetGroupNameByUser">
+      <http:operation location="/GetGroupNameByUser" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RishuyADHttpPost" type="tns:RishuyADHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetGroupNameByUser">
+      <http:operation location="/GetGroupNameByUser" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="RishuyAD">
+    <wsdl:port name="RishuyADSoap" binding="tns:RishuyADSoap">
+      <soap:address location="http://127.0.0.1/RishuiADWS/RishuyAD.asmx" />
+    </wsdl:port>
+    <wsdl:port name="RishuyADSoap12" binding="tns:RishuyADSoap12">
+      <soap12:address location="http://127.0.0.1/RishuiADWS/RishuyAD.asmx" />
+    </wsdl:port>
+    <wsdl:port name="RishuyADHttpGet" binding="tns:RishuyADHttpGet">
+      <http:address location="http://127.0.0.1/RishuiADWS/RishuyAD.asmx" />
+    </wsdl:port>
+    <wsdl:port name="RishuyADHttpPost" binding="tns:RishuyADHttpPost">
+      <http:address location="http://127.0.0.1/RishuiADWS/RishuyAD.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

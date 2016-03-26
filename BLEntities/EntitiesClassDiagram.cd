@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BLEntities.Accessories.ExportInfo" Collapsed="true">
+    <Position X="0.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAABAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Accessories\ExportInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLEntities.Accessories.Operator">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAIAAAIAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Accessories\Operator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLEntities.Accessories.TransCadCurrentEnvoromnetInfo" Collapsed="true">
+    <Position X="7" Y="3.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAIAAAAAAAAAAAAAAAAEAAAAAAAAAAAAQgA=</HashCode>
+      <FileName>Accessories\TransCadCurrentEnvoromnetInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLEntities.Accessories.LoginUser">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAACAAAAACAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Accessories\LoginUser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLEntities.Accessories.ValidationErrorResult" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Accessories\ValidationErrorResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLEntities.Model.GlobalData" Collapsed="true">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Model\GlobalData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLEntities.Model.RouteModel" Collapsed="true">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAQAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\RouteModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLEntities.Entities.BaseClass">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAgAAAAAAAAAAAQAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Entities\BaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLEntities.Entities.PhysicalStop" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAACAIAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\PhysicalStop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLEntities.Entities.RouteLine" Collapsed="true">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgFAAAAAAACgAAAgACAEAAAAAAIBQAAAQAAAhAIAIAA=</HashCode>
+      <FileName>Entities\RouteLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BLEntities.Entities.RouteStop" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAACAAEAAAAAAALAIAAAAAAACQAIEAAAgAAAEAAA=</HashCode>
+      <FileName>Entities\RouteStop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="BLEntities.Entities.ValidationFunctionDelegate" Collapsed="true">
+    <Position X="4.5" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\BaseClass.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="TransCAD" Class="DataBaseDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=BIRFIR\SQL20080;Initial Catalog=TransCAD;Persist Security Info=True;User ID=sa" SettingsObjectName="DAL.Properties.Settings" SettingsPropertyName="TransCADConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.baseRouteType" Member="baseRouteTypes">
+    <Type Name="baseRouteType">
+      <Column Name="IdRouteType" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="RouteTypeName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.baseSeasonal" Member="baseSeasonals">
+    <Type Name="baseSeasonal">
+      <Column Name="IdSeasonal" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SeasonalName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.baseServiceType" Member="baseServiceTypes">
+    <Type Name="baseServiceType">
+      <Column Name="IdServiceType" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ServiceTypeName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.baseVarConverter" Member="baseVarConverters">
+    <Type Name="baseVarConverter">
+      <Column Name="VarNum" Type="System.Int16" DbType="SmallInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="VarChar" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.baseVehicleSize" Member="baseVehicleSizes">
+    <Type Name="baseVehicleSize">
+      <Column Name="IdVehicleSize" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="VehicleSizeName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.baseVehicleType" Member="baseVehicleTypes">
+    <Type Name="baseVehicleType">
+      <Column Name="IdVehicleType" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="VehicleTypeName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.baseZone" Member="baseZones">
+    <Type Name="baseZone">
+      <Column Name="IdZone" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ZoneName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.baseStationType" Member="baseStationTypes">
+    <Type Name="baseStationType">
+      <Column Name="IdStationType" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="StationTypeName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Function Name="dbo.tblOperatorClusterGetClustersByIdOperator" Method="tblOperatorClusterGetClustersByIdOperator">
+    <Parameter Name="IdOperator" Parameter="idOperator" Type="System.Int32" DbType="Int" />
+    <ElementType Name="tblOperatorClusterGetClustersByIdOperatorResult">
+      <Column Name="IdCluster" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ClusterName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.tblGetOperatorIdOperator" Method="tblGetOperatorIdOperator">
+    <Parameter Name="IdOperator" Parameter="idOperator" Type="System.Int32" DbType="Int" />
+    <ElementType Name="tblGetOperatorIdOperatorResult">
+      <Column Name="IdOperator" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OperatorName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PathToRSTFile" Type="System.String" DbType="VarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="PathToRSTRouteLineExportFolder" Type="System.String" DbType="VarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="EnglishOperatorName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.procGetAlltblOperator" Method="procGetAlltblOperator">
+    <ElementType Name="procGetAlltblOperatorResult">
+      <Column Name="IdOperator" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OperatorName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PathToRSTFile" Type="System.String" DbType="VarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="PathToRSTRouteLineExportFolder" Type="System.String" DbType="VarChar(500) NOT NULL" CanBeNull="false" />
+      <Column Name="EnglishOperatorName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="RowNumber" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.procUpdateinternalUser" Method="procUpdateinternalUser">
+    <Parameter Name="IdUser" Parameter="idUser" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IdOperator" Parameter="idOperator" Type="System.Int32" DbType="Int" />
+    <Parameter Name="UserName" Parameter="userName" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="IsSuperViser" Parameter="isSuperViser" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="FirstName" Parameter="firstName" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="LastName" Parameter="lastName" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="FirmName" Parameter="firmName" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Telephone" Parameter="telephone" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.internalUserGetByUserName" Method="internalUserGetByUserName">
+    <Parameter Name="UserName" Parameter="userName" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="internalUserGetByUserNameResult">
+      <Column Name="IdUser" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IdOperator" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="IsSuperViser" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="FirmName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Telephone" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

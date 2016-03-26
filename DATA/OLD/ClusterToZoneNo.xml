@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Clusters>
+  
+  <Cluster id="333" name="מוניות בכול הארץ">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+  
+  
+   <Cluster id="222" name="ב''ש-ת''א מורחב">
+    <MainZone id="4" name="הדרום" />
+    <SubZone id="4" name="הדרום" />
+  </Cluster>
+  
+   <Cluster id="222" name="ב''ש-ת''א מורחב">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+  
+  <Cluster id="155" name="חדרה-נתניה">
+    <MainZone id="1" name="חיפה והצפון" />
+    <SubZone id="1" name="חיפה והצפון" />
+  </Cluster>
+  
+  <Cluster id="155" name="חדרה-נתניה">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+  
+  <Cluster id="150" name="חשמונאים">
+    <MainZone id="3" name="י-ם" />
+    <SubZone id="3" name="י-ם" />
+  </Cluster>
+  
+  <Cluster id="150" name="חשמונאים">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+
+  <Cluster id="1" name="עפולה - בית שאן">
+    <MainZone id="1" name="חיפה והצפון" />
+    <SubZone id="1" name="חיפה והצפון" />
+  </Cluster>
+<Cluster id="127" name="יקנעם-טבעון">
+    <MainZone id="1" name="חיפה והצפון" />
+    <SubZone id="1" name="חיפה והצפון" />
+  </Cluster>
+  <Cluster id="2" name="בקעת אונו">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+  <Cluster id="3" name="פ''ת-ראש העין">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+ <Cluster id="11" name="תל אביב">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+<Cluster id="12" name="עבר הירקון">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+<Cluster id="13" name="מזרחי-בני ברק">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+<Cluster id="14" name="מזרחי-רמת גן">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+<Cluster id="15" name="דרומי-בת ים">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+<Cluster id="16" name="דרומי-ראשל''צ-חולון">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+<Cluster id="17" name="פ''ת-ת''א">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+<Cluster id="18" name="תלמידים">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+<Cluster id="19" name="בת ים-רמת גן">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+  <Cluster id="121" name="קווי נצרת - ג.ב. טורס">
+    <MainZone id="1" name="חיפה והצפון" />
+    <SubZone id="1" name="חיפה והצפון" />
+  </Cluster>
+  <Cluster id="122" name="קווי נצרת - נסיעות ותיירות">
+    <MainZone id="1" name="חיפה והצפון" />
+    <SubZone id="1" name="חיפה והצפון" />
+  </Cluster>
+  <Cluster id="215" name="מטרונית חיפה">
+    <MainZone id="1" name="חיפה והצפון" />
+    <SubZone id="1" name="חיפה והצפון" />
+  </Cluster>
+  <Cluster id="123" name="קווי נצרת – שאמ">
+    <MainZone id="1" name="חיפה והצפון" />
+    <SubZone id="1" name="חיפה והצפון" />
+  </Cluster>
+  <Cluster id="124" name="נהריה-צפת">
+    <MainZone id="1" name="חיפה והצפון" />
+    <SubZone id="1" name="חיפה והצפון" />
+  </Cluster>
+  <Cluster id="126" name="נצרת חיפה משותף ג.ב. טורס">
+    <MainZone id="1" name="חיפה והצפון" />
+    <SubZone id="1" name="חיפה והצפון" />
+  </Cluster>
+  <Cluster id="141" name="צפון הנגב">
+    <MainZone id="4" name="הדרום" />
+    <SubZone id="4" name="הדרום" />
+  </Cluster>
+  <Cluster id="143" name="רהט">
+    <MainZone id="4" name="הדרום" />
+    <SubZone id="4" name="הדרום" />
+  </Cluster>
+  <Cluster id="151" name="אלעד">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+  <Cluster id="153" name="בית''ר עלית">
+    <MainZone id="3" name="י-ם" />
+    <SubZone id="3" name="י-ם" />
+  </Cluster>
+<Cluster id="210" name="רכבת קלה ירושלים">
+    <MainZone id="3" name="י-ם" />
+    <SubZone id="3" name="י-ם" />
+  </Cluster>
+<Cluster id="152" name="ביתר עילית">
+    <MainZone id="3" name="י-ם" />
+    <SubZone id="3" name="י-ם" />
+  </Cluster>
+  <Cluster id="154" name="מודיעין">
+    <MainZone id="3" name="י-ם" />
+    <SubZone id="3" name="י-ם" />
+  </Cluster>
+  
+  <Cluster id="156" name="חדרה - נתניה">
+    <MainZone id="1" name="חיפה והצפון" />
+    <SubZone id="1" name="חיפה והצפון" />
+  </Cluster>
+  <Cluster id="157" name="מודיעין עילית">
+    <MainZone id="3" name="י-ם" />
+    <SubZone id="3" name="י-ם" />
+  </Cluster>
+  <Cluster id="158" name="יבנה-אשדוד-ת''א">
+    <MainZone id="4" name="הדרום" />
+    <SubZone id="4" name="הדרום" />
+  </Cluster>
+  <Cluster id="160" name="נתניה - תל אביב">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+  <Cluster id="169" name="לוד - תל אביב">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+  <Cluster id="170" name="פרוזדור ירושלים">
+    <MainZone id="3" name="י-ם" />
+    <SubZone id="3" name="י-ם" />
+  </Cluster>
+  <Cluster id="190" name="שומרון">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+  <Cluster id="195" name="השרון">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+  <Cluster id="200" name="אשכול דן">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+  <Cluster id="201" name="באר שבע עירוני">
+    <MainZone id="4" name="הדרום" />
+    <SubZone id="4" name="הדרום" />
+  </Cluster>
+  <Cluster id="202" name="טבריה">
+    <MainZone id="1" name="חיפה והצפון" />
+    <SubZone id="1" name="חיפה והצפון" />
+  </Cluster>
+  <Cluster id="203" name="רמלה-לוד עירוני">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+  <Cluster id="204" name="אשדוד עירוני">
+    <MainZone id="4" name="הדרום" />
+    <SubZone id="4" name="הדרום" />
+  </Cluster>
+  <Cluster id="205" name="נתניה עירוני">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+  <Cluster id="180" name="מזרח י-ם">
+    <MainZone id="3" name="י-ם" />
+    <SubZone id="3" name="י-ם" />
+  </Cluster>
+<Cluster id="183" name="מעבר אייל">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+<Cluster id="184" name="מעבר שער אפריים">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+
+<Cluster id="130" name="רמת הגולן">
+    <MainZone id="1" name="חיפה והצפון" />
+    <SubZone id="1" name="חיפה והצפון" />
+  </Cluster>
+<Cluster id="140" name="דרום">
+    <MainZone id="4" name="הדרום" />
+    <SubZone id="4" name="הדרום" />
+  </Cluster>
+<Cluster id="252" name="אשדוד ת''א">
+    <MainZone id="4" name="הדרום" />
+    <SubZone id="4" name="הדרום" />
+  </Cluster>
+<Cluster id="171" name="כביש 4 -ירושלים-בני ברק">
+    <MainZone id="3" name="י-ם" />
+    <SubZone id="3" name="י-ם" />
+  </Cluster>
+<Cluster id="254" name="ללא שם">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+<Cluster id="176" name="עוטף ירושלים">
+    <MainZone id="3" name="י-ם" />
+    <SubZone id="3" name="י-ם" />
+  </Cluster>
+<Cluster id="70" name="אגד מטרופולין ת''א">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+<Cluster id="78" name="אגד הנגב, הדרום ואילת">
+    <MainZone id="4" name="הדרום" />
+    <SubZone id="4" name="הדרום" />
+  </Cluster>
+<Cluster id="80" name="אגד מטרופולין חיפה">
+    <MainZone id="1" name="חיפה והצפון" />
+    <SubZone id="1" name="חיפה והצפון" />
+  </Cluster>
+<Cluster id="82" name="אגד הגליל והצפון">
+    <MainZone id="1" name="חיפה והצפון" />
+    <SubZone id="1" name="חיפה והצפון" />
+  </Cluster>
+<Cluster id="88" name="אגד המרכז">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+<Cluster id="90" name="אגד מטרופולין ירושלים">
+    <MainZone id="3" name="י-ם" />
+    <SubZone id="3" name="י-ם" />
+  </Cluster>
+<Cluster id="92" name="אגד איו''ש">
+    <MainZone id="3" name="י-ם" />
+    <SubZone id="3" name="י-ם" />
+  </Cluster>
+<Cluster id="99" name="אגד - מגזרים">
+    <MainZone id="3" name="י-ם" />
+    <SubZone id="3" name="י-ם" />
+  </Cluster>
+<Cluster id="100" name="אגד ארצי בין עירוני.בן מחוזי">
+    <MainZone id="3" name="י-ם" />
+    <SubZone id="3" name="י-ם" />
+  </Cluster>
+<Cluster id="128" name="נהריה - צפת">
+    <MainZone id="1" name="חיפה והצפון" />
+    <SubZone id="1" name="חיפה והצפון" />
+  </Cluster>
+<Cluster id="498" name="צוות תכנון - אשכול כללי">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+<Cluster id="132" name="מרחב נצרת ג'י.בי טורס">
+    <MainZone id="1" name="חיפה והצפון" />
+    <SubZone id="1" name="חיפה והצפון" />
+  </Cluster>
+<Cluster id="120" name="העמקים">
+    <MainZone id="1" name="חיפה והצפון" />
+    <SubZone id="1" name="חיפה והצפון" />
+  </Cluster>
+<Cluster id="208" name="אונו - פ''ת">
+    <MainZone id="2" name="תא והמרכז" />
+    <SubZone id="2" name="תא והמרכז" />
+  </Cluster>
+</Clusters>

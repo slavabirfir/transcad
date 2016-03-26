@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5F231A52-0BC4-4A52-B9D4-451DE15AB8C4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DAL</RootNamespace>
+    <AssemblyName>DAL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CaliperForm, Version=1.5.0.0, Culture=neutral, PublicKeyToken=5a3d070aae85d2ca">
+      <HintPath>..\Bin\CaliperForm.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminOperationSQLDAL.cs" />
+    <Compile Include="CSVFielOperationIml.cs" />
+    <Compile Include="DALShared.cs" />
+    <Compile Include="EgedExportRouteToSQLDAL.cs" />
+    <Compile Include="EgedSQLServerDAL.cs" />
+    <Compile Include="ExportBaseToTextDAL.cs" />
+    <Compile Include="ExportBaseToSQLDAL.cs" />
+    <Compile Include="ExportRouteToSQLDAL.cs" />
+    <Compile Include="ExportRouteToTextDAL.cs" />
+    <Compile Include="ExportStationAreasToTrafficLicensingDAL.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\ResourceDAL.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ResourceDAL.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SQLServerDAL\CarImportDAL.cs" />
+    <Compile Include="SQLServerDAL\CityImportDAL.cs" />
+    <Compile Include="SQLServerDAL\ShapeOfJunctionDetailsImportDAL.cs" />
+    <Compile Include="SQLServerDAL\EgedBulkInsertDAL.cs" />
+    <Compile Include="SQLServerDAL\ExternalImport_InsertImportZoneControlOperatorDAL.cs" />
+    <Compile Include="SQLServerDAL\JunctionVersionSQLServerExportDAL.cs" />
+    <Compile Include="SQLServerDAL\PriceImportDAL.cs" />
+    <Compile Include="SQLServerDAL\ZoneImportDAL.cs" />
+    <Compile Include="SQLServerDAL\InsertImportControlOperatorDAL.cs" />
+    <Compile Include="SQLServerDAL\JunctionImportDAL.cs" />
+    <Compile Include="SQLServerDAL\LineDetailImportDAL.cs" />
+    <Compile Include="SQLServerDAL\LineDetailJunctionImportDAL.cs" />
+    <Compile Include="SQLServerDAL\LineDetailStationImportDAL.cs" />
+    <Compile Include="SQLServerDAL\StationImportDAL.cs" />
+    <Compile Include="TransCadManipuationStructureDAL.cs" />
+    <Compile Include="TransCadMunipulationDataDAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="InternalTvunaImplementationDAL.cs" />
+    <Compile Include="TransportLicensingDAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLEntities\BLEntities.csproj">
+      <Project>{FD5265BE-424C-41FD-A622-E3909D191D2A}</Project>
+      <Name>BLEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExportConfiguration\ExportConfiguration.csproj">
+      <Project>{5EED2E6B-F9EE-4A25-818F-70D9AF4C262C}</Project>
+      <Name>ExportConfiguration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IDAL\IDAL.csproj">
+      <Project>{F11DCA75-1FA9-4C1B-9CD7-FCC423EBED90}</Project>
+      <Name>IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logger\Logger.csproj">
+      <Project>{2478924E-DC90-4892-AABA-E2203C4BB3C9}</Project>
+      <Name>Logger</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{D9FFA388-ECC7-426F-99D3-792B54779658}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DALClassDiagram.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ResourceDAL.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ResourceDAL.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\SQLSentances.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

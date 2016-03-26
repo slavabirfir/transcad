@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files\microsoft visual studio 10.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="10.0">
+ <Targets>
+  <Target Name="C:\TrafficLicensing\Main\ImportParameters\bin\Debug\ImportParameters.exe">
+   <Modules>
+    <Module Name="importparameters.exe">
+     <Namespaces>
+      <Namespace Name="Tmit.Mot.TrafficLicensing.ImportParameters">
+       <Types>
+        <Type Name="EnmPeriodType" Kind="Enum" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message Id="Enm" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="Breaking">
+           <Issue Name="Type" Certainty="75" Level="CriticalWarning">Correct the spelling of 'Enm' in type name 'EnmPeriodType'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ImportParametersForm" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.cs" Line="63">Change 'ImportParametersForm.ImportParametersForm(int)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#btnStartImport_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.cs" Line="180">Change 'ImportParametersForm.btnStartImport_Click(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
+            </Message>
+            <Message TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="NonBreaking">
+             <Issue Name="IsNullOrEmpty" Certainty="95" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.cs" Line="178">Replace the call to 'string.operator !=(string, string)' in 'ImportParametersForm.btnStartImport_Click(object, EventArgs)' with a call to 'String.IsNullOrEmpty'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#dtpFromDate_Leave(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.cs" Line="201">Change 'ImportParametersForm.dtpFromDate_Leave(object, EventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
+            </Message>
+            <Message TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="NonBreaking">
+             <Issue Name="IsNullOrEmpty" Certainty="95" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.cs" Line="199">Replace the call to 'string.operator !=(string, string)' in 'ImportParametersForm.dtpFromDate_Leave(object, EventArgs)' with a call to 'String.IsNullOrEmpty'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ImportParametersForm_Load(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.String.Format(System.String,System.Object,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.cs" Line="37">Because the behavior of 'string.Format(string, object, object)' could vary based on the current user's locale settings, replace this call in 'ImportParametersForm.ImportParametersForm_Load(object, EventArgs)' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#InitializeComponent()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Windows.Forms.Control.set_Text(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="98">Method 'ImportParametersForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "אירוע".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="115">Method 'ImportParametersForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "ללא תקופה".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="241">Method 'ImportParametersForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "מסך ייבוא נתונים".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="86">Method 'ImportParametersForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "סוג תקופה".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="61">Method 'ImportParametersForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "קלוט".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="73">Method 'ImportParametersForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "קליטות מהטראנסקאד למפעיל אגד".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="141">Method 'ImportParametersForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "שנה".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="189">Method 'ImportParametersForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "תאריך התחלה".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="198">Method 'ImportParametersForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "תאריך סיום".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="150">Method 'ImportParametersForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "תקופה".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="130">Method 'ImportParametersForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'Control.Text.set(string)'. Retrieve the following string(s) from a resource table instead: "תקופת בסיס".</Issue>
+            </Message>
+            <Message Id="System.Windows.Forms.DateTimePicker.set_CustomFormat(System.String)" TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="DependsOnFix">
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="202">Method 'ImportParametersForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'DateTimePicker.CustomFormat.set(string)'. Retrieve the following string(s) from a resource table instead: "dd/MM/yyyy".</Issue>
+             <Issue Name="KnownValue" Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="214">Method 'ImportParametersForm.InitializeComponent()' passes a literal string as parameter 'value' of a call to 'DateTimePicker.CustomFormat.set(string)'. Retrieve the following string(s) from a resource table instead: "dd/MM/yyyy".</Issue>
+            </Message>
+            <Message Id="yyyy" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="202">Correct the spelling of the unrecognized token 'yyyy' in the literal '"dd/MM/yyyy"'.</Issue>
+             <Issue Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="214">Correct the spelling of the unrecognized token 'yyyy' in the literal '"dd/MM/yyyy"'.</Issue>
+            </Message>
+            <Message Id="אגד" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="73">Correct the spelling of the unrecognized token 'אגד' in the literal '"קליטות מהטראנסקאד למפעיל אגד"'.</Issue>
+            </Message>
+            <Message Id="אירוע" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="98">Correct the spelling of the unrecognized token 'אירוע' in the literal '"אירוע"'.</Issue>
+            </Message>
+            <Message Id="בסיס" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="130">Correct the spelling of the unrecognized token 'בסיס' in the literal '"תקופת בסיס"'.</Issue>
+            </Message>
+            <Message Id="התחלה" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="189">Correct the spelling of the unrecognized token 'התחלה' in the literal '"תאריך התחלה"'.</Issue>
+            </Message>
+            <Message Id="ייבוא" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="241">Correct the spelling of the unrecognized token 'ייבוא' in the literal '"מסך ייבוא נתונים"'.</Issue>
+            </Message>
+            <Message Id="ללא" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="115">Correct the spelling of the unrecognized token 'ללא' in the literal '"ללא תקופה"'.</Issue>
+            </Message>
+            <Message Id="למפעיל" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="73">Correct the spelling of the unrecognized token 'למפעיל' in the literal '"קליטות מהטראנסקאד למפעיל אגד"'.</Issue>
+            </Message>
+            <Message Id="מהטראנסקאד" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="73">Correct the spelling of the unrecognized token 'מהטראנסקאד' in the literal '"קליטות מהטראנסקאד למפעיל אגד"'.</Issue>
+            </Message>
+            <Message Id="מסך" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="241">Correct the spelling of the unrecognized token 'מסך' in the literal '"מסך ייבוא נתונים"'.</Issue>
+            </Message>
+            <Message Id="נתונים" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="241">Correct the spelling of the unrecognized token 'נתונים' in the literal '"מסך ייבוא נתונים"'.</Issue>
+            </Message>
+            <Message Id="סוג" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="86">Correct the spelling of the unrecognized token 'סוג' in the literal '"סוג תקופה"'.</Issue>
+            </Message>
+            <Message Id="סיום" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="198">Correct the spelling of the unrecognized token 'סיום' in the literal '"תאריך סיום"'.</Issue>
+            </Message>
+            <Message Id="קלוט" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="61">Correct the spelling of the unrecognized token 'קלוט' in the literal '"קלוט"'.</Issue>
+            </Message>
+            <Message Id="קליטות" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="73">Correct the spelling of the unrecognized token 'קליטות' in the literal '"קליטות מהטראנסקאד למפעיל אגד"'.</Issue>
+            </Message>
+            <Message Id="שנה" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="141">Correct the spelling of the unrecognized token 'שנה' in the literal '"שנה"'.</Issue>
+            </Message>
+            <Message Id="תאריך" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="189">Correct the spelling of the unrecognized token 'תאריך' in the literal '"תאריך התחלה"'.</Issue>
+             <Issue Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="198">Correct the spelling of the unrecognized token 'תאריך' in the literal '"תאריך סיום"'.</Issue>
+            </Message>
+            <Message Id="תקופה" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="115">Correct the spelling of the unrecognized token 'תקופה' in the literal '"ללא תקופה"'.</Issue>
+             <Issue Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="86">Correct the spelling of the unrecognized token 'תקופה' in the literal '"סוג תקופה"'.</Issue>
+             <Issue Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="150">Correct the spelling of the unrecognized token 'תקופה' in the literal '"תקופה"'.</Issue>
+            </Message>
+            <Message Id="תקופת" TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.Designer.cs" Line="130">Correct the spelling of the unrecognized token 'תקופת' in the literal '"תקופת בסיס"'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IsClosed" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="Breaking">
+             <Issue Certainty="90" Level="Error">Because field 'ImportParametersForm.IsClosed' is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetControlsNamesFromResources()" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.String.Format(System.String,System.Object)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternateString" Certainty="95" Level="Error" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.cs" Line="76">Because the behavior of 'string.Format(string, object)' could vary based on the current user's locale settings, replace this call in 'ImportParametersForm.SetControlsNamesFromResources()' with a call to 'string.Format(IFormatProvider, string, params object[])'. If the result of 'string.Format(IFormatProvider, string, params object[])' will be displayed to the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#YearsBindingSrc_CurrentItemChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message Id="System.Int32.Parse(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternate" Certainty="95" Level="Error" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersForm.cs" Line="116">Because the behavior of 'int.Parse(string)' could vary based on the current user's locale settings, replace this call in 'ImportParametersForm.YearsBindingSrc_CurrentItemChanged(object, EventArgs)' with a call to 'int.Parse(string, IFormatProvider)'. If the result of 'int.Parse(string, IFormatProvider)' will be based on input from the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will based on input stored and accessed by software, such as when it is loaded from disk or from a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ImportParametersView" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="NonBreaking">
+           <Issue Name="NonBreaking" Certainty="95" Level="CriticalError">Implement IDisposable on 'ImportParametersView' because it creates members of the following IDisposable types: 'TrafficLicensingEntities'.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#FormValidation()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="NonBreaking">
+             <Issue Name="IsNullOrEmpty" Certainty="95" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersView.cs" Line="358">Replace the call to 'string.operator !=(string, string)' in 'ImportParametersView.FormValidation()' with a call to 'String.IsNullOrEmpty'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ImportControlDataContractSerializer()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="ImportParametersView.cs" Line="420">In method 'ImportParametersView.ImportControlDataContractSerializer()', call System.IDisposable.Dispose on object 'ms' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#IsPeriodsComboEnabled" Kind="Field" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="75" Level="Warning">It appears that field 'ImportParametersView.IsPeriodsComboEnabled' is never used or is only ever assigned to. Use this field or remove it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Program" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Main()" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\TrafficLicensing\Main\ImportParameters" File="Program.cs" Line="38">In method 'Program.Main()', call System.IDisposable.Dispose on object 'form' before all references to it are out of scope.</Issue>
+            </Message>
+            <Message Id="System.Int32.Parse(System.String)" TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="NonBreaking">
+             <Issue Name="IFormatProviderAlternate" Certainty="95" Level="Error" Path="C:\TrafficLicensing\Main\ImportParameters" File="Program.cs" Line="37">Because the behavior of 'int.Parse(string)' could vary based on the current user's locale settings, replace this call in 'Program.Main()' with a call to 'int.Parse(string, IFormatProvider)'. If the result of 'int.Parse(string, IFormatProvider)' will be based on input from the user, specify 'CultureInfo.CurrentCulture' as the 'IFormatProvider' parameter. Otherwise, if the result will based on input stored and accessed by software, such as when it is loaded from disk or from a database, specify 'CultureInfo.InvariantCulture'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ThreadExceptionHandler" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Messages>
+          <Message TypeName="AvoidUninstantiatedInternalClasses" Category="Microsoft.Performance" CheckId="CA1812" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="NonBreaking">
+           <Issue Certainty="75" Level="Warning">'ThreadExceptionHandler' is an internal class that is apparently never instantiated. If so, remove the code from the assembly. If this class is intended to contain only static methods, consider adding a private constructor to prevent the compiler from generating a default constructor.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#ApplicationThreadException(System.Object,System.Threading.ThreadExceptionEventArgs)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300" Status="Active" Created="2010-07-19 11:59:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\TrafficLicensing\Main\ImportParameters" File="ThreadExceptionHandler.cs" Line="22">Change 'ThreadExceptionHandler.ApplicationThreadException(object, ThreadExceptionEventArgs)' to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="AvoidUninstantiatedInternalClasses" Category="Microsoft.Performance" CheckId="CA1812">
+   <Name>Avoid uninstantiated internal classes</Name>
+   <Description>An internal class was detected that is apparently never instantiated. This rule does not attempt to detect late-bound creation and will generate false positives if instances of a type are only created in this way (for example, by means of Activator.CreateInstance or by passing the type as an argument to a TypeConverter constructor).</Description>
+   <Resolution Name="Default">{0} is an internal class that is apparently never instantiated. If so, remove the code from the assembly. If this class is intended to contain only static methods, consider adding a private constructor to prevent the compiler from generating a default constructor.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182265(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="AvoidUnusedPrivateFields" Category="Microsoft.Performance" CheckId="CA1823">
+   <Name>Avoid unused private fields</Name>
+   <Description>Private fields were detected that do not appear to be accessed within the assembly. If this violation fires in error, please send a problem report to the Visual Studio Code Analysis team.</Description>
+   <Resolution Name="Default">It appears that field {0} is never used or is only ever assigned to. Use this field or remove it.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms245042(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000">
+   <Name>Dispose objects before losing scope</Name>
+   <Description>If a disposable object is not explicitly disposed before all references to it are out of scope, the object will be disposed at some indeterminate time when the garbage collector runs the finalizer of the object. Because an exceptional event might occur that will prevent the finalizer of the object from running, the object should be explicitly disposed instead.</Description>
+   <Resolution Name="NonExceptionEdge">In method {0}, call System.IDisposable.Dispose on object {1} before all references to it are out of scope.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182289(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="Do not pass literals as localized parameters" Category="Microsoft.Globalization" CheckId="CA1303">
+   <Name>Do not pass literals as localized parameters</Name>
+   <Description>Literal strings that are embedded in source code are difficult to localize. Avoid passing literal strings as arguments in circumstances where a localized string is generally expected.</Description>
+   <Resolution Name="KnownValue">Method {0} passes a literal string as parameter '{1}' of a call to {2}. Retrieve the following string(s) from a resource table instead: {3}.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182187(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotDeclareVisibleInstanceFields" Category="Microsoft.Design" CheckId="CA1051">
+   <Name>Do not declare visible instance fields</Name>
+   <Description>Instance fields that are visible outside of the type that declares them, limit your ability to change the implementation details for those data items. Use properties instead. They do not compromise usability or performance and they do provide flexibility in that they conceal the implementation details of the underlying data.</Description>
+   <Resolution Name="Default">Because field {0} is visible outside of its declaring type, change its accessibility to private and add a property, with the same accessibility as the field has currently, to provide access to it.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182141(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704">
+   <Name>Identifiers should be spelled correctly</Name>
+   <Description>The individual words that make up an identifier should not be abbreviated and should be spelled correctly. If this rule generates a false positive on a term that should be recognized, add the word to the FxCop custom dictionary.</Description>
+   <Resolution Name="Type">Correct the spelling of '{0}' in type name {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264492(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="namingrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="Literals should be spelled correctly" Category="Microsoft.Naming" CheckId="CA2204">
+   <Name>Literals should be spelled correctly</Name>
+   <Description>This rule parses the literal string into words, tokenizing compound words, and checks the spelling of each word/token.</Description>
+   <Resolution Name="Default">Correct the spelling of the unrecognized token '{0}' in the literal '{1}'.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/bb264488(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyIFormatProvider" Category="Microsoft.Globalization" CheckId="CA1305">
+   <Name>Specify IFormatProvider</Name>
+   <Description>If an overload exists that takes an IFormatProvider argument, it should always be called in favor of an overload that does not. Some methods in the runtime convert a value to or from a string representation and take a string parameter that contains one or more characters, called format specifiers, which indicate how the value is to be converted. If the meaning of the format specifier varies by culture, a formatting object supplies the actual characters used in the string representation. In scenarios where sorting and comparison behavior should never change between cultures, specify CultureInfo.InvariantCulture, otherwise, specify CultureInfo.CurrentCulture.</Description>
+   <Resolution Name="IFormatProviderAlternate">Because the behavior of {0} could vary based on the current user's locale settings, replace this call in {1} with a call to {2}. If the result of {2} will be based on input from the user, specify {3} as the 'IFormatProvider' parameter. Otherwise, if the result will based on input stored and accessed by software, such as when it is loaded from disk or from a database, specify {4}.</Resolution>
+   <Resolution Name="IFormatProviderAlternateString">Because the behavior of {0} could vary based on the current user's locale settings, replace this call in {1} with a call to {2}. If the result of {2} will be displayed to the user, specify {3} as the 'IFormatProvider' parameter. Otherwise, if the result will be stored and accessed by software, such as when it is persisted to disk or to a database, specify {4}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182190(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="SpecifyMessageBoxOptions" Category="Microsoft.Globalization" CheckId="CA1300">
+   <Name>Specify MessageBoxOptions</Name>
+   <Description>In order to run correctly on right-to-left systems, all calls to MessageBox.Show should use the overload that specifies MessageBoxOptions as an argument. Programs should detect whether they are running on a right-to-left system at run-time and pass the appropriate MessageBoxOptions value in order to display correctly.</Description>
+   <Resolution Name="Default">Change {0} to call the MessageBox.Show overload that specifies MessageBoxOptions, and make sure to set MessageBoxOptions.RightAlign and MessageBoxOptions.RtlReading if RightToLeft is set to RightToLeft.Yes on the parent control.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182191(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="globalizationrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="TestForEmptyStringsUsingStringLength" Category="Microsoft.Performance" CheckId="CA1820">
+   <Name>Test for empty strings using string length</Name>
+   <Description>To test for empty strings, check if String.Length is equal to zero. Constructs such as "".Equals(someString) and String.Empty.Equals(someString) are less efficient than testing the string length. Replace these with checks for someString.Length == 0.</Description>
+   <Resolution Name="IsNullOrEmpty">Replace the call to {0} in {1} with a call to 'String.IsNullOrEmpty'.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182279(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001">
+   <Name>Types that own disposable fields should be disposable</Name>
+   <Description>Types that declare disposable members should also implement IDisposable. If the type does not own any unmanaged resources, do not implement a finalizer on it.</Description>
+   <Resolution Name="NonBreaking">Implement IDisposable on {0} because it creates members of the following IDisposable types: {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182172(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="10.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MapLayerFilePathWrong" xml:space="preserve">
+    <value>{0} נתיב לקובץ מפה שגוי </value>
+  </data>
+  <data name="MapLayerNameWrong" xml:space="preserve">
+    <value>{0} שם של קובץ מפה שגוי</value>
+  </data>
+  <data name="NetworkIsNotDefined" xml:space="preserve">
+    <value>לא מוגדר נכון קובץ network</value>
+  </data>
+  <data name="NotAllLayersExists" xml:space="preserve">
+    <value>לא כל השכבות קיימות</value>
+  </data>
+  <data name="RouteSystemFileWrong" xml:space="preserve">
+    <value>{0} נתיב לקובץ קוים של טרנסקדשגוי</value>
+  </data>
+  <data name="Catalog" xml:space="preserve">
+    <value>מקט</value>
+  </data>
+  <data name="Makat8" xml:space="preserve">
+    <value>מקט 8</value>
+  </data>
+  <data name="Signpost" xml:space="preserve">
+    <value>שילוט</value>
+  </data>
+  <data name="NewStation" xml:space="preserve">
+    <value>תחנה חדשה</value>
+  </data>
+  <data name="RoadDescription" xml:space="preserve">
+    <value>תיאור דרך</value>
+  </data>
+  <data name="RouteNumber" xml:space="preserve">
+    <value>מספר קו</value>
+  </data>
+  <data name="Route_Name" xml:space="preserve">
+    <value>שם קו</value>
+  </data>
+  <data name="ExportFaild_NotValidData" xml:space="preserve">
+    <value>תהליך יצוא נכשל בגלל שמפה לא תקינה</value>
+  </data>
+  <data name="ExportFailed_FolderNotExixts" xml:space="preserve">
+    <value>תהליך יצוא נכשל בגלל שספרית יצוא לא קיימת</value>
+  </data>
+  <data name="ExportFailed_NotAllFilesCreated" xml:space="preserve">
+    <value>תהליך יצוא נכשל בגלל שלא נוצרו כל קבצי המפה</value>
+  </data>
+  <data name="ExportMapEmailBody" xml:space="preserve">
+    <value>בתאריך {0} נוצרו קבצי רישוי של מפעיל {1}</value>
+  </data>
+  <data name="ExportBaseEmailBody" xml:space="preserve">
+    <value>בתאריך {0} נוצרו קבצי תשתית של מפעיל {1}</value>
+  </data>
+  <data name="ExportMapEmailSubject" xml:space="preserve">
+    <value>בתאריך {0} נוצרו קבצי רישוי של מפעיל {1}</value>
+  </data>
+  <data name="ExportBaseEmailSubject" xml:space="preserve">
+    <value>בתאריך {0} נוצרו קבצי תשתית של מפעיל {1}</value>
+  </data>
+  <data name="RouteStopsLessThen2" xml:space="preserve">
+    <value>קו תחנה לא מוגדר לקו</value>
+  </data>
+  <data name="CombinationofIdCluster_Catalog_SignPost_Var_Dir_MustBeUnique" xml:space="preserve">
+    <value>צירוף של אשכול, מקט, חלופה וכיוון כבר קיים</value>
+  </data>
+  <data name="IsBaseWasNotDefined" xml:space="preserve">
+    <value>לא נמצא מזהה קו בסיסי</value>
+  </data>
+  <data name="Horada_0" xml:space="preserve">
+    <value>לא מוגדרת תחנת הורדה</value>
+  </data>
+  <data name="CentralStationFloorAndPlatformNotDefined" xml:space="preserve">
+    <value>לא הוגדר רציף לתחנה</value>
+  </data>
+  <data name="CentralStationPlatformNotDefined" xml:space="preserve">
+    <value>מספר רציף לא קיים בתחנה זו</value>
+  </data>
+  <data name="RouteStopsFirstStationNotEmbarkation" xml:space="preserve">
+    <value>תחנה ראשונה בקו לא תחנת עליה</value>
+  </data>
+  <data name="RouteStopsLastStationNotLanding" xml:space="preserve">
+    <value>תחנה אחרונה בקו לא תחנת הורדה</value>
+  </data>
+  <data name="RouteStopsLastTwoStationEqualDistance" xml:space="preserve">
+    <value>מרחק בין שני תחנות מספר {0} ן {1} שווה 0</value>
+  </data>
+  <data name="DuplicatedStationInPath" xml:space="preserve">
+    <value>תחנות זהות של קו {0} וקו {1} </value>
+  </data>
+  <data name="DistanceBetweenTwoStationLessThen" xml:space="preserve">
+    <value>מרחק בין זוגות תחנות {0} קטן מ {1} מרטים</value>
+  </data>
+  <data name="ExportProcessFailed" xml:space="preserve">
+    <value>תהליך ייצוא של קובץ {0} לא הצליח בגלל {1}, נא תיידע מנהל מערכת</value>
+  </data>
+  <data name="UserDoesntBelongToGroup" xml:space="preserve">
+    <value>המשתמש לא שייך לאפליקציה</value>
+  </data>
+  <data name="MapsWithErrors" xml:space="preserve">
+    <value>בבדיקה פיזית של המפה התגלה בעיה : {0}</value>
+  </data>
+  <data name="OperatorWorkSpaceNotDefined" xml:space="preserve">
+    <value>לא מוגדר work space ספריה עבור מפעיל</value>
+  </data>
+  <data name="WorSpaceAlreadyOccupiedByOtherUser" xml:space="preserve">
+    <value>לא ניתן להפעיל קובץ {0} כי הוא נעול על ידי משתמש {1}, נסה מאוחר יותר.</value>
+  </data>
+  <data name="TranscadAlreadyRun" xml:space="preserve">
+    <value>אפליקצית טראנסכד כבר רצה, נא סגור אותה ונסה שנית</value>
+  </data>
+  <data name="CityListIsNull" xml:space="preserve">
+    <value>רשימת הערים ריקה</value>
+  </data>
+  <data name="NodeListIsNull" xml:space="preserve">
+    <value>רשימת הצמתים ריקה</value>
+  </data>
+  <data name="StationListIsNull" xml:space="preserve">
+    <value>רשימת התחנות ריקה</value>
+  </data>
+  <data name="RouteLineIsEmpty" xml:space="preserve">
+    <value>רשימת הקוים ריקה</value>
+  </data>
+  <data name="TvunaApplicationFileWasNotFound" xml:space="preserve">
+    <value>אפליקצית קליטה לא הוגדרה נכון</value>
+  </data>
+  <data name="UnSuccesefullInputExport" xml:space="preserve">
+    <value>שגיאה בתוכנית של הגדרת תהליך היצצוא</value>
+  </data>
+  <data name="ExportDefWasNotSeccesefully" xml:space="preserve">
+    <value>לא התקבלו הגדרות של ייצוא</value>
+  </data>
+  <data name="CatalogIsUpdated" xml:space="preserve">
+    <value>מקט כבר עבר המרה ל 7 פוזיציות</value>
+  </data>
+  <data name="EgedLoadFolderDoesNotExists" xml:space="preserve">
+    <value>לא ניתן להתחיל בתהליך מכיוון שספריית הקלט אינה קיימת</value>
+  </data>
+  <data name="EgedLoadFailedBcauseFileWasNotFound" xml:space="preserve">
+    <value>לא ניתן להתחיל בתהליך מכיוון שלא מנצא קובץ
+     {0} 
+    </value>
+  </data>
+  <data name="FromValidityMustBeLessThenToValidity" xml:space="preserve">
+    <value>תאריך תחילת תוקף צריך להיות פחות מי תאריך סיום תוקף</value>
+  </data>
+  <data name="PriceListUpdateFailed" xml:space="preserve">
+    <value>פעולת עדכון של אזור מחיר נכשלה</value>
+  </data>
+  <data name="IsMunNotConnected" xml:space="preserve">
+    <value>נא, לחבר תחילה שכבה מוניסיפאלית</value>
+  </data>
+  <data name="NonUpdatedList" xml:space="preserve">
+    <value>רשימת הקווים ריקה</value>
+  </data>
+  <data name="ConvertNewCatalogProblem" xml:space="preserve">
+    <value>לא ניתן להפוך מקט {0} של אשכול {1} לפורמט של 7 פוזיציות כיוון יש לו מקט במסד הנתונים</value>
+  </data>
+  <data name="CantLinkAlreadyLinkedItem" xml:space="preserve">
+    <value>לתחנה שויך עיר  {0}. תחילה יש להוריד שיוך קיים</value>
+  </data>
+  <data name="DifferentSationCatalogFor7" xml:space="preserve">
+    <value>ישנן תחנות רכבת עם אותו שם תחנה {0} ומקט תחנה שונים</value>
+  </data>
+  <data name="IsTrainMainStationFor7WasNotFound" xml:space="preserve">
+    <value>לא נמצאה תחנה מתוך קבוצה של מקט תחנה {0} עם ערך 1 בשדה IsTrainMainStation.</value>
+  </data>
+  <data name="CantUnLinkAlreadyUnLinkedItem" xml:space="preserve">
+    <value>תחנה לא שייכת לשום עיר.</value>
+  </data>
+  <data name="LoadTranscadCity" xml:space="preserve">
+    <value>טעינת נתונים של ערים מתוך טראנסכד</value>
+  </data>
+  <data name="EgedDBUpdate" xml:space="preserve">
+    <value>עדכון של אנד פוינט ותחנות פיזיות בבסיס הנתונים של אגד</value>
+  </data>
+  <data name="LoadTranscadJunction" xml:space="preserve">
+    <value>טעינת נתונים של צמתים מתוך טראנסכד</value>
+  </data>
+  <data name="LoadTranscadStation" xml:space="preserve">
+    <value>טעינת נתונים של תחנות מתוך טראנסכד</value>
+  </data>
+  <data name="BuildingDataOfTranscadCity" xml:space="preserve">
+    <value>בניית נתונים של ערים עבור בסיס הנתונים</value>
+  </data>
+  <data name="EndPointsMacroShouldBeRun" xml:space="preserve">
+    <value>ישנם מוקדים שלא עברו עדכון של רחובות. נא, הרץ עדכון שכבת הרחובות</value>
+  </data>
+  <data name="PhisicalStopsCatalogMore65535" xml:space="preserve">
+    <value>שכבת תחנות פיזיות מכילה תחנות עם מקט שמתחילות ב6 וערך גדול מי 65535</value>
+  </data>
+  <data name="PhisicalStopsCatalogNoHaveIsMun" xml:space="preserve">
+    <value>שכבת תחנות פיזיות מכילה תחנות שלא נמצאים בשום פוליגון של שכבה מוניסיפאלית</value>
+  </data>
+  <data name="PhisicalStopsNoneAreaPrice" xml:space="preserve">
+    <value>ישנן תחנות שלא מקושרות לשום אזור מחיר</value>
+  </data>
+  <data name="PriceListWithEmptyCodeOrDesc" xml:space="preserve">
+    <value>ישנם איזורים שעבורם לא הוגדרו שם או קוד</value>
+  </data>
+  <data name="NonStationToExportToZonePriceArea" xml:space="preserve">
+    <value>לא נמצאו תחנות איזורי מחיר שמכילים תחנות</value>
+  </data>
+  <data name="OperationCanceledByUser" xml:space="preserve">
+    <value>הפעולה בוטלה על-ידי המשתמש</value>
+  </data>
+  <data name="BuildingShapeFileTranscadMacro" xml:space="preserve">
+    <value>הרצת מקרו לבניית קבצי shape</value>
+  </data>
+  <data name="BuildingDataOfTranscadJunction" xml:space="preserve">
+    <value>בניית נתונים של צמתים עבור בסיס הנתונים</value>
+  </data>
+  <data name="BuildingDataOfTranscadStation" xml:space="preserve">
+    <value>בניית נתונים של תחנות עבור בסיס הנתונים</value>
+  </data>
+  <data name="DanOperMetaDataNotConfirmed" xml:space="preserve">
+    <value>מבנה טבלאות של דן לא מתאים למבנה של מפעילים</value>
+  </data>
+  <data name="IntegrityProbleInEgedLoad" xml:space="preserve">
+    <value>תהליך קליטת קובצי אגד נכשל בגלל בעיות בנתונים. ראה דוח </value>
+  </data>
+  <data name="RouteExportListIsEmpty" xml:space="preserve">
+    <value>לא ניתן להמשיך בתהליך כי לא נבחרו קוים</value>
+  </data>
+  <data name="IllegalStopsFoundIntoTheExportCalculation" xml:space="preserve">
+    <value>נמצאו תחנות עם זמני נסיעה שגוים. נא העבר את הדוח שנפתח למנהלן של המערכת לבדיקה. הקליטה נכשלה</value>
+  </data>
+  <data name="EgedLinelDBListEmpty" xml:space="preserve">
+    <value>לא נמצאו נתונים של קוים במסד הנתונים של אגד</value>
+  </data>
+  <data name="TranscadLinelDBListEmpty" xml:space="preserve">
+    <value>לא נמצאו נתונים של קוים בטראנסכד</value>
+  </data>
+  <data name="EgedPhysicalDBListEmpty" xml:space="preserve">
+    <value>לא נמצאו נתונים של תחנות במסד הנתונים של אגד</value>
+  </data>
+  <data name="TranscadPhysicalDBListEmpty" xml:space="preserve">
+    <value>לא נמצאו נתונים של תחנות בטראנסכד</value>
+  </data>
+  <data name="EgedNispah3DBListEmpty" xml:space="preserve">
+    <value>לא קיימים נתונים של נספח 3 במסד הנתונים של אגד</value>
+  </data>
+  <data name="TranscadNispah3DBListEmpty" xml:space="preserve">
+    <value>לא קיימים נתונים של נספח 3 בטראנסכד</value>
+  </data>
+  <data name="ActiveDirectoryGroupsNotDefinedInOperatorListXML" xml:space="preserve">
+    <value>The current user doesn't have any AciveDirectory groups defined in the Operator Listg XML file</value>
+  </data>
+  <data name="Code0000" xml:space="preserve">
+    <value>0000</value>
+  </data>
+  <data name="MunicipalityArea" xml:space="preserve">
+    <value>שטח ללא שיפוט</value>
+  </data>
+  <data name="CloseTranscadAndRunApplicationAgain" xml:space="preserve">
+    <value>נא, לסגור טראנסכד ולהפעיל תוכנה מחדש</value>
+  </data>
+  <data name="ListOfStationNotFoundInTranscad" xml:space="preserve">
+    <value>רשימת התחנות שלא נמצאו בטראנסכד  </value>
+  </data>
+  <data name="StationNotDefinedInImportFile" xml:space="preserve">
+    <value>לא הוגדרו תחנות בקובץ קלט</value>
+  </data>
+  <data name="StationAreaProceWillBeChanged" xml:space="preserve">
+    <value>לאחר הזזת התחנה למיקום החדש, ישתנה אזור המחיר</value>
+  </data>
+  <data name="StationDoesnotHasCurrentAreaPrice" xml:space="preserve">
+    <value>במיקום תחנה הקיים למפעיל אין איזור מחיר</value>
+  </data>
+  <data name="StationDoesnotHasNewAreaPrice" xml:space="preserve">
+    <value>במיקום תחנה החדש למפעיל אין איזור מחיר</value>
+  </data>
+  <data name="StationDoesnotHasNewAreaPriceAndOldPriceArea" xml:space="preserve">
+    <value>שים לב, התחנה אינה משוייכת לאזור מחיר</value>
+  </data>
+  <data name="StationCanceledWillMovedToNewArea" xml:space="preserve">
+    <value>שים לב, התחנה תתבטל והקווים יעברו לתחנה {0} שנמצאת באזור {1}</value>
+  </data>
+  <data name="StationCanceledWillMovedToNonArea" xml:space="preserve">
+    <value>שים לב, התחנה תתבטל והקווים יעברו לתחנה '%%%%%' שלא נמצאת באזור  מחיר</value>
+  </data>
+  <data name="ClusterNotValidExportDate" xml:space="preserve">
+    <value>שים לב, עדין לא נקבעה תחילת פעילות לאשכול ולכן לא ניתן להעביר אותו לרישוי</value>
+  </data>
+  <data name="ClusterOneNotValidExportDate" xml:space="preserve">
+    <value>עדין לא נקבעה תחילת פעילות לאשכול {0} ולכן לא ניתן להעביר אותו לרישוי</value>
+  </data>
+  <data name="RouteLineNotValidExportDate" xml:space="preserve">
+    <value>שים לב, לחלק מהקווים עדין לא נקבע תאריך תחילת פעילות, קווים אלו לא יועברו לרישוי</value>
+  </data>
+  <data name="RouteLineOneNotValidExportDate" xml:space="preserve">
+    <value>לקו {0} באשכול {1} עדין לא נקבע תאריך תחילת פעילות, קו זה לא יועבר לרישוי</value>
+  </data>
+  <data name="SelectShapeFileToTabFolder" xml:space="preserve">
+    <value>בחר ספריה שבה יווצרו קבצי שייפ וטאב של שכבת הרחובות</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>הכול</value>
+  </data>
+  <data name="TheOperDoesntHaveClusters" xml:space="preserve">
+    <value>למפעיל {0} לא הוגדר אף אשכול בבסיס הנתונים</value>
+  </data>
+  <data name="OperatorHasClusterIdInXMLThatNotFoundInDB" xml:space="preserve">
+    <value>אשכול מספר {0} שרשום בקובץ הגדרות של מפעיל לא נמצא בבסיס הנתונים</value>
+  </data>
+  <data name="AreaPriceAskNewSet" xml:space="preserve">
+    <value>עליך לבקש שכבה חדשה ממשרד התחבורה</value>
+  </data>
+  <data name="AreaPriceZipNameWrong" xml:space="preserve">
+    <value>שם הקובץ זיפ לא תואם לשם {0} שנקבע</value>
+  </data>
+  <data name="AreaPriceFileNotExists" xml:space="preserve">
+    <value>חסרים קבצים לצורך קליטת אזורי המחיר</value>
+  </data>
+
+
+
+  <data name="AreaPriceActiveFileNotExists" xml:space="preserve">
+    <value>חסרה שכבה פעילה של איזורי מחיר</value>
+  </data>
+  <data name="AreaPriceFileInUse" xml:space="preserve">
+    <value>איזורי מחיר פעיל נמצא בשימוש</value>
+  </data>
+
+  <data name="AreaPriceFieldsNotExists" xml:space="preserve">
+    <value>שמות השדות בקובץ אינם זהים שם הנדרש</value>
+  </data>
+
+  <data name="AreaPriceLayerEmpty" xml:space="preserve">
+    <value>שכבה של אזורי מחיר ריקה מתוכן</value>
+  </data>
+  <data name="AreaPriceIDWithEmptyName" xml:space="preserve">
+    <value>לאזור {0} לא נרשם שם אזור</value>
+  </data>
+
+  <data name="AreaPriceIDIsEmpty" xml:space="preserve">
+    <value>לאזור {0} לא נרשם מספר אזור</value>
+  </data>
+
+  <data name="AreaPriceAreaIsEmpty" xml:space="preserve">
+    <value>לאזור {0} לא נרשם שדה שטח אזור</value>
+  </data>
+
+  <data name="AreaPriceIDDuplicated" xml:space="preserve">
+    <value>מספרי אזור {0} כפולים</value>
+  </data>
+
+  <data name="AreaPriceNameDuplicated" xml:space="preserve">
+    <value>שמות אזור {0} כפולים</value>
+  </data>
+
+  <data name="AreaPriceValidFileNames" xml:space="preserve">
+    <value>בדיקת שמות הקבצים</value>
+  </data>
+
+  <data name="AreaPriceValidFileFields" xml:space="preserve">
+    <value>בדיקת שמות השדות</value>
+  </data>
+
+  <data name="AreaPriceLoadData" xml:space="preserve">
+    <value>טעינת נתונים של השכבה</value>
+  </data>
+
+  <data name="AreaPriceValidData" xml:space="preserve">
+    <value>בדיקת נתונים של הקובץ</value>
+  </data>
+
+  <data name="AreaPriceExportProcess" xml:space="preserve">
+    <value>הרצת תהליך ייצוא של אזורי מחיר לרישוי</value>
+  </data>
+
+  <data name="AreaPriceExportMovingFiles" xml:space="preserve">
+    <value>העתקת הקבצים לספריה קבועה ומחיקת קבצים זמניים</value>
+  </data>
+
+  <data name="AreaPriceExportGISOperations" xml:space="preserve">
+    <value>עדכון שדות גאומטריה של השכבה</value>
+  </data>
+
+</root>
